@@ -1,0 +1,411 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+
+  <!-- <META http-equiv="refresh" content="0;URL=http://dcbpw.org/dcbpw2015/"> -->
+
+  <meta name="google-site-verification" content="90o81X5pl3G25RDCUQfDHbHvxfztvI6Niz8GKXGm0ME" />
+  <!-- Document Metadata -->
+  <meta http-equiv="Content-Language" content="en" />
+<title>List of talks</title>
+  <!-- OpenId -->  <!-- Atom news feed -->
+  <link rel="alternate" type="application/atom+xml" title="DC-Baltimore Perl Workshop 2014"
+        href="http://dcbpw.org/dcbpw2014/atom/en.xml" />
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" type="text/css" href="/dcbpw2014/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="/css/act-base.css" />
+  <link rel="stylesheet" type="text/css" href="/css/schedule.css" />
+
+  <!-- JavaScript sugar -->
+  <script type="text/javascript" src="/js/jquery.js"></script>
+  <script type="text/javascript" src="/js/act.js"></script>
+
+  <!-- Favorite icon -->
+  <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+</head>
+
+<body>
+  <div id="wrapperwrapper">
+  <div id="wrapper">
+
+    <div id="searchbar">
+      <div>  <a href="/dcbpw2014/main">Log In</a>
+          &nbsp;&nbsp;
+          |
+          &nbsp;&nbsp;
+          <a href="/dcbpw2014/register">Register</a>  &nbsp;&nbsp;
+        |
+        &nbsp;&nbsp;
+        <form method="get" action="http://www.google.com/search">
+          <input type=text name=q id=searchinput>
+          <!-- <input type="submit" value="Google Search" /> -->
+          <input type="hidden"  name="sitesearch" value="dcbpw.org" />
+          <img src="/dcbpw2014/magnifier.png">
+        </form>
+      </div>
+    </div>
+
+    <div id="fakepage">
+
+      <div id=header>
+        <div id="headerbar"></div>
+          
+        <table cellpading=0 cellspacing=0 border=0 id=conference_name_table>
+        <tr>
+          <td valign=middle id="logocol">
+            <a href="/dcbpw2014/">
+            <img src="/dcbpw2014/logo-229x118.png"
+              alt="DCBPW Logo">
+            </a>
+          </td>
+          <td valign=middle>
+            <a href="/dcbpw2014/">
+              <div id="title">
+                <span class="year">2014</span>
+                <span class="dc">DC</span>
+                <span class="dash">-</span>
+                <span class="baltimore">Baltimore</span>
+                <span class="workshop">Perl Workshop</span>
+              </div>
+            </a>
+          </td>
+        </tr>
+        </table>
+        <!-- <h1>List of talks</h1> -->
+      </div>
+
+
+      <div id="menu"> <h2> <a href="http://dcbpw.org/dcbpw2014/">DCBPW 2014</a> </h2> <li> <a href="/dcbpw2014/dcbpw.ics"> <span class="icon"><img src="/dcbpw2014/calendar-icon.png"></span> When: Sat-Sun, May 3-4, 2014 </a> </li> <li> <a href="/dcbpw2014/venue.html"> <span class="icon"><img src="/dcbpw2014/map-place-icon.png"></span> Location: Silver Spring, MD </a> </li> <li> <a href="/dcbpw2014/hotel.html"> <span class="icon"><img src="/dcbpw2014/map-place-icon.png"></span> Stay: Hotel/Travel Info </a> </li> <li> <a href="/dcbpw2014/sponsors.html"> <span class="icon">♥</span> Support our Sponsors! </a> </li> <li> <a href="/dcbpw2014/news"> <span class="icon"><img src="/dcbpw2014/rss.jpg"></span> News </a> (<a href="http://dcbpw.org/dcbpw2014/atom/en.xml">feed</a>) </li> <li> <a href="/dcbpw2014/wiki"> <span class="icon"><img src="/dcbpw2014/link.jpg"></span> Wiki </a> (community content) <ul> <li>→ <a href="/dcbpw2014/wiki?node=LocalTransit">LocalTransit</a></li> <li>→ <a href="/dcbpw2014/wiki?node=VenueDetail">VenueDetail</a> (Wifi)</li> <li>→ <a href="/dcbpw2014/wiki?node=SaturdayDinner">SaturdayDinner</a></li> </ul> </li> <!-- user menu --> <h2> Log In / Register </h2> <li>First register with the site (ACT),<br>then buy your ticket!</li> <li> <a href="/dcbpw2014/main">Log in</a> </li> <!-- users menu --> <h2> Users </h2> <li> <a href="/dcbpw2014/search"> Search </a> </li> <li> <a href="/dcbpw2014/stats"> Statistics </a> </li> <!-- talks menu --> <h2> <a href="/dcbpw2014/talks"> Presentations </a> </h2> <li> <a href="/dcbpw2014/proceedings"> List of Talks </a> </li> <li> <a href="/dcbpw2014/schedule"> Schedule </a> </li> <li> <a href="/dcbpw2014/timetable.ics"> iCal export </a> </li> <li> <a href="/dcbpw2014/newtalk"> Submit a talk proposal </a> </li> <!-- money menu --> <!-- admin menu --> <h2> <a href="http://act.mongueurs.net/conferences.html">Other conferences</a> </h2> <li><a href="http://pghpw.org/ppw2015/">Pittsburgh Perl Workshop 2015</a></li> <li><a href="http://workshop.barcelona.pm/barcelona2015/">Barcelona Perl Workshop 2015</a></li> <li><a href="http://patch.pm/p3/">patch -p3</a></li> <li><a href="http://act.yapc.eu/lpw2015/">London Perl Workshop</a></li> <li><a href="http://act.yapc.eu/gpw2016/">German Perl Workshop 2016</a></li>  </div>
+
+      <div id="content">  <div align="center">
+<p>  Submitted talks: 18<br /> Accepted talks: 18  </p>   </div>  <h2>Tags</h2> <style type="text/css">
+
+#htmltagcloud {
+  text-align:  center; 
+  line-height: 1; 
+}
+span.tagcloud0 { font-size: 12px;}
+span.tagcloud0 a {text-decoration: none;}
+span.tagcloud1 { font-size: 13px;}
+span.tagcloud1 a {text-decoration: none;}
+span.tagcloud2 { font-size: 14px;}
+span.tagcloud2 a {text-decoration: none;}
+span.tagcloud3 { font-size: 15px;}
+span.tagcloud3 a {text-decoration: none;}
+span.tagcloud4 { font-size: 16px;}
+span.tagcloud4 a {text-decoration: none;}
+span.tagcloud5 { font-size: 17px;}
+span.tagcloud5 a {text-decoration: none;}
+span.tagcloud6 { font-size: 18px;}
+span.tagcloud6 a {text-decoration: none;}
+span.tagcloud7 { font-size: 19px;}
+span.tagcloud7 a {text-decoration: none;}
+span.tagcloud8 { font-size: 20px;}
+span.tagcloud8 a {text-decoration: none;}
+span.tagcloud9 { font-size: 21px;}
+span.tagcloud9 a {text-decoration: none;}
+span.tagcloud10 { font-size: 22px;}
+span.tagcloud10 a {text-decoration: none;}
+span.tagcloud11 { font-size: 23px;}
+span.tagcloud11 a {text-decoration: none;}
+span.tagcloud12 { font-size: 24px;}
+span.tagcloud12 a {text-decoration: none;}
+span.tagcloud13 { font-size: 25px;}
+span.tagcloud13 a {text-decoration: none;}
+span.tagcloud14 { font-size: 26px;}
+span.tagcloud14 a {text-decoration: none;}
+span.tagcloud15 { font-size: 27px;}
+span.tagcloud15 a {text-decoration: none;}
+span.tagcloud16 { font-size: 28px;}
+span.tagcloud16 a {text-decoration: none;}
+span.tagcloud17 { font-size: 29px;}
+span.tagcloud17 a {text-decoration: none;}
+span.tagcloud18 { font-size: 30px;}
+span.tagcloud18 a {text-decoration: none;}
+span.tagcloud19 { font-size: 31px;}
+span.tagcloud19 a {text-decoration: none;}
+span.tagcloud20 { font-size: 32px;}
+span.tagcloud20 a {text-decoration: none;}
+span.tagcloud21 { font-size: 33px;}
+span.tagcloud21 a {text-decoration: none;}
+span.tagcloud22 { font-size: 34px;}
+span.tagcloud22 a {text-decoration: none;}
+span.tagcloud23 { font-size: 35px;}
+span.tagcloud23 a {text-decoration: none;}
+span.tagcloud24 { font-size: 36px;}
+span.tagcloud24 a {text-decoration: none;}
+</style><div id="htmltagcloud">
+<span class="tagcloud8"><a href="/dcbpw2014/talks/tag/angular">angular</a></span>
+<span class="tagcloud0"><a href="/dcbpw2014/talks/tag/art">art</a></span>
+<span class="tagcloud0"><a href="/dcbpw2014/talks/tag/civic">civic</a></span>
+<span class="tagcloud0"><a href="/dcbpw2014/talks/tag/cldr">cldr</a></span>
+<span class="tagcloud0"><a href="/dcbpw2014/talks/tag/code">code</a></span>
+<span class="tagcloud0"><a href="/dcbpw2014/talks/tag/conference">conference</a></span>
+<span class="tagcloud8"><a href="/dcbpw2014/talks/tag/cpan">cpan</a></span>
+<span class="tagcloud0"><a href="/dcbpw2014/talks/tag/dekooning">dekooning</a></span>
+<span class="tagcloud0"><a href="/dcbpw2014/talks/tag/duchamp">duchamp</a></span>
+<span class="tagcloud0"><a href="/dcbpw2014/talks/tag/education">education</a></span>
+<span class="tagcloud0"><a href="/dcbpw2014/talks/tag/erlang">erlang</a></span>
+<span class="tagcloud0"><a href="/dcbpw2014/talks/tag/ffi">ffi</a></span>
+<span class="tagcloud0"><a href="/dcbpw2014/talks/tag/hacking">hacking</a></span>
+<span class="tagcloud0"><a href="/dcbpw2014/talks/tag/haskell">haskell</a></span>
+<span class="tagcloud8"><a href="/dcbpw2014/talks/tag/i18n">i18n</a></span>
+<span class="tagcloud0"><a href="/dcbpw2014/talks/tag/identity">identity</a></span>
+<span class="tagcloud0"><a href="/dcbpw2014/talks/tag/infrastructure">infrastructure</a></span>
+<span class="tagcloud0"><a href="/dcbpw2014/talks/tag/intersection">intersection</a></span>
+<span class="tagcloud0"><a href="/dcbpw2014/talks/tag/javascript">javascript</a></span>
+<span class="tagcloud8"><a href="/dcbpw2014/talks/tag/l10n">l10n</a></span>
+<span class="tagcloud0"><a href="/dcbpw2014/talks/tag/libarchive">libarchive</a></span>
+<span class="tagcloud0"><a href="/dcbpw2014/talks/tag/maintainability">maintainability</a></span>
+<span class="tagcloud0"><a href="/dcbpw2014/talks/tag/moose">moose</a></span>
+<span class="tagcloud0"><a href="/dcbpw2014/talks/tag/mop">mop</a></span>
+<span class="tagcloud0"><a href="/dcbpw2014/talks/tag/nlp">nlp</a></span>
+<span class="tagcloud0"><a href="/dcbpw2014/talks/tag/p5">p5</a></span>
+<span class="tagcloud0"><a href="/dcbpw2014/talks/tag/pcre">pcre</a></span>
+<span class="tagcloud24"><a href="/dcbpw2014/talks/tag/perl">perl</a></span>
+<span class="tagcloud0"><a href="/dcbpw2014/talks/tag/plack">plack</a></span>
+<span class="tagcloud0"><a href="/dcbpw2014/talks/tag/pollack">pollack</a></span>
+<span class="tagcloud0"><a href="/dcbpw2014/talks/tag/references">references</a></span>
+<span class="tagcloud0"><a href="/dcbpw2014/talks/tag/regex">regex</a></span>
+<span class="tagcloud0"><a href="/dcbpw2014/talks/tag/search">search</a></span>
+<span class="tagcloud0"><a href="/dcbpw2014/talks/tag/session">session</a></span>
+<span class="tagcloud0"><a href="/dcbpw2014/talks/tag/set_theory">set_theory</a></span>
+<span class="tagcloud0"><a href="/dcbpw2014/talks/tag/style">style</a></span>
+<span class="tagcloud0"><a href="/dcbpw2014/talks/tag/testing">testing</a></span>
+<span class="tagcloud0"><a href="/dcbpw2014/talks/tag/tutorial">tutorial</a></span>
+<span class="tagcloud0"><a href="/dcbpw2014/talks/tag/twitter">twitter</a></span>
+<span class="tagcloud0"><a href="/dcbpw2014/talks/tag/unicode">unicode</a></span>
+<span class="tagcloud0"><a href="/dcbpw2014/talks/tag/unit">unit</a></span>
+<span class="tagcloud0"><a href="/dcbpw2014/talks/tag/webdev">webdev</a></span>
+<span class="tagcloud0"><a href="/dcbpw2014/talks/tag/workshop">workshop</a></span>
+<span class="tagcloud0"><a href="/dcbpw2014/talks/tag/yapc">yapc</a></span>
+<span class="tagcloud0"><a href="/dcbpw2014/talks/tag/youth">youth</a></span>
+</div> <br />   <h2>Tracks</h2>
+         <ul>  <li><a href="#208">Lightning Talks</a></li>  <li><a href="#206">MetaMeta</a></li>  <li><a href="#205">RegularMeta</a></li> </ul>    <a name="208" ><h2>Lightning Talks</h2></a>
+           <p></p>  <script type="text/javascript">
+if (window.act) {
+    var titles = [  'remove from personal schedule',  'add to personal schedule',  ];
+    toggle_image = function(elem, talk_id, set) {
+        var data = { img_name: set ? 'picked' : 'unpicked',
+                     title:    titles[set ? 0 : 1 ],
+                     talk_id:  talk_id,
+                     set:      set
+        };
+        $(elem).replaceWith( act.template("tpl_mtbutton", data) );  $("#my-"+talk_id+"-text").replaceWith( act.template("tpl_mtlabel", data) );  };
+    toggle_count = function(talk_id, set) {
+        var elemcount = "#starcount-" + talk_id;
+        $(elemcount).replaceWith(
+            act.template("tpl_starcount",
+                         { talk_id: talk_id,
+                           count: (parseInt($(elemcount + " > .starcount").text()) || 0) + (set ? 1 : -1)
+                         }
+                        ));
+    };
+    toggle_talk = function(elem, talk_id, set) {
+        $.post(act.make_uri('dcbpw2014', 'updatemytalks_a'), {talk_id: talk_id} );
+        toggle_image(elem, talk_id, !set);
+        toggle_count(talk_id, !set);
+    };
+    $(function() {
+        $(".mytalks_submit").remove();
+        $(":checkbox").each(function() {
+            toggle_image(this, $(this).val(), $(this).prop("checked"));
+        });
+    });
+}
+</script>
+
+ <script type="text/html" id="tpl_mtbutton">
+<img class="mtbutton" src="/images/<%=img_name%>.gif" title="<%=title%>"
+     onClick ="toggle_talk(this,<%=talk_id%>,<%=set%>);" />
+</script>
+
+<script type="text/html" id="tpl_mtlabel">
+<span id="my-<%=talk_id%>-text"><%=title%></span>
+</script>
+
+<script type="text/html" id="tpl_starcount">
+<span id="starcount-<%=talk_id%>" style="white-space:nowrap"><% if (count) { %><span class="starcount"><%=count%></span><img style="vertical-align:middle" src="/images/picked.gif" /><% } %></span>
+</script>
+ <table border="1" cellspacing="0" cellpadding="4">
+<tr>
+ <th>Speaker</th>
+ <th>Talk title</th>
+ <th>Duration</th>  <th>Language</th>   <th>Date</th>   </tr>  <tr>
+    <td> <a href="/dcbpw2014/user/2196">John Anderson (&lrm;genehack&lrm;)</a> </td>
+    <td>  <a href="/dcbpw2014/talk/5518"><b>&lrm;Twitterers Anonymous&lrm;</b></a>      </td>
+    <td nowrap="nowrap"> lightning  </td>  <td>English</td>   <td align="center" nowrap="nowrap">&nbsp;</td>   </tr>  <tr>
+    <td> <a href="/dcbpw2014/user/5149">Nova Patch (&lrm;patch&lrm;)</a> </td>
+    <td>  <a href="/dcbpw2014/talk/5384"><b>&lrm;Advances in Multilingual Stemming on CPAN&lrm;</b></a>  <br />[    <a href="https://speakerdeck.com/patch/multilingual-stemming-on-cpan">Talk</a>  ] </td>
+    <td nowrap="nowrap"> lightning  </td>  <td>English</td>   <td align="center" nowrap="nowrap">&nbsp;</td>   </tr>  <tr>
+    <td> <a href="/dcbpw2014/user/10444">Michael Stemle (&lrm;manchicken&lrm;)</a> </td>
+    <td>  <a href="/dcbpw2014/talk/5519"><b>&lrm;Reference on References&lrm;</b></a>      </td>
+    <td nowrap="nowrap"> lightning  </td>  <td>English</td>   <td align="center" nowrap="nowrap">&nbsp;</td>   </tr>  <tr>
+    <td> <a href="/dcbpw2014/user/9254">Joshua Turcotte</a> </td>
+    <td>  <a href="/dcbpw2014/talk/5502"><b>&lrm;Civic Hacking, Youth Education, and popularizing Perl&lrm;</b></a>      </td>
+    <td nowrap="nowrap"> lightning  </td>  <td>English</td>   <td align="center" nowrap="nowrap">&nbsp;</td>   </tr>  <tr>
+    <td> <a href="/dcbpw2014/user/10489">Zak Zebrowski</a> </td>
+    <td>  <a href="/dcbpw2014/talk/5500"><b>&lrm;Web Identity Techniques &amp; Perl&lrm;</b></a>  <br />[    <a href="http://opensecuritytraining.info/WebIdentity.html">Talk</a>  ] </td>
+    <td nowrap="nowrap"> lightning  </td>  <td>English</td>   <td align="center" nowrap="nowrap">&nbsp;</td>   </tr>  </table>   <a name="206" ><h2>MetaMeta</h2></a>
+           <p></p>  <script type="text/javascript">
+if (window.act) {
+    var titles = [  'remove from personal schedule',  'add to personal schedule',  ];
+    toggle_image = function(elem, talk_id, set) {
+        var data = { img_name: set ? 'picked' : 'unpicked',
+                     title:    titles[set ? 0 : 1 ],
+                     talk_id:  talk_id,
+                     set:      set
+        };
+        $(elem).replaceWith( act.template("tpl_mtbutton", data) );  $("#my-"+talk_id+"-text").replaceWith( act.template("tpl_mtlabel", data) );  };
+    toggle_count = function(talk_id, set) {
+        var elemcount = "#starcount-" + talk_id;
+        $(elemcount).replaceWith(
+            act.template("tpl_starcount",
+                         { talk_id: talk_id,
+                           count: (parseInt($(elemcount + " > .starcount").text()) || 0) + (set ? 1 : -1)
+                         }
+                        ));
+    };
+    toggle_talk = function(elem, talk_id, set) {
+        $.post(act.make_uri('dcbpw2014', 'updatemytalks_a'), {talk_id: talk_id} );
+        toggle_image(elem, talk_id, !set);
+        toggle_count(talk_id, !set);
+    };
+    $(function() {
+        $(".mytalks_submit").remove();
+        $(":checkbox").each(function() {
+            toggle_image(this, $(this).val(), $(this).prop("checked"));
+        });
+    });
+}
+</script>
+
+ <script type="text/html" id="tpl_mtbutton">
+<img class="mtbutton" src="/images/<%=img_name%>.gif" title="<%=title%>"
+     onClick ="toggle_talk(this,<%=talk_id%>,<%=set%>);" />
+</script>
+
+<script type="text/html" id="tpl_mtlabel">
+<span id="my-<%=talk_id%>-text"><%=title%></span>
+</script>
+
+<script type="text/html" id="tpl_starcount">
+<span id="starcount-<%=talk_id%>" style="white-space:nowrap"><% if (count) { %><span class="starcount"><%=count%></span><img style="vertical-align:middle" src="/images/picked.gif" /><% } %></span>
+</script>
+ <table border="1" cellspacing="0" cellpadding="4">
+<tr>
+ <th>Speaker</th>
+ <th>Talk title</th>
+ <th>Duration</th>  <th>Language</th>   <th>Date</th>   </tr>  <tr>
+    <td> <a href="/dcbpw2014/user/2196">John Anderson (&lrm;genehack&lrm;)</a> </td>
+    <td>  <a href="/dcbpw2014/talk/5461"><b>&lrm;The Reese's peanut butter cup of web-dev: Plack and single-page web apps&lrm;</b></a>      </td>
+    <td nowrap="nowrap"> 25 minutes  </td>  <td>English</td>   <td align="center" nowrap="nowrap">03/05/14 15:00</td>   </tr>  <tr>
+    <td> <a href="/dcbpw2014/user/232">R Geoffrey Avery (&lrm;rGeoffrey&lrm;)</a> </td>
+    <td>  <a href="/dcbpw2014/talk/5386"><b>&lrm;Lightning Talks&lrm;</b></a>  <br />[    <a href="http://dcbpw.org/dcbpw2014/newtalk">Talk</a>  ] </td>
+    <td nowrap="nowrap"> 30 minutes  </td>  <td>English</td>   <td align="center" nowrap="nowrap">03/05/14 15:30</td>   </tr>  <tr>
+    <td> <a href="/dcbpw2014/user/8436">philip hood</a> </td>
+    <td>  <a href="/dcbpw2014/talk/5507"><b>&lrm;Something introductory about Pentominoes and Tiling&lrm;</b></a>  <br />[    <a href="http://www.perlish.org/~pth/dcbpw/2014/dcbpw_2014_pth.pdf">Talk</a>  ] </td>
+    <td nowrap="nowrap"> 25 minutes  </td>  <td>English</td>   <td align="center" nowrap="nowrap">03/05/14 10:30</td>   </tr>  <tr>
+    <td> <a href="/dcbpw2014/user/5256">Graham Knop (&lrm;haarg&lrm;)</a> </td>
+    <td>  <a href="/dcbpw2014/talk/5395"><b>&lrm;The year in toolchain&lrm;</b></a>      </td>
+    <td nowrap="nowrap"> 25 minutes  </td>  <td>English</td>   <td align="center" nowrap="nowrap">03/05/14 10:00</td>   </tr>  <tr>
+    <td> <a href="/dcbpw2014/user/1797">Stevan Little (&lrm;stevan&lrm;)</a> </td>
+    <td>  <a href="/dcbpw2014/talk/5428"><b>&lrm;The Intersection of Code and Art&lrm;</b></a>      </td>
+    <td nowrap="nowrap"> 55 minutes  </td>  <td>English</td>   <td align="center" nowrap="nowrap">03/05/14 11:00</td>   </tr>  <tr>
+    <td> <a href="/dcbpw2014/user/8355">Graham Ollis (&lrm;plicease&lrm;)</a> </td>
+    <td>  <a href="/dcbpw2014/talk/5394"><b>&lrm;Foreign Function Interface (FFI) + Perl&lrm;</b></a>  <br />[    <a href="https://docs.google.com/presentation/d/1ULHD1eKZauwS88hx02z6OImGSGvjNJ4UDbiIPF5SAPc/edit?usp=sharing">Talk</a>  ] </td>
+    <td nowrap="nowrap"> 25 minutes  </td>  <td>English</td>   <td align="center" nowrap="nowrap">03/05/14 14:00</td>   </tr>  <tr>
+    <td> <a href="/dcbpw2014/user/5149">Nova Patch (&lrm;patch&lrm;)</a> </td>
+    <td>  <a href="/dcbpw2014/talk/5383"><b>&lrm;Unicode Beyond Just Characters: Localization with the CLDR&lrm;</b></a>  <br />[    <a href="https://speakerdeck.com/patch/perl-localization-with-the-unicode-cldr">Talk</a>  ] </td>
+    <td nowrap="nowrap"> 25 minutes  </td>  <td>English</td>   <td align="center" nowrap="nowrap">03/05/14 09:30</td>   </tr>  <tr>
+    <td> <a href="/dcbpw2014/user/1650">Brock Wilcox (&lrm;awwaiid&lrm;)</a> </td>
+    <td>  <a href="/dcbpw2014/talk/5503"><b>&lrm;State in Clojure&lrm;</b></a>      </td>
+    <td nowrap="nowrap"> 25 minutes  </td>  <td>English</td>   <td align="center" nowrap="nowrap">03/05/14 14:30</td>   </tr>  </table>   <a name="205" ><h2>RegularMeta</h2></a>
+           <p></p>  <script type="text/javascript">
+if (window.act) {
+    var titles = [  'remove from personal schedule',  'add to personal schedule',  ];
+    toggle_image = function(elem, talk_id, set) {
+        var data = { img_name: set ? 'picked' : 'unpicked',
+                     title:    titles[set ? 0 : 1 ],
+                     talk_id:  talk_id,
+                     set:      set
+        };
+        $(elem).replaceWith( act.template("tpl_mtbutton", data) );  $("#my-"+talk_id+"-text").replaceWith( act.template("tpl_mtlabel", data) );  };
+    toggle_count = function(talk_id, set) {
+        var elemcount = "#starcount-" + talk_id;
+        $(elemcount).replaceWith(
+            act.template("tpl_starcount",
+                         { talk_id: talk_id,
+                           count: (parseInt($(elemcount + " > .starcount").text()) || 0) + (set ? 1 : -1)
+                         }
+                        ));
+    };
+    toggle_talk = function(elem, talk_id, set) {
+        $.post(act.make_uri('dcbpw2014', 'updatemytalks_a'), {talk_id: talk_id} );
+        toggle_image(elem, talk_id, !set);
+        toggle_count(talk_id, !set);
+    };
+    $(function() {
+        $(".mytalks_submit").remove();
+        $(":checkbox").each(function() {
+            toggle_image(this, $(this).val(), $(this).prop("checked"));
+        });
+    });
+}
+</script>
+
+ <script type="text/html" id="tpl_mtbutton">
+<img class="mtbutton" src="/images/<%=img_name%>.gif" title="<%=title%>"
+     onClick ="toggle_talk(this,<%=talk_id%>,<%=set%>);" />
+</script>
+
+<script type="text/html" id="tpl_mtlabel">
+<span id="my-<%=talk_id%>-text"><%=title%></span>
+</script>
+
+<script type="text/html" id="tpl_starcount">
+<span id="starcount-<%=talk_id%>" style="white-space:nowrap"><% if (count) { %><span class="starcount"><%=count%></span><img style="vertical-align:middle" src="/images/picked.gif" /><% } %></span>
+</script>
+ <table border="1" cellspacing="0" cellpadding="4">
+<tr>
+ <th>Speaker</th>
+ <th>Talk title</th>
+ <th>Duration</th>  <th>Language</th>   <th>Date</th>   </tr>  <tr>
+    <td> <a href="/dcbpw2014/user/232">R Geoffrey Avery (&lrm;rGeoffrey&lrm;)</a> </td>
+    <td>  <a href="/dcbpw2014/talk/5387"><b>&lrm;Dancer:  Getting to Hello World&lrm;</b></a>  <br />[    <a href="http://platypiventures.com/perl/present">Talk</a>  ] </td>
+    <td nowrap="nowrap"> 25 minutes  </td>  <td>English</td>   <td align="center" nowrap="nowrap">03/05/14 09:30</td>   </tr>  <tr>
+    <td> <a href="/dcbpw2014/user/1815">Heath Bair (&lrm;Candybar&lrm;)</a> </td>
+    <td>  <a href="/dcbpw2014/talk/5385"><b>&lrm;How to run a Perl Workshop or Conference&lrm;</b></a>  <br />[  <a href="https://docs.google.com/presentation/d/1HSnci2xflsStMcktaWKQ_6f5jm3yhl1coUg9tC-8iuQ/edit?usp=sharing">Abstract</a>   ] </td>
+    <td nowrap="nowrap"> 25 minutes  </td>  <td>English</td>   <td align="center" nowrap="nowrap">03/05/14 11:00</td>   </tr>  <tr>
+    <td> <a href="/dcbpw2014/user/8484">Stephen Belcher</a> </td>
+    <td>  <a href="/dcbpw2014/talk/5504"><b>&lrm;Intro to Regular Expressions&lrm;</b></a>      </td>
+    <td nowrap="nowrap"> 55 minutes  </td>  <td>English</td>   <td align="center" nowrap="nowrap">03/05/14 10:00</td>   </tr>  <tr>
+    <td> <a href="/dcbpw2014/user/10562">David Bradford</a> </td>
+    <td>  <a href="/dcbpw2014/talk/5406"><b>&lrm;Writing Maintainable Perl&lrm;</b></a>  <br />[  <a href="http://is.gd/MbOdFl">Abstract</a>   ] </td>
+    <td nowrap="nowrap"> 25 minutes  </td>  <td>English</td>   <td align="center" nowrap="nowrap">03/05/14 11:30</td>   </tr>  <tr>
+    <td> <a href="/dcbpw2014/user/9254">Joshua Turcotte</a> </td>
+    <td>  <a href="/dcbpw2014/talk/5501"><b>&lrm;Test your Perl Code!&lrm;</b></a>  <br />[    <a href="https://github.com/jeturcotte/unit-testing-and-perl">Talk</a>  ] </td>
+    <td nowrap="nowrap"> 55 minutes  </td>  <td>English</td>   <td align="center" nowrap="nowrap">03/05/14 14:00</td>   </tr>  </table>     </div>
+
+      <div id="footerbar"></div>
+
+    </div>
+
+    <div id="footer">
+      <div class=leftside>
+        Website/Logo design by <a href="mailto:a.gasparetti@gmail.com">Angela Gasparetti</a>
+        &nbsp; &nbsp; | &nbsp; &nbsp;
+        <a href="/dcbpw2014/conduct.html">Standards of Conduct</a>
+      </div>
+      Powered by <a href="http://act.mongueurs.net/">Act</a>
+    </div>
+
+  </div>
+  </div>
+
+</body>
+</html>
+ 

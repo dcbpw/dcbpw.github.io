@@ -1,0 +1,192 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+
+  <!-- <META http-equiv="refresh" content="0;URL=http://dcbpw.org/dcbpw2015/"> -->
+
+  <meta name="google-site-verification" content="90o81X5pl3G25RDCUQfDHbHvxfztvI6Niz8GKXGm0ME" />
+  <!-- Document Metadata -->
+  <meta http-equiv="Content-Language" content="en" />
+<title>Schedule</title>
+  <!-- OpenId -->  <!-- Atom news feed -->
+  <link rel="alternate" type="application/atom+xml" title="DC-Baltimore Perl Workshop 2014"
+        href="http://dcbpw.org/dcbpw2014/atom/en.xml" />
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" type="text/css" href="/dcbpw2014/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="/css/act-base.css" />
+  <link rel="stylesheet" type="text/css" href="/css/schedule.css" />
+
+  <!-- JavaScript sugar -->
+  <script type="text/javascript" src="/js/jquery.js"></script>
+  <script type="text/javascript" src="/js/act.js"></script>
+
+  <!-- Favorite icon -->
+  <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+</head>
+
+<body>
+  <div id="wrapperwrapper">
+  <div id="wrapper">
+
+    <div id="searchbar">
+      <div>  <a href="/dcbpw2014/main">Log In</a>
+          &nbsp;&nbsp;
+          |
+          &nbsp;&nbsp;
+          <a href="/dcbpw2014/register">Register</a>  &nbsp;&nbsp;
+        |
+        &nbsp;&nbsp;
+        <form method="get" action="http://www.google.com/search">
+          <input type=text name=q id=searchinput>
+          <!-- <input type="submit" value="Google Search" /> -->
+          <input type="hidden"  name="sitesearch" value="dcbpw.org" />
+          <img src="/dcbpw2014/magnifier.png">
+        </form>
+      </div>
+    </div>
+
+    <div id="fakepage">
+
+      <div id=header>
+        <div id="headerbar"></div>
+          
+        <table cellpading=0 cellspacing=0 border=0 id=conference_name_table>
+        <tr>
+          <td valign=middle id="logocol">
+            <a href="/dcbpw2014/">
+            <img src="/dcbpw2014/logo-229x118.png"
+              alt="DCBPW Logo">
+            </a>
+          </td>
+          <td valign=middle>
+            <a href="/dcbpw2014/">
+              <div id="title">
+                <span class="year">2014</span>
+                <span class="dc">DC</span>
+                <span class="dash">-</span>
+                <span class="baltimore">Baltimore</span>
+                <span class="workshop">Perl Workshop</span>
+              </div>
+            </a>
+          </td>
+        </tr>
+        </table>
+        <!-- <h1>Schedule</h1> -->
+      </div>
+
+
+      <div id="menu"> <h2> <a href="http://dcbpw.org/dcbpw2014/">DCBPW 2014</a> </h2> <li> <a href="/dcbpw2014/dcbpw.ics"> <span class="icon"><img src="/dcbpw2014/calendar-icon.png"></span> When: Sat-Sun, May 3-4, 2014 </a> </li> <li> <a href="/dcbpw2014/venue.html"> <span class="icon"><img src="/dcbpw2014/map-place-icon.png"></span> Location: Silver Spring, MD </a> </li> <li> <a href="/dcbpw2014/hotel.html"> <span class="icon"><img src="/dcbpw2014/map-place-icon.png"></span> Stay: Hotel/Travel Info </a> </li> <li> <a href="/dcbpw2014/sponsors.html"> <span class="icon">♥</span> Support our Sponsors! </a> </li> <li> <a href="/dcbpw2014/news"> <span class="icon"><img src="/dcbpw2014/rss.jpg"></span> News </a> (<a href="http://dcbpw.org/dcbpw2014/atom/en.xml">feed</a>) </li> <li> <a href="/dcbpw2014/wiki"> <span class="icon"><img src="/dcbpw2014/link.jpg"></span> Wiki </a> (community content) <ul> <li>→ <a href="/dcbpw2014/wiki?node=LocalTransit">LocalTransit</a></li> <li>→ <a href="/dcbpw2014/wiki?node=VenueDetail">VenueDetail</a> (Wifi)</li> <li>→ <a href="/dcbpw2014/wiki?node=SaturdayDinner">SaturdayDinner</a></li> </ul> </li> <!-- user menu --> <h2> Log In / Register </h2> <li>First register with the site (ACT),<br>then buy your ticket!</li> <li> <a href="/dcbpw2014/main">Log in</a> </li> <!-- users menu --> <h2> Users </h2> <li> <a href="/dcbpw2014/search"> Search </a> </li> <li> <a href="/dcbpw2014/stats"> Statistics </a> </li> <!-- talks menu --> <h2> <a href="/dcbpw2014/talks"> Presentations </a> </h2> <li> <a href="/dcbpw2014/proceedings"> List of Talks </a> </li> <li> <a href="/dcbpw2014/schedule"> Schedule </a> </li> <li> <a href="/dcbpw2014/timetable.ics"> iCal export </a> </li> <li> <a href="/dcbpw2014/newtalk"> Submit a talk proposal </a> </li> <!-- money menu --> <!-- admin menu --> <h2> <a href="http://act.mongueurs.net/conferences.html">Other conferences</a> </h2> <li><a href="http://pghpw.org/ppw2015/">Pittsburgh Perl Workshop 2015</a></li> <li><a href="http://workshop.barcelona.pm/barcelona2015/">Barcelona Perl Workshop 2015</a></li> <li><a href="http://patch.pm/p3/">patch -p3</a></li> <li><a href="http://act.yapc.eu/lpw2015/">London Perl Workshop</a></li> <li><a href="http://act.yapc.eu/gpw2016/">German Perl Workshop 2016</a></li>  </div>
+
+      <div id="content">  <!-- The schedule table --> <script type="text/javascript">
+if (window.act) {
+    var titles = [  'remove from personal schedule',  'add to personal schedule',  ];
+    toggle_image = function(elem, talk_id, set) {
+        var data = { img_name: set ? 'picked' : 'unpicked',
+                     title:    titles[set ? 0 : 1 ],
+                     talk_id:  talk_id,
+                     set:      set
+        };
+        $(elem).replaceWith( act.template("tpl_mtbutton", data) );  $("#my-"+talk_id+"-text").replaceWith( act.template("tpl_mtlabel", data) );  };
+    toggle_count = function(talk_id, set) {
+        var elemcount = "#starcount-" + talk_id;
+        $(elemcount).replaceWith(
+            act.template("tpl_starcount",
+                         { talk_id: talk_id,
+                           count: (parseInt($(elemcount + " > .starcount").text()) || 0) + (set ? 1 : -1)
+                         }
+                        ));
+    };
+    toggle_talk = function(elem, talk_id, set) {
+        $.post(act.make_uri('dcbpw2014', 'updatemytalks_a'), {talk_id: talk_id} );
+        toggle_image(elem, talk_id, !set);
+        toggle_count(talk_id, !set);
+    };
+    $(function() {
+        $(".mytalks_submit").remove();
+        $(":checkbox").each(function() {
+            toggle_image(this, $(this).val(), $(this).prop("checked"));
+        });
+    });
+}
+</script>
+
+ <script type="text/html" id="tpl_mtbutton">
+<img class="mtbutton" src="/images/<%=img_name%>.gif" title="<%=title%>"
+     onClick ="toggle_talk(this,<%=talk_id%>,<%=set%>);" />
+</script>
+
+<script type="text/html" id="tpl_mtlabel">
+<span id="my-<%=talk_id%>-text"><%=title%></span>
+</script>
+
+<script type="text/html" id="tpl_starcount">
+<span id="starcount-<%=talk_id%>" style="white-space:nowrap"><% if (count) { %><span class="starcount"><%=count%></span><img style="vertical-align:middle" src="/images/picked.gif" /><% } %></span>
+</script>
+    <p> Talks in <b>bold type</b> have been confirmed by their respective speakers. </p>  <strong>Saturday</strong>   |   <a href="/dcbpw2014/schedule?day=2014-05-04">Sunday</a>       <h2>Saturday,  3 May 2014</h2>
+<table border="0">
+<thead>
+ <tr class="header">
+  <th> Time </th>   <th colspan="1">Ellsworth East</th>    <th colspan="1">Ellsworth West</th>   </tr>
+</thead>
+<tbody>  <tr class="header">   <td align="center" valign="top" class="header">08:30</td>    <td valign="top"  class="venue" colspan="2"> <a href="/dcbpw2014/event/1546">&lrm;Registration&lrm;</a> (45&nbsp;min)  <span id="starcount-1546" style="white-space:nowrap"></span>
+     </td>   </tr>  <tr class="header">   <td align="center" valign="top" class="header">09:15</td>    <td valign="top"  class="venue" colspan="2"> <a href="/dcbpw2014/event/1544">&lrm;Welcome!&lrm;</a> (15&nbsp;min)  <span id="starcount-1544" style="white-space:nowrap"></span>
+     </td>   </tr>  <tr class="header">   <td align="center" valign="top" class="header">09:30</td>    <td valign="top"  class="r1"> <a href="/dcbpw2014/user/5149">Nova Patch (&lrm;patch&lrm;)</a> - <a href="/dcbpw2014/talk/5383"><b>&lrm;Unicode Beyond Just Characters: Localization with the CLDR&lrm;</b></a> (25&nbsp;min, English) [<a href="/dcbpw2014/talks#206">MetaMeta</a>]  <span id="starcount-5383" style="white-space:nowrap"><span class="starcount">5</span><img style="vertical-align:middle" src="/images/picked.gif" /></span>
+     </td>    <td valign="top"  class="r2"> <a href="/dcbpw2014/user/232">R Geoffrey Avery (&lrm;rGeoffrey&lrm;)</a> - <a href="/dcbpw2014/talk/5387"><b>&lrm;Dancer:  Getting to Hello World&lrm;</b></a> (25&nbsp;min, English) [<a href="/dcbpw2014/talks#205">RegularMeta</a>]  <span id="starcount-5387" style="white-space:nowrap"><span class="starcount">4</span><img style="vertical-align:middle" src="/images/picked.gif" /></span>
+     </td>   </tr>  <tr class="header">   <td align="center" valign="top" class="header">09:55</td>    <td valign="top"  >   <span id="starcount-" style="white-space:nowrap"></span>
+     </td>    <td valign="top"  >   <span id="starcount-" style="white-space:nowrap"></span>
+     </td>   </tr>  <tr class="header">   <td align="center" valign="top" class="header">10:00</td>    <td valign="top"  class="r1"> <a href="/dcbpw2014/user/5256">Graham Knop (&lrm;haarg&lrm;)</a> - <a href="/dcbpw2014/talk/5395">&lrm;The year in toolchain&lrm;</a> (25&nbsp;min, English) [<a href="/dcbpw2014/talks#206">MetaMeta</a>]  <span id="starcount-5395" style="white-space:nowrap"><span class="starcount">6</span><img style="vertical-align:middle" src="/images/picked.gif" /></span>
+     </td>    <td valign="top" rowspan="3" class="r2"> <a href="/dcbpw2014/user/8484">Stephen Belcher</a> - <a href="/dcbpw2014/talk/5504"><b>&lrm;Intro to Regular Expressions&lrm;</b></a> (55&nbsp;min, English) [<a href="/dcbpw2014/talks#205">RegularMeta</a>]  <span id="starcount-5504" style="white-space:nowrap"></span>
+     </td>   </tr>  <tr class="header">   <td align="center" valign="top" class="header">10:25</td>    <td valign="top"  >   <span id="starcount-" style="white-space:nowrap"></span>
+     </td>   </tr>  <tr class="header">   <td align="center" valign="top" class="header">10:30</td>    <td valign="top"  class="r1"> <a href="/dcbpw2014/user/8436">philip hood</a> - <a href="/dcbpw2014/talk/5507"><b>&lrm;Something introductory about Pentominoes and Tiling&lrm;</b></a> (25&nbsp;min, English) [<a href="/dcbpw2014/talks#206">MetaMeta</a>]  <span id="starcount-5507" style="white-space:nowrap"><span class="starcount">3</span><img style="vertical-align:middle" src="/images/picked.gif" /></span>
+     </td>   </tr>  <tr class="header">   <td align="center" valign="top" class="header">10:55</td>    <td valign="top"  >   <span id="starcount-" style="white-space:nowrap"></span>
+     </td>    <td valign="top"  >   <span id="starcount-" style="white-space:nowrap"></span>
+     </td>   </tr>  <tr class="header">   <td align="center" valign="top" class="header">11:00</td>    <td valign="top" rowspan="3" class="r1"> <a href="/dcbpw2014/user/1797">Stevan Little (&lrm;stevan&lrm;)</a> - <a href="/dcbpw2014/talk/5428"><b>&lrm;The Intersection of Code and Art&lrm;</b></a> (55&nbsp;min, English) [<a href="/dcbpw2014/talks#206">MetaMeta</a>]  <span id="starcount-5428" style="white-space:nowrap"><span class="starcount">7</span><img style="vertical-align:middle" src="/images/picked.gif" /></span>
+     </td>    <td valign="top"  class="r2"> <a href="/dcbpw2014/user/1815">Heath Bair (&lrm;Candybar&lrm;)</a> - <a href="/dcbpw2014/talk/5385"><b>&lrm;How to run a Perl Workshop or Conference&lrm;</b></a> (25&nbsp;min, English) [<a href="/dcbpw2014/talks#205">RegularMeta</a>]  <span id="starcount-5385" style="white-space:nowrap"><span class="starcount">2</span><img style="vertical-align:middle" src="/images/picked.gif" /></span>
+     </td>   </tr>  <tr class="header">   <td align="center" valign="top" class="header">11:25</td>    <td valign="top"  >   <span id="starcount-" style="white-space:nowrap"></span>
+     </td>   </tr>  <tr class="header">   <td align="center" valign="top" class="header">11:30</td>    <td valign="top"  class="r2"> <a href="/dcbpw2014/user/10562">David Bradford</a> - <a href="/dcbpw2014/talk/5406"><b>&lrm;Writing Maintainable Perl&lrm;</b></a> (25&nbsp;min, English) [<a href="/dcbpw2014/talks#205">RegularMeta</a>]  <span id="starcount-5406" style="white-space:nowrap"><span class="starcount">4</span><img style="vertical-align:middle" src="/images/picked.gif" /></span>
+     </td>   </tr>  <tr class="header">   <td align="center" valign="top" class="header">11:55</td>    <td valign="top"  >   <span id="starcount-" style="white-space:nowrap"></span>
+     </td>    <td valign="top"  >   <span id="starcount-" style="white-space:nowrap"></span>
+     </td>   </tr>  <tr class="header">   <td align="center" valign="top" class="header">12:30</td>    <td valign="top"  class="venue" colspan="2"> <a href="/dcbpw2014/event/1541">&lrm;Lunch Out On The Town!&lrm;</a> (85&nbsp;min)  <span id="starcount-1541" style="white-space:nowrap"></span>
+     </td>   </tr>  <tr class="header">   <td align="center" valign="top" class="header">13:55</td>    <td valign="top"  >   <span id="starcount-" style="white-space:nowrap"></span>
+     </td>    <td valign="top"  >   <span id="starcount-" style="white-space:nowrap"></span>
+     </td>   </tr>  <tr class="header">   <td align="center" valign="top" class="header">14:00</td>    <td valign="top"  class="r1"> <a href="/dcbpw2014/user/8355">Graham Ollis (&lrm;plicease&lrm;)</a> - <a href="/dcbpw2014/talk/5394"><b>&lrm;Foreign Function Interface (FFI) + Perl&lrm;</b></a> (25&nbsp;min, English) [<a href="/dcbpw2014/talks#206">MetaMeta</a>]  <span id="starcount-5394" style="white-space:nowrap"><span class="starcount">5</span><img style="vertical-align:middle" src="/images/picked.gif" /></span>
+     </td>    <td valign="top" rowspan="3" class="r2"> <a href="/dcbpw2014/user/9254">Joshua Turcotte</a> - <a href="/dcbpw2014/talk/5501"><b>&lrm;Test your Perl Code!&lrm;</b></a> (55&nbsp;min, English) [<a href="/dcbpw2014/talks#205">RegularMeta</a>]  <span id="starcount-5501" style="white-space:nowrap"><span class="starcount">4</span><img style="vertical-align:middle" src="/images/picked.gif" /></span>
+     </td>   </tr>  <tr class="header">   <td align="center" valign="top" class="header">14:25</td>    <td valign="top"  >   <span id="starcount-" style="white-space:nowrap"></span>
+     </td>   </tr>  <tr class="header">   <td align="center" valign="top" class="header">14:30</td>    <td valign="top"  class="r1"> <a href="/dcbpw2014/user/1650">Brock Wilcox (&lrm;awwaiid&lrm;)</a> - <a href="/dcbpw2014/talk/5503"><b>&lrm;State in Clojure&lrm;</b></a> (25&nbsp;min, English) [<a href="/dcbpw2014/talks#206">MetaMeta</a>]  <span id="starcount-5503" style="white-space:nowrap"><span class="starcount">6</span><img style="vertical-align:middle" src="/images/picked.gif" /></span>
+     </td>   </tr>  <tr class="header">   <td align="center" valign="top" class="header">14:55</td>    <td valign="top"  >   <span id="starcount-" style="white-space:nowrap"></span>
+     </td>    <td valign="top"  >   <span id="starcount-" style="white-space:nowrap"></span>
+     </td>   </tr>  <tr class="header">   <td align="center" valign="top" class="header">15:00</td>    <td valign="top"  class="r1"> <a href="/dcbpw2014/user/2196">John Anderson (&lrm;genehack&lrm;)</a> - <a href="/dcbpw2014/talk/5461"><b>&lrm;The Reese's peanut butter cup of web-dev: Plack and single-page web apps&lrm;</b></a> (25&nbsp;min, English) [<a href="/dcbpw2014/talks#206">MetaMeta</a>]  <span id="starcount-5461" style="white-space:nowrap"><span class="starcount">10</span><img style="vertical-align:middle" src="/images/picked.gif" /></span>
+     </td>    <td valign="top"  >   <span id="starcount-" style="white-space:nowrap"></span>
+     </td>   </tr>  <tr class="header">   <td align="center" valign="top" class="header">15:25</td>    <td valign="top"  >   <span id="starcount-" style="white-space:nowrap"></span>
+     </td>    <td valign="top"  >   <span id="starcount-" style="white-space:nowrap"></span>
+     </td>   </tr>  <tr class="header">   <td align="center" valign="top" class="header">15:30</td>    <td valign="top"  class="r1"> <a href="/dcbpw2014/user/232">R Geoffrey Avery (&lrm;rGeoffrey&lrm;)</a> - <a href="/dcbpw2014/talk/5386"><b>&lrm;Lightning Talks&lrm;</b></a> (30&nbsp;min, English) [<a href="/dcbpw2014/talks#206">MetaMeta</a>]  <span id="starcount-5386" style="white-space:nowrap"><span class="starcount">8</span><img style="vertical-align:middle" src="/images/picked.gif" /></span>
+     </td>    <td valign="top"  >   <span id="starcount-" style="white-space:nowrap"></span>
+     </td>   </tr>  <tr class="header">   <td align="center" valign="top" class="header">16:00</td>    <td valign="top"  class="r1"> <a href="/dcbpw2014/event/1534">&lrm;Keynote&lrm;</a> (50&nbsp;min)  <span id="starcount-1534" style="white-space:nowrap"></span>
+     </td>    <td valign="top"  >   <span id="starcount-" style="white-space:nowrap"></span>
+     </td>   </tr>  <tr class="header">   <td align="center" valign="top" class="header">16:50</td>    <td valign="top"  >   <span id="starcount-" style="white-space:nowrap"></span>
+     </td>    <td valign="top"  >   <span id="starcount-" style="white-space:nowrap"></span>
+     </td>   </tr>  </tbody>
+</table>      </div>
+
+      <div id="footerbar"></div>
+
+    </div>
+
+    <div id="footer">
+      <div class=leftside>
+        Website/Logo design by <a href="mailto:a.gasparetti@gmail.com">Angela Gasparetti</a>
+        &nbsp; &nbsp; | &nbsp; &nbsp;
+        <a href="/dcbpw2014/conduct.html">Standards of Conduct</a>
+      </div>
+      Powered by <a href="http://act.mongueurs.net/">Act</a>
+    </div>
+
+  </div>
+  </div>
+
+</body>
+</html>
+ 

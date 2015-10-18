@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+  <title>DC-Baltimore Perl Workshop 2014</title>
+  <id>http://dcbpw.org/dcbpw2014/atom/en.xml</id>
+  <updated>2015-02-08T20:13:00Z</updated>
+  <link type="application/atom+xml" rel="self" href="http://dcbpw.org/dcbpw2014/atom/en.xml"/>
+  <link type="text/html" rel="alternate" href="http://dcbpw.org/dcbpw2014/news?language=en"/>
+  <entry>
+    <title>Head over to DCBPW2015 site!</title>
+    <id>http://dcbpw.org/dcbpw2014/en/1297</id>
+    <author>
+      <email>awwaiid@thelackthereof.org</email>
+      <name>awwaiid</name>
+    </author>
+    <updated>2015-02-08T20:13:00Z</updated>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <p>For some reason browser's aren't reliably redirecting to the 2015 site. So <a href="http://dcbpw.org/dcbpw2015/">head over to dcbpw.org/dcbpw2015</a> by hand if you're here because of that :)</p>
+      </div>
+    </content>
+    <link type="text/html" rel="alternate" href="http://dcbpw.org/dcbpw2014/news/1297"/>
+  </entry>
+  <entry>
+    <title>Well, that was fun!</title>
+    <id>http://dcbpw.org/dcbpw2014/en/1191</id>
+    <author>
+      <email>awwaiid@thelackthereof.org</email>
+      <name>awwaiid</name>
+    </author>
+    <updated>2014-05-05T14:06:00Z</updated>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml"><p>Thank you all for attending, and thank you to the sponsors! We had a great time with talks on Saturday and the hackathon on Sunday -- many cool things!</p>
+<p>Stay tuned for some further follow-ups :)</p></div>
+    </content>
+    <link type="text/html" rel="alternate" href="http://dcbpw.org/dcbpw2014/news/1191"/>
+  </entry>
+  <entry>
+    <title>Communication and Coordination</title>
+    <id>http://dcbpw.org/dcbpw2014/en/1190</id>
+    <author>
+      <email>awwaiid@thelackthereof.org</email>
+      <name>awwaiid</name>
+    </author>
+    <updated>2014-05-02T20:49:00Z</updated>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml"><p>You can join us for real-time chat on irc.perl.org in #dcbpw, where some people are already hanging out. On Twitter you can use #dcbpw or @dcbpw. You can also use the wiki linked on the left! </p>
+<p>As always feel free to contact the organizers at dcbpw-organizers@googlegroups.com!</p></div>
+    </content>
+    <link type="text/html" rel="alternate" href="http://dcbpw.org/dcbpw2014/news/1190"/>
+  </entry>
+  <entry>
+    <title>Saturday Dinner</title>
+    <id>http://dcbpw.org/dcbpw2014/en/1189</id>
+    <author>
+      <email>awwaiid@thelackthereof.org</email>
+      <name>awwaiid</name>
+    </author>
+    <updated>2014-05-02T14:15:00Z</updated>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml"><p>We are getting very close to the conference! As a reminder, we'll open the doors at 8:30 and kick off the workshop at 9:15. We'll have some coffee/tea and food to get your brains working!</p>
+<p>We are having a sponsored dinner on Saturday night at McGinty's, near the venue. You must RSVP for this event! If you didn't get the invite and want to go please email me, awwaiid@gmail.com, and I'll send you the invite. Limited seating :)</p></div>
+    </content>
+    <link type="text/html" rel="alternate" href="http://dcbpw.org/dcbpw2014/news/1189"/>
+  </entry>
+  <entry>
+    <title>Sponsor - ProQuest</title>
+    <id>http://dcbpw.org/dcbpw2014/en/1186</id>
+    <author>
+      <email>awwaiid@thelackthereof.org</email>
+      <name>awwaiid</name>
+    </author>
+    <updated>2014-04-27T02:25:00Z</updated>
+    <content type="html">&lt;p&gt;&lt;a href="http://www.proquest.com/"&gt;&lt;img src="/dcbpw2014/sponsor/proquest_200.png" align=right style="padding-left: 1em"&gt;&lt;/a&gt;We welcome our latest sponsor, &lt;a href="http://www.proquest.com/"&gt;ProQuest&lt;/a&gt;! &lt;/p&gt;
+&lt;p&gt;&lt;i&gt;&#13;
+ProQuest is committed to empowering researchers and librarians around the world. Its innovative information content and technologies increase the productivity of students, scholars, professionals and the libraries that serve them. Through partnerships with content holders, ProQuest preserves rich, vast and varied information - whether historical archives or today’s scientific breakthroughs - and packages it with digital technologies that enhance its discovery, sharing and management.&#13;
+&lt;/i&gt;&lt;/p&gt;</content>
+    <link type="text/html" rel="alternate" href="http://dcbpw.org/dcbpw2014/news/1186"/>
+  </entry>
+  <entry>
+    <title>Sponsor - Infinity Interactive</title>
+    <id>http://dcbpw.org/dcbpw2014/en/1182</id>
+    <author>
+      <email>awwaiid@thelackthereof.org</email>
+      <name>awwaiid</name>
+    </author>
+    <updated>2014-04-08T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;&lt;a href="https://www.iinteractive.com/"&gt;&lt;img src="/dcbpw2013/ii-logo-horiz-290.png" align=right style="padding-left: 1em"&gt;&lt;/a&gt;We welcome our latest sponsor, &lt;a href="https://www.iinteractive.com/"&gt;Infinity Interactive&lt;/a&gt;! &lt;/p&gt;
+&lt;p&gt;&lt;i&gt;&#13;
+Besides being well-known for their creation of &lt;a href="http://moose.iinteractive.com/en/"&gt;Moose&lt;/a&gt;, the company and the team are outspoken contributors to &lt;a href="http://iinteractive.github.io/"&gt;open source&lt;/a&gt; and the community in general. They not only sponsor many events, but are key participants as well (and will be presenting at DCBPW this year!). As a company, they solve a wide range of problems -- probably they can help you solve the thing that is keeping you up at night. Contact them to find out!&lt;/i&gt;&lt;/p&gt;</content>
+    <link type="text/html" rel="alternate" href="http://dcbpw.org/dcbpw2014/news/1182"/>
+  </entry>
+  <entry>
+    <title>Sponsor - OmniTI</title>
+    <id>http://dcbpw.org/dcbpw2014/en/1176</id>
+    <author>
+      <email>awwaiid@thelackthereof.org</email>
+      <name>awwaiid</name>
+    </author>
+    <updated>2014-03-27T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;&lt;a href="http://omniti.com/"&gt;&lt;img src="/dcbpw2014/sponsor/omniti-logo.png" align=right style="padding-left: 1em"&gt;&lt;/a&gt;We welcome our latest sponsor, &lt;a href="http://omniti.com/"&gt;OmniTI&lt;/a&gt;! &lt;/p&gt;
+&lt;p&gt;&lt;i&gt;&#13;
+For companies experiencing issues associated with growth and scalability of their customer-facing websites, OmniTI is the leading Web Scalability and Performance provider using a cross-disciplinary approach to achieve unparalleled levels of web and database performance to enable revenue growth, outstanding customer experience, underlying infrastructure reliability and faster time-to-value.&#13;
+&lt;/i&gt;&lt;/p&gt;</content>
+    <link type="text/html" rel="alternate" href="http://dcbpw.org/dcbpw2014/news/1176"/>
+  </entry>
+  <entry>
+    <title>Sponsor - BlueHost</title>
+    <id>http://dcbpw.org/dcbpw2014/en/1172</id>
+    <author>
+      <email>awwaiid@thelackthereof.org</email>
+      <name>awwaiid</name>
+    </author>
+    <updated>2014-03-26T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;&lt;a href="http://bluehost.com/"&gt;&lt;img src="/dcbpw2014/sponsor/bluehost.com_200.png" align=right style="padding-left: 1em"&gt;&lt;/a&gt;We welcome our latest sponsor, &lt;a href="http://bluehost.com/"&gt;Bluehost&lt;/a&gt;! &lt;/p&gt;
+&lt;p&gt;&lt;i&gt;&#13;
+Established in 2003, Bluehost has grown to become one of the world’s largest web hosting providers, supporting millions of domains and websites all over the world. Bluehost has pioneered shared hosting solutions and recently expanded its offering with the launch of new dedicated hosting services. Bluehost enjoys a reputation for industry-leading reliability and unbeatable U.S.-based customer support. Built on open source technology, Bluehost remains committed to supporting open source projects and initiatives through their BOSS program. Learn more at &lt;a href="http://bluehost.com/boss"&gt;bluehost.com/boss&lt;/a&gt;.&#13;
+&lt;/i&gt;&lt;/p&gt;</content>
+    <link type="text/html" rel="alternate" href="http://dcbpw.org/dcbpw2014/news/1172"/>
+  </entry>
+  <entry>
+    <title>First Round of Talks</title>
+    <id>http://dcbpw.org/dcbpw2014/en/1173</id>
+    <author>
+      <email>awwaiid@thelackthereof.org</email>
+      <name>awwaiid</name>
+    </author>
+    <updated>2014-03-25T04:00:00Z</updated>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml"><p>We've accepted our first round of talks! You can check out the <a href="/dcbpw2014/talks">list of talks here</a>.</p>
+<p>We still have room for more! I neglected to declare a deadline for talk submissions previously -- so to encourage you, please have talks submitted by April 1st. Remember, all levels of topics are welcome! And if you have any doubts or trouble meeting the deadline, please email dcbpw-organizers@googlegroups.com and we'll help :)</p></div>
+    </content>
+    <link type="text/html" rel="alternate" href="http://dcbpw.org/dcbpw2014/news/1173"/>
+  </entry>
+  <entry>
+    <title>Sponsor - ThinkGeek</title>
+    <id>http://dcbpw.org/dcbpw2014/en/1171</id>
+    <author>
+      <email>awwaiid@thelackthereof.org</email>
+      <name>awwaiid</name>
+    </author>
+    <updated>2014-03-23T04:00:00Z</updated>
+    <content type="html">&lt;p&gt;&lt;a href="http://thinkgeek.com/"&gt;&lt;img src="/dcbpw2013/thinkgeek-logo-horiz-290.png" align=right style="padding-left: 1em"&gt;&lt;/a&gt;We welcome our latest sponsor, &lt;a href="http://thinkgeek.com/"&gt;ThinkGeek&lt;/a&gt;! &lt;/p&gt;
+&lt;p&gt;&lt;i&gt;&#13;
+ThinkGeek is the premier retailer for the global geek community.  Since 1999, ThinkGeek has been creating a world where everyone can express their inner geek, embrace their passions, and connect with each other.  Our obsession is creating and sharing unique and authentic product experiences that stimulate our fans' imaginations and fuel their geek core.  We believe that there is a geek in everyone and that it should be celebrated.&#13;
+&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;ThinkGeek &amp;lt;3’s Perl! In fact, our website and backend are written in Perl, so working here means you get to use it every day, from coding new features to integrating with third parties. We also contribute a lot of code to the open-source community, and have CPAN authors in our treehouse. If you’d like to come work with us, check out our booth! We’ll have business cards and other fun stuff, you never quite know what fun things we’ll to bring to the party.&lt;/i&gt;&lt;/p&gt;</content>
+    <link type="text/html" rel="alternate" href="http://dcbpw.org/dcbpw2014/news/1171"/>
+  </entry>
+  <entry>
+    <title>Recommended Hotel</title>
+    <id>http://dcbpw.org/dcbpw2014/en/1165</id>
+    <author>
+      <email>wallisds@gmail.com</email>
+      <name>wallisds</name>
+    </author>
+    <updated>2014-03-10T15:33:00Z</updated>
+    <content type="html">&lt;p&gt;This just in: We got a block of hotel rooms setup for our out of town attendees! &#13;
+We recommend the Courtyard by Marriott on Fenton Street in downtown Silver Spring, MD. This will get you there: &#13;
+&lt;a target="_blank" href="http://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=DC/BALTIMORE%20PERL%20WORKSHOP%5EWASSV%60DCBDCBA%7CDCBDCBB%60125-135%60USD%60false%605/2/14%605/4/14%604/4/14&amp;app=resvlink&amp;stop_mobi=yes"&gt;$125 for King/ $135 for Doubles&lt;/a&gt; but the rate is only secured until April 4th.&lt;/p&gt;</content>
+    <link type="text/html" rel="alternate" href="http://dcbpw.org/dcbpw2014/news/1165"/>
+  </entry>
+  <entry>
+    <title>Call for Speakers</title>
+    <id>http://dcbpw.org/dcbpw2014/en/1161</id>
+    <author>
+      <email>awwaiid@thelackthereof.org</email>
+      <name>awwaiid</name>
+    </author>
+    <updated>2014-02-22T17:26:00Z</updated>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml"><p>Attention Speakers! You are invited to submit talks for the 2014 DC-Baltimore Perl Workshop, which will be held on Saturday May 3, 2014, in <a href="http://dcbpw.org/dcbpw2014/venue.html">Silver Spring, MD</a>.</p>
+<p>As in previous years, by default talks are 20-25 minutes, which we've found is a sweet spot for most topics. We get a great variety -- enough to get a dose of newness and not overwhelm. We also welcome proposals for more tutorial-style talks of around 50 minutes. We'll take the talks and build out a two-track schedule.</p>
+<p>Speakers of all levels are welcome! This regional meetup is great for getting your first taste of giving a community talk, sharing projects or topics that you have experience with, or even doing a first run for a talk you'll be presenting at a larger conference such as <a href="http://www.yapcna.org/yn2014/">YAPC::NA 2014 in Orlando</a>! All Perl-related topics are welcome -- from beginner to advanced, from technical to social.</p>
+<p>No need to submit talks for the Sunday May 4 hackathon -- we'll have more info on that code and learning festival in future updates! And of course -- all are welcome to register for the conference; $25 for early-registration prior to April 1. Free registration for students and the unemployed.</p>
+<p>If you have any questions, <a href="mailto:dcbpw-organizers@googlegroups.com">email us (dcbpw-organizers@googlegroups.com)</a>! We'll even be happy to help you tune your topic.</p></div>
+    </content>
+    <link type="text/html" rel="alternate" href="http://dcbpw.org/dcbpw2014/news/1161"/>
+  </entry>
+  <entry>
+    <title>Site Launch</title>
+    <id>http://dcbpw.org/dcbpw2014/en/1156</id>
+    <author>
+      <email>awwaiid@thelackthereof.org</email>
+      <name>awwaiid</name>
+    </author>
+    <updated>2014-02-18T01:53:00Z</updated>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml"><p>Greetings, and welcome to DCBPW-2014! We are still working out some kinks in the site ... specifically submitting payment for the workshop is broken, so I've disabled it. But I'll have it fixed soon :)</p>
+<p>In the meantime, feel free to sign up for the conference and start submitting talks! Two have been submitted already!</p>
+<p>(UPDATE 2014-02-20: Payment is now fixed!)</p></div>
+    </content>
+    <link type="text/html" rel="alternate" href="http://dcbpw.org/dcbpw2014/news/1156"/>
+  </entry>
+</feed>

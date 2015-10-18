@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+  <!-- Document Metadata -->
+  <meta http-equiv="Content-Language" content="en" />
+<title>use Civic::Engagement;</title>
+  <!-- OpenId -->  <!-- Atom news feed -->
+  <link rel="alternate" type="application/atom+xml" title="DC-Baltimore Perl Workshop 2015"
+        href="http://dcbpw.org/dcbpw2015/atom/en.xml" />
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" type="text/css" href="/dcbpw2015/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="/css/act-base.css" />
+  <link rel="stylesheet" type="text/css" href="/css/schedule.css" />
+
+  <!-- JavaScript sugar -->
+  <script type="text/javascript" src="/js/jquery.js"></script>
+  <script type="text/javascript" src="/js/act.js"></script>
+
+  <!-- Favorite icon -->
+  <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+</head>
+
+<body>
+  <div id="wrapperwrapper">
+  <div id="wrapper">
+
+    <div id="searchbar">
+      <div>  <a href="/dcbpw2015/main">Log In</a>
+          &nbsp;&nbsp;
+          |
+          &nbsp;&nbsp;
+          <a href="/dcbpw2015/register">Register</a>  &nbsp;&nbsp;
+        |
+        &nbsp;&nbsp;
+        <form method="get" action="http://www.google.com/search">
+          <input type=text name=q id=searchinput>
+          <!-- <input type="submit" value="Google Search" /> -->
+          <input type="hidden"  name="sitesearch" value="dcbpw.org" />
+          <img src="/dcbpw2015/magnifier.png">
+        </form>
+      </div>
+    </div>
+
+    <div id="fakepage">
+
+      <div id=header>
+        <div id="headerbar"></div>
+          
+        <table cellpading=0 cellspacing=0 border=0 id=conference_name_table>
+        <tr>
+          <td valign=middle id="logocol">
+            <a href="/dcbpw2015/">
+            <img src="/dcbpw2015/logo-229x118.png"
+              alt="DCBPW Logo">
+            </a>
+          </td>
+          <td valign=middle>
+            <a href="/dcbpw2015/">
+              <div id="title">
+                <span class="year">2015</span>
+                <span class="dc">DC</span>
+                <span class="dash">-</span>
+                <span class="baltimore">Baltimore</span>
+                <span class="workshop">Perl Workshop</span>
+              </div>
+            </a>
+          </td>
+        </tr>
+        </table>
+        <!-- <h1>use Civic::Engagement;</h1> -->
+      </div>
+
+
+      <div id="menu"> <h2> <a href="/dcbpw2015/">DCBPW 2015</a> </h2> <li> <a href="/dcbpw2015/dcbpw.ics"> <span class="icon"><img src="/dcbpw2015/calendar-icon.png"></span> When: Sat-Sun, April 11-12, 2015 </a> </li> <li> <a href="/dcbpw2015/venue.html"> <span class="icon"><img src="/dcbpw2015/map-place-icon.png"></span> Location: Silver Spring, MD </a> </li> <li> <a href="/dcbpw2015/hotel.html"> <span class="icon"><img src="/dcbpw2015/map-place-icon.png"></span> Stay: Hotel/Travel Info </a> </li> <li> <a href="/dcbpw2015/sponsors.html"> <span class="icon">♥</span> Support our Sponsors! </a> </li> <li> <a href="/dcbpw2015/news"> <span class="icon"><img src="/dcbpw2015/rss.jpg"></span> News </a> (<a href="http://dcbpw.org/dcbpw2015/atom/en.xml">feed</a>) </li> <li> <a href="/dcbpw2015/wiki"> <span class="icon"><img src="/dcbpw2015/link.jpg"></span> Wiki </a> (community content) <ul> <li>→ <a href="/dcbpw2015/wiki?node=LocalTransit">LocalTransit</a></li> <li>→ <a href="/dcbpw2015/wiki?node=VenueDetail">VenueDetail</a> (Wifi)</li> <li>→ <a href="/dcbpw2015/wiki?node=SaturdayDinner">SaturdayDinner</a></li> </ul> </li> <!-- user menu --> <h2> Log In / Register </h2> <li>First register with the site (ACT),<br>then buy your ticket!</li> <li> <a href="/dcbpw2015/main">Log in</a> </li> <!-- users menu --> <h2> Users </h2> <li> <a href="/dcbpw2015/search"> Search </a> </li> <li> <a href="/dcbpw2015/stats"> Statistics </a> </li> <!-- talks menu --> <h2> <a href="/dcbpw2015/talks"> Presentations </a> </h2> <li> <a href="/dcbpw2015/proceedings"> List of Talks </a> </li> <li> <a href="/dcbpw2015/schedule"> Schedule </a> </li> <li> <a href="/dcbpw2015/timetable.ics"> iCal export </a> </li> <li> <a href="/dcbpw2015/newtalk"> Submit a talk proposal </a> </li> <!-- money menu --> <!-- admin menu --> <h2> <a href="http://act.mongueurs.net/conferences.html">Other conferences</a> </h2> <li><a href="http://pghpw.org/ppw2015/">Pittsburgh Perl Workshop 2015</a></li> <li><a href="http://workshop.barcelona.pm/barcelona2015/">Barcelona Perl Workshop 2015</a></li> <li><a href="http://patch.pm/p3/">patch -p3</a></li> <li><a href="http://act.yapc.eu/lpw2015/">London Perl Workshop</a></li> <li><a href="http://act.yapc.eu/gpw2016/">German Perl Workshop 2016</a></li>  </div>
+
+      <div id="content">  <h2>use Civic::Engagement;</h2>
+
+<br/><br/> <script type="text/javascript">
+if (window.act) {
+    var titles = [  'remove from personal schedule',  'add to personal schedule',  ];
+    toggle_image = function(elem, talk_id, set) {
+        var data = { img_name: set ? 'picked' : 'unpicked',
+                     title:    titles[set ? 0 : 1 ],
+                     talk_id:  talk_id,
+                     set:      set
+        };
+        $(elem).replaceWith( act.template("tpl_mtbutton", data) );  $("#my-"+talk_id+"-text").replaceWith( act.template("tpl_mtlabel", data) );  };
+    toggle_count = function(talk_id, set) {
+        var elemcount = "#starcount-" + talk_id;
+        $(elemcount).replaceWith(
+            act.template("tpl_starcount",
+                         { talk_id: talk_id,
+                           count: (parseInt($(elemcount + " > .starcount").text()) || 0) + (set ? 1 : -1)
+                         }
+                        ));
+    };
+    toggle_talk = function(elem, talk_id, set) {
+        $.post(act.make_uri('dcbpw2015', 'updatemytalks_a'), {talk_id: talk_id} );
+        toggle_image(elem, talk_id, !set);
+        toggle_count(talk_id, !set);
+    };
+    $(function() {
+        $(".mytalks_submit").remove();
+        $(":checkbox").each(function() {
+            toggle_image(this, $(this).val(), $(this).prop("checked"));
+        });
+    });
+}
+</script>
+
+ <script type="text/html" id="tpl_mtbutton">
+<img class="mtbutton" src="/images/<%=img_name%>.gif" title="<%=title%>"
+     onClick ="toggle_talk(this,<%=talk_id%>,<%=set%>);" />
+</script>
+
+<script type="text/html" id="tpl_mtlabel">
+<span id="my-<%=talk_id%>-text"><%=title%></span>
+</script>
+
+<script type="text/html" id="tpl_starcount">
+<span id="starcount-<%=talk_id%>" style="white-space:nowrap"><% if (count) { %><span class="starcount"><%=count%></span><img style="vertical-align:middle" src="/images/picked.gif" /><% } %></span>
+</script>
+ <h1>use Civic::Engagement;</h1>
+<p>
+<b>By</b> <a href="/dcbpw2015/user/9254">Joshua Turcotte</a>   <br />  <b>Date:</b> <a href="/dcbpw2015/schedule?day=2015-04-11" >Saturday, 11 April 2015</a> 14:00<br />
+
+<b>Duration:</b> 25 minutes<br />   <b>Target audience:</b> Intermediate/Advanced<br />   <b>Language:</b> English<br />    </p>   <hr />  <p>So, in lieu of better talks, it might be worth having a discussion about something a little meta to Perl, and that would be community.  As a member of the Code-for-NoVA 'brigade,' I have interfaced quite extensively with a slew of folks of varying skill levels, almost none of whom have interacted with Perl either lately or ever.  They even tend to look down on the language as 'old' and 'what relevance could it have anymore?'  Now, WE know that it is just as good as common stalwarts at these events, such as Python, Ruby, et cetera... so it seems to me, perl might attract a few more enthusiasts by deploying itself into the civic hacking community.</p>  <hr />  <b>Attended by:</b>  <a href="/dcbpw2015/user/8355">Graham Ollis (&lrm;plicease&lrm;)</a>,      </div>
+
+      <div id="footerbar"></div>
+
+    </div>
+
+    <div id="footer">
+      <div class=leftside>
+        Website/Logo design by <a href="mailto:a.gasparetti@gmail.com">Angela Gasparetti</a>
+        &nbsp; &nbsp; | &nbsp; &nbsp;
+        <a href="/dcbpw2015/conduct.html">Standards of Conduct</a>
+      </div>
+      Powered by <a href="http://act.mongueurs.net/">Act</a>
+    </div>
+
+  </div>
+  </div>
+
+</body>
+</html>
+ 

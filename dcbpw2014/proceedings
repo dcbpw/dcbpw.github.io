@@ -1,0 +1,284 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+
+  <!-- <META http-equiv="refresh" content="0;URL=http://dcbpw.org/dcbpw2015/"> -->
+
+  <meta name="google-site-verification" content="90o81X5pl3G25RDCUQfDHbHvxfztvI6Niz8GKXGm0ME" />
+  <!-- Document Metadata -->
+  <meta http-equiv="Content-Language" content="en" />
+
+  <!-- OpenId -->  <!-- Atom news feed -->
+  <link rel="alternate" type="application/atom+xml" title="DC-Baltimore Perl Workshop 2014"
+        href="http://dcbpw.org/dcbpw2014/atom/en.xml" />
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" type="text/css" href="/dcbpw2014/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="/css/act-base.css" />
+  <link rel="stylesheet" type="text/css" href="/css/schedule.css" />
+
+  <!-- JavaScript sugar -->
+  <script type="text/javascript" src="/js/jquery.js"></script>
+  <script type="text/javascript" src="/js/act.js"></script>
+
+  <!-- Favorite icon -->
+  <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+</head>
+
+<body>
+  <div id="wrapperwrapper">
+  <div id="wrapper">
+
+    <div id="searchbar">
+      <div>  <a href="/dcbpw2014/main">Log In</a>
+          &nbsp;&nbsp;
+          |
+          &nbsp;&nbsp;
+          <a href="/dcbpw2014/register">Register</a>  &nbsp;&nbsp;
+        |
+        &nbsp;&nbsp;
+        <form method="get" action="http://www.google.com/search">
+          <input type=text name=q id=searchinput>
+          <!-- <input type="submit" value="Google Search" /> -->
+          <input type="hidden"  name="sitesearch" value="dcbpw.org" />
+          <img src="/dcbpw2014/magnifier.png">
+        </form>
+      </div>
+    </div>
+
+    <div id="fakepage">
+
+      <div id=header>
+        <div id="headerbar"></div>
+          
+        <table cellpading=0 cellspacing=0 border=0 id=conference_name_table>
+        <tr>
+          <td valign=middle id="logocol">
+            <a href="/dcbpw2014/">
+            <img src="/dcbpw2014/logo-229x118.png"
+              alt="DCBPW Logo">
+            </a>
+          </td>
+          <td valign=middle>
+            <a href="/dcbpw2014/">
+              <div id="title">
+                <span class="year">2014</span>
+                <span class="dc">DC</span>
+                <span class="dash">-</span>
+                <span class="baltimore">Baltimore</span>
+                <span class="workshop">Perl Workshop</span>
+              </div>
+            </a>
+          </td>
+        </tr>
+        </table>
+        <!--  -->
+      </div>
+
+
+      <div id="menu"> <h2> <a href="http://dcbpw.org/dcbpw2014/">DCBPW 2014</a> </h2> <li> <a href="/dcbpw2014/dcbpw.ics"> <span class="icon"><img src="/dcbpw2014/calendar-icon.png"></span> When: Sat-Sun, May 3-4, 2014 </a> </li> <li> <a href="/dcbpw2014/venue.html"> <span class="icon"><img src="/dcbpw2014/map-place-icon.png"></span> Location: Silver Spring, MD </a> </li> <li> <a href="/dcbpw2014/hotel.html"> <span class="icon"><img src="/dcbpw2014/map-place-icon.png"></span> Stay: Hotel/Travel Info </a> </li> <li> <a href="/dcbpw2014/sponsors.html"> <span class="icon">♥</span> Support our Sponsors! </a> </li> <li> <a href="/dcbpw2014/news"> <span class="icon"><img src="/dcbpw2014/rss.jpg"></span> News </a> (<a href="http://dcbpw.org/dcbpw2014/atom/en.xml">feed</a>) </li> <li> <a href="/dcbpw2014/wiki"> <span class="icon"><img src="/dcbpw2014/link.jpg"></span> Wiki </a> (community content) <ul> <li>→ <a href="/dcbpw2014/wiki?node=LocalTransit">LocalTransit</a></li> <li>→ <a href="/dcbpw2014/wiki?node=VenueDetail">VenueDetail</a> (Wifi)</li> <li>→ <a href="/dcbpw2014/wiki?node=SaturdayDinner">SaturdayDinner</a></li> </ul> </li> <!-- user menu --> <h2> Log In / Register </h2> <li>First register with the site (ACT),<br>then buy your ticket!</li> <li> <a href="/dcbpw2014/main">Log in</a> </li> <!-- users menu --> <h2> Users </h2> <li> <a href="/dcbpw2014/search"> Search </a> </li> <li> <a href="/dcbpw2014/stats"> Statistics </a> </li> <!-- talks menu --> <h2> <a href="/dcbpw2014/talks"> Presentations </a> </h2> <li> <a href="/dcbpw2014/proceedings"> List of Talks </a> </li> <li> <a href="/dcbpw2014/schedule"> Schedule </a> </li> <li> <a href="/dcbpw2014/timetable.ics"> iCal export </a> </li> <li> <a href="/dcbpw2014/newtalk"> Submit a talk proposal </a> </li> <!-- money menu --> <!-- admin menu --> <h2> <a href="http://act.mongueurs.net/conferences.html">Other conferences</a> </h2> <li><a href="http://pghpw.org/ppw2015/">Pittsburgh Perl Workshop 2015</a></li> <li><a href="http://workshop.barcelona.pm/barcelona2015/">Barcelona Perl Workshop 2015</a></li> <li><a href="http://patch.pm/p3/">patch -p3</a></li> <li><a href="http://act.yapc.eu/lpw2015/">London Perl Workshop</a></li> <li><a href="http://act.yapc.eu/gpw2016/">German Perl Workshop 2016</a></li>  </div>
+
+      <div id="content">   <script type="text/javascript">
+if (window.act) {
+    var titles = [  'remove from personal schedule',  'add to personal schedule',  ];
+    toggle_image = function(elem, talk_id, set) {
+        var data = { img_name: set ? 'picked' : 'unpicked',
+                     title:    titles[set ? 0 : 1 ],
+                     talk_id:  talk_id,
+                     set:      set
+        };
+        $(elem).replaceWith( act.template("tpl_mtbutton", data) );  $("#my-"+talk_id+"-text").replaceWith( act.template("tpl_mtlabel", data) );  };
+    toggle_count = function(talk_id, set) {
+        var elemcount = "#starcount-" + talk_id;
+        $(elemcount).replaceWith(
+            act.template("tpl_starcount",
+                         { talk_id: talk_id,
+                           count: (parseInt($(elemcount + " > .starcount").text()) || 0) + (set ? 1 : -1)
+                         }
+                        ));
+    };
+    toggle_talk = function(elem, talk_id, set) {
+        $.post(act.make_uri('dcbpw2014', 'updatemytalks_a'), {talk_id: talk_id} );
+        toggle_image(elem, talk_id, !set);
+        toggle_count(talk_id, !set);
+    };
+    $(function() {
+        $(".mytalks_submit").remove();
+        $(":checkbox").each(function() {
+            toggle_image(this, $(this).val(), $(this).prop("checked"));
+        });
+    });
+}
+</script>
+
+ <script type="text/html" id="tpl_mtbutton">
+<img class="mtbutton" src="/images/<%=img_name%>.gif" title="<%=title%>"
+     onClick ="toggle_talk(this,<%=talk_id%>,<%=set%>);" />
+</script>
+
+<script type="text/html" id="tpl_mtlabel">
+<span id="my-<%=talk_id%>-text"><%=title%></span>
+</script>
+
+<script type="text/html" id="tpl_starcount">
+<span id="starcount-<%=talk_id%>" style="white-space:nowrap"><% if (count) { %><span class="starcount"><%=count%></span><img style="vertical-align:middle" src="/images/picked.gif" /><% } %></span>
+</script>
+  <h2 style="clear: right">  <a href="/dcbpw2014/talk/5384"><b>&lrm;Advances in Multilingual Stemming on CPAN&lrm;</b></a>  </h2>
+
+    <p> <img src="/photos/6061bf53c729ee6851f2228cbecd558c.jpg" border="0" alt="Photo" align=right style="margin-left: 1em; width: 200px"> <a href="/dcbpw2014/user/5149">Nova Patch (&lrm;patch&lrm;)</a> -  lightning    <!--  -
+        <a href="https://speakerdeck.com/patch/multilingual-stemming-on-cpan">Talk</a>  -->
+    </p>
+
+    <p> The past year has seen multiple advances in stemming algorithms and tools on CPAN, including new stemmers that previously didn’t exist in Perl for multiple natural languages. Let’s take a whirlwind tour of new stemming development in 2013–2014 and demonstrate how Shutterstock uses them for multilingual information retrieval </p>
+  <i><b>Speaker Bio:</b> Nova Patch is an open source developer on the International team at Shutterstock, specializing in internationalization, localization, and multilingual search; and focusing on crafting internationalized web applications and services to support the world’s languages, writing systems, and cultures. </i>   <p>&nbsp;</p>
+    <p>&nbsp;</p>  <h2 style="clear: right">  <a href="/dcbpw2014/talk/5502"><b>&lrm;Civic Hacking, Youth Education, and popularizing Perl&lrm;</b></a>  </h2>
+
+    <p> <img src="/photos/523d87d41886811a1830926c691c3e13.jpg" border="0" alt="Photo" align=right style="margin-left: 1em; width: 200px"> <a href="/dcbpw2014/user/9254">Joshua Turcotte</a> -  lightning    <!--  -->
+    </p>
+
+    <p> I would like to rant meta for a bit and string together a slew of separate experiences I have been having, re: the diminishing community supporting perl, thrusts to make new generations of coders (see: raspberry pi), and civic hacking (bringing the power of code to good to assist communities and governments...  [...] </p>
+  <i><b>Speaker Bio:</b> A modest perl developer having spent a little over a decade (from perl infancy) in a sheltered bay that never contributed to CPAN and never went open source... so, I have to socialize myself among other perl mongers if I'm going to grow into this talent. </i>   <p>&nbsp;</p>
+    <p>&nbsp;</p>  <h2 style="clear: right">  <a href="/dcbpw2014/talk/5387"><b>&lrm;Dancer:  Getting to Hello World&lrm;</b></a>  </h2>
+
+    <p> <img src="/photos/04484cb463f05bccc12f08e84dfa9ec0.jpg" border="0" alt="Photo" align=right style="margin-left: 1em; width: 200px"> <a href="/dcbpw2014/user/232">R Geoffrey Avery (&lrm;rGeoffrey&lrm;)</a> -  25 minutes   - 03/05/14 09:30   <!--  -
+        <a href="http://platypiventures.com/perl/present">Talk</a>  -->
+    </p>
+
+    <p> When attempting to learn Dancer I ran into the problem that all the documentation started from &quot;Here is a 'Hello World' script&quot;.  But that was assuming many things were set up and configured and that just was not true, at least not on my server. </p>
+  <i><b>Speaker Bio:</b>  </i>  <i><b>Speaker Bio:</b> For many years a Perl Bioinformatics programmer in Philadelphia for a major pharma company helping scientists load, process, analyze and view their data.  Now making sure a credit card swipe causes the money to get to the right place.<br /><br />Keeper of the lighting talks gong.<br /><br />Geoff really should get a life and go to fewer conferences:<br />OSCON 1999,2001,2004,2007-11,2013-14<br />PerlWhirl 1-2<br />YAPC::NA 1999-2015<br />YAPC::EU 2002-11,2013-15<br />PittsburghPW 2006-08, 2010-11, 2013-14 (15)<br />FrozenPerl 2010<br />DC-BaltimorePW 2012-15<br /> = 170 days (+ 2 this season) </i>   <p>&nbsp;</p>
+    <p>&nbsp;</p>  <h2 style="clear: right">  <a href="/dcbpw2014/talk/5394"><b>&lrm;Foreign Function Interface (FFI) + Perl&lrm;</b></a>  </h2>
+
+    <p> <img src="/photos/c490211a455d8babd068552991fb7550.jpg" border="0" alt="Photo" align=right style="margin-left: 1em; width: 200px"> <a href="/dcbpw2014/user/8355">Graham Ollis (&lrm;plicease&lrm;)</a> -  25 minutes   - 03/05/14 14:00   <!--  -
+        <a href="https://docs.google.com/presentation/d/1ULHD1eKZauwS88hx02z6OImGSGvjNJ4UDbiIPF5SAPc/edit?usp=sharing">Talk</a>  -->
+    </p>
+
+    <p> Foreign Function Interface (FFI) is a popular method of implementing extensions that rely on C libraries in languages such as Ruby, Python and Java.  FFI has not hit the big time in Perl, but it has some advantages over Perl’s historical extension language XS.  Migrating parts of CPAN from XS to FFI may ease the transition to alternative Perl implementations or Perl 6.   [...] </p>
+  <i><b>Speaker Bio:</b> I am a full time Perl developer.  I am active on CPAN in the area of FFI and Alien, and interested in infrastructure in general.  I am currently the release manager for Alien::Base.  I am made in Australia and from New Mexico.  My favorite animal is the Platypus.  My favorite food is green chili.<br /><br />Contact on twitter @plicease. </i>   <p>&nbsp;</p>
+    <p>&nbsp;</p>  <h2 style="clear: right">  <a href="/dcbpw2014/talk/5385"><b>&lrm;How to run a Perl Workshop or Conference&lrm;</b></a>  </h2>
+
+    <p> <img src="/photos/2d1ccfc6307e8816db1ab6c3db228dd1.png" border="0" alt="Photo" align=right style="margin-left: 1em; width: 200px"> <a href="/dcbpw2014/user/1815">Heath Bair (&lrm;Candybar&lrm;)</a> -  25 minutes   - 03/05/14 11:00   -
+        <a href="https://docs.google.com/presentation/d/1HSnci2xflsStMcktaWKQ_6f5jm3yhl1coUg9tC-8iuQ/edit?usp=sharing">Abstract</a>  <!--  -->
+    </p>
+
+    <p> So you want to learn what it takes to run a Perl workshop or a conference in your home town.  </p>
+  <i><b>Speaker Bio:</b> Conferences Chairman<br />The Perl Foundation </i>   <p>&nbsp;</p>
+    <p>&nbsp;</p>  <h2 style="clear: right">  <a href="/dcbpw2014/talk/5504"><b>&lrm;Intro to Regular Expressions&lrm;</b></a>  </h2>
+
+    <p> <img src="http://www.gravatar.com/avatar/5fb5301cb7c43625668350696db215cd?s=100&d=404" border="0" alt="Photo" align=right style="margin-left: 1em; width: 200px">  <a href="/dcbpw2014/user/8484">Stephen Belcher</a> -  55 minutes   - 03/05/14 10:00   <!--  -->
+    </p>
+
+    <p> This tutorial will cover everything you need to get started with regular expressions: repetitions, captures/backreferences, search and replace, and more. </p>
+  <i><b>Speaker Bio:</b>  </i>   <p>&nbsp;</p>
+    <p>&nbsp;</p>  <h2 style="clear: right">  <a href="/dcbpw2014/talk/5386"><b>&lrm;Lightning Talks&lrm;</b></a>  </h2>
+
+    <p> <img src="/photos/04484cb463f05bccc12f08e84dfa9ec0.jpg" border="0" alt="Photo" align=right style="margin-left: 1em; width: 200px"> <a href="/dcbpw2014/user/232">R Geoffrey Avery (&lrm;rGeoffrey&lrm;)</a> -  30 minutes   - 03/05/14 15:30   <!--  -
+        <a href="http://dcbpw.org/dcbpw2014/newtalk">Talk</a>  -->
+    </p>
+
+    <p> Schedule: </p>
+  <i><b>Speaker Bio:</b>  </i>  <i><b>Speaker Bio:</b> For many years a Perl Bioinformatics programmer in Philadelphia for a major pharma company helping scientists load, process, analyze and view their data.  Now making sure a credit card swipe causes the money to get to the right place.<br /><br />Keeper of the lighting talks gong.<br /><br />Geoff really should get a life and go to fewer conferences:<br />OSCON 1999,2001,2004,2007-11,2013-14<br />PerlWhirl 1-2<br />YAPC::NA 1999-2015<br />YAPC::EU 2002-11,2013-15<br />PittsburghPW 2006-08, 2010-11, 2013-14 (15)<br />FrozenPerl 2010<br />DC-BaltimorePW 2012-15<br /> = 170 days (+ 2 this season) </i>   <p>&nbsp;</p>
+    <p>&nbsp;</p>  <h2 style="clear: right">  <a href="/dcbpw2014/talk/5519"><b>&lrm;Reference on References&lrm;</b></a>  </h2>
+
+    <p> <img src="http://www.gravatar.com/avatar/e5ac34bc43f10d280e7fbdf459a0d443?s=100&d=404" border="0" alt="Photo" align=right style="margin-left: 1em; width: 200px">  <a href="/dcbpw2014/user/10444">Michael Stemle (&lrm;manchicken&lrm;)</a> -  lightning    <!--  -->
+    </p>
+
+    <p> I have a super quick demo on references in Perl. Topics covered involve copying references and scalars, and tracking their locations and values throughout the program </p>
+  <i><b>Speaker Bio:</b> Mike Stemle, Jr. is a Sr. Software Engineer with more than 16 years of professional software experience. He's worked in early social media, telecom, advertising, e-commerce, and billing. He's written things as small as the first ever web message board for `farmer.com` and other things as big as billing systems processing more than 100K transactions per hour.<br /><br />Hailing from Fairfax, VA he fights the good fight along side his good pal, Timmy, and all of the amazing folks at ThinkGeek, Inc. Mike is naturally low in cholesterol, and only to be used as directed.<br /><br />_These statements have not been evaluated by the Food and Drug Administration. This product is not intended to diagnose, treat, cure, or prevent any disease._<br /><br />You can find out more about Mike Stemle, Jr. here:<br /><br /> - [Github Resume](http://resume.github.io/?manchicken)<br /> - [Twitter](https://twitter.com/manchicken)<br /> - [Blog](http://www.manchicken.com) </i>   <p>&nbsp;</p>
+    <p>&nbsp;</p>  <h2 style="clear: right">  <a href="/dcbpw2014/talk/5507"><b>&lrm;Something introductory about Pentominoes and Tiling&lrm;</b></a>  </h2>
+
+    <p> <img src="/photos/44a35e4fb8d0c9dba68d2988e03b1b3f.jpg" border="0" alt="Photo" align=right style="margin-left: 1em; width: 200px"> <a href="/dcbpw2014/user/8436">philip hood</a> -  25 minutes   - 03/05/14 10:30   <!--  -
+        <a href="http://www.perlish.org/~pth/dcbpw/2014/dcbpw_2014_pth.pdf">Talk</a>  -->
+    </p>
+
+    <p> I have had some fun thinking about pentominoes and tiling (more generally), and thought to present some of my (pretty brutal) observations and some (again, pretty brutal &amp; fairly naïve) algorithms in both creating and solving some pentomino puzzles.  [...] </p>
+  <i><b>Speaker Bio:</b>  </i>   <p>&nbsp;</p>
+    <p>&nbsp;</p>  <h2 style="clear: right">  <a href="/dcbpw2014/talk/5503"><b>&lrm;State in Clojure&lrm;</b></a>  </h2>
+
+    <p> <img src="/photos/ce98f49cc009c454e14c37021e5f5267.png" border="0" alt="Photo" align=right style="margin-left: 1em; width: 200px"> <a href="/dcbpw2014/user/1650">Brock Wilcox (&lrm;awwaiid&lrm;)</a> -  25 minutes   - 03/05/14 14:30   <!--  -->
+    </p>
+
+    <p> Managing state in our programs is one of the most important and difficult things we do, especially in concurrent execution situations. In this talk I will talk about how it is done in Clojure, comparing that to perl and discussing where we can steal some ideas </p>
+  <i><b>Speaker Bio:</b> Brock (awwaiid) is a lover of programming, harmonicas, kitties, and his wife (not necessarily in that order). And other things too. He has a degree in Philosophy, so beware of his code being on the slightly philosophical side. He invites conversation and community involvement on any of his projects! </i>   <p>&nbsp;</p>
+    <p>&nbsp;</p>  <h2 style="clear: right">  <a href="/dcbpw2014/talk/5501"><b>&lrm;Test your Perl Code!&lrm;</b></a>  </h2>
+
+    <p> <img src="/photos/523d87d41886811a1830926c691c3e13.jpg" border="0" alt="Photo" align=right style="margin-left: 1em; width: 200px"> <a href="/dcbpw2014/user/9254">Joshua Turcotte</a> -  55 minutes   - 03/05/14 14:00   <!--  -
+        <a href="https://github.com/jeturcotte/unit-testing-and-perl">Talk</a>  -->
+    </p>
+
+    <p> This tutorial session shall deal with larger concepts, primarily Unit testing, but with honorable mention to TDD (test driven design) and BDD (behavior driven design) with implementation in Perl.  Why you should do it; what you should do; what you shouldn't do; when; where; and some examples of how.  Bring your own cat pictures (BYOCP) </p>
+  <i><b>Speaker Bio:</b> A modest perl developer having spent a little over a decade (from perl infancy) in a sheltered bay that never contributed to CPAN and never went open source... so, I have to socialize myself among other perl mongers if I'm going to grow into this talent. </i>   <p>&nbsp;</p>
+    <p>&nbsp;</p>  <h2 style="clear: right">  <a href="/dcbpw2014/talk/5428"><b>&lrm;The Intersection of Code and Art&lrm;</b></a>  </h2>
+
+    <p> <img src="/photos/f63af44f51b32f541717dc1908004cef.png" border="0" alt="Photo" align=right style="margin-left: 1em; width: 200px"> <a href="/dcbpw2014/user/1797">Stevan Little (&lrm;stevan&lrm;)</a> -  55 minutes   - 03/05/14 11:00   <!--  -->
+    </p>
+
+    <p> The act of computer programming often involves the use of creativity to do things such as; solve problems, design APIs and architect solutions. Can we then infer that the use of creativity during the act means that the produced result is a piece of art? Of course not, but does that mean that code itself cannot be viewed in an aesthetic light? Can code be art? For that matter, what is art?  </p>
+  <i><b>Speaker Bio:</b> Stevan hacks Perl and stuff </i>  <i><b>Speaker Bio:</b>  </i>   <p>&nbsp;</p>
+    <p>&nbsp;</p>  <h2 style="clear: right">  <a href="/dcbpw2014/talk/5461"><b>&lrm;The Reese's peanut butter cup of web-dev: Plack and single-page web apps&lrm;</b></a>  </h2>
+
+    <p> <img src="/photos/6aa07f673dd1fd4f47e90163b954dd2b.jpg" border="0" alt="Photo" align=right style="margin-left: 1em; width: 200px"> <a href="/dcbpw2014/user/2196">John Anderson (&lrm;genehack&lrm;)</a> -  25 minutes   - 03/05/14 15:00   <!--  -->
+    </p>
+
+    <p> I'll present a quick overview of what single-page web apps are, and show one way to combine a Plack-based app that both powers the back-end API and delivers the initial page payload of the web app. I'll also discuss strategies for mixing together idiomatic Perl library organization with the way things are typically done in the Javascript community </p>
+  <i><b>Speaker Bio:</b> I make cool stuff on the web.<br /><br />If you need to get me on the phone, +1.301.246.0369. </i>   <p>&nbsp;</p>
+    <p>&nbsp;</p>  <h2 style="clear: right">  <a href="/dcbpw2014/talk/5395"><b>&lrm;The year in toolchain&lrm;</b></a>  </h2>
+
+    <p> <img src="http://www.gravatar.com/avatar/d171edb8b959fe8a4564c636bdd2d9e8?s=100&d=404" border="0" alt="Photo" align=right style="margin-left: 1em; width: 200px">  <a href="/dcbpw2014/user/5256">Graham Knop (&lrm;haarg&lrm;)</a> -  25 minutes   - 03/05/14 10:00   <!--  -->
+    </p>
+
+    <p> What's been happening in Perl's module authoring, building, testing, and installing tools in 2013 and 2014 </p>
+  <i><b>Speaker Bio:</b>  </i>   <p>&nbsp;</p>
+    <p>&nbsp;</p>  <h2 style="clear: right">  <a href="/dcbpw2014/talk/5518"><b>&lrm;Twitterers Anonymous&lrm;</b></a>  </h2>
+
+    <p> <img src="/photos/6aa07f673dd1fd4f47e90163b954dd2b.jpg" border="0" alt="Photo" align=right style="margin-left: 1em; width: 200px"> <a href="/dcbpw2014/user/2196">John Anderson (&lrm;genehack&lrm;)</a> -  lightning    <!--  -->
+    </p>
+
+    <p> I've got a Twitter problem. I'm writing some software to help. This is my story </p>
+  <i><b>Speaker Bio:</b> I make cool stuff on the web.<br /><br />If you need to get me on the phone, +1.301.246.0369. </i>   <p>&nbsp;</p>
+    <p>&nbsp;</p>  <h2 style="clear: right">  <a href="/dcbpw2014/talk/5383"><b>&lrm;Unicode Beyond Just Characters: Localization with the CLDR&lrm;</b></a>  </h2>
+
+    <p> <img src="/photos/6061bf53c729ee6851f2228cbecd558c.jpg" border="0" alt="Photo" align=right style="margin-left: 1em; width: 200px"> <a href="/dcbpw2014/user/5149">Nova Patch (&lrm;patch&lrm;)</a> -  25 minutes   - 03/05/14 09:30   <!--  -
+        <a href="https://speakerdeck.com/patch/perl-localization-with-the-unicode-cldr">Talk</a>  -->
+    </p>
+
+    <p> Unicode is much more than just characters. The Unicode Consortium defines open standards for collating, parsing, and formatting data in much of the world’s languages. The Common Locale Data Repository (CLDR) is the largest standard repository of locale data along with specifications for its use and is a powerful resource for software localization.  [...] </p>
+  <i><b>Speaker Bio:</b> Nova Patch is an open source developer on the International team at Shutterstock, specializing in internationalization, localization, and multilingual search; and focusing on crafting internationalized web applications and services to support the world’s languages, writing systems, and cultures. </i>   <p>&nbsp;</p>
+    <p>&nbsp;</p>  <h2 style="clear: right">  <a href="/dcbpw2014/talk/5500"><b>&lrm;Web Identity Techniques &amp; Perl&lrm;</b></a>  </h2>
+
+    <p> <img src="/photos/1d75816114a640f33b0b17619ab12157.jpg" border="0" alt="Photo" align=right style="margin-left: 1em; width: 200px"> <a href="/dcbpw2014/user/10489">Zak Zebrowski</a> -  lightning    <!--  -
+        <a href="http://opensecuritytraining.info/WebIdentity.html">Talk</a>  -->
+    </p>
+
+    <p> When you browse the web, there are multiple things that can be done to identify who you are.  We will also talk about ways of obfuscating your identity.  Techniques that use perl as a back end will be highlighted.  A 4 hour youtube session, and a lot of slides, are available at http://opensecuritytraining.info/WebIdentity.htm </p>
+ <p>&nbsp;</p>
+    <p>&nbsp;</p>  <h2 style="clear: right">  <a href="/dcbpw2014/talk/5406"><b>&lrm;Writing Maintainable Perl&lrm;</b></a>  </h2>
+
+    <p> <img src="http://www.gravatar.com/avatar/f5e66ecc68a738744e2f4bcea2dcb2d3?s=100&d=404" border="0" alt="Photo" align=right style="margin-left: 1em; width: 200px">  <a href="/dcbpw2014/user/10562">David Bradford</a> -  25 minutes   - 03/05/14 11:30   -
+        <a href="http://is.gd/MbOdFl">Abstract</a>  <!--  -->
+    </p>
+
+    <p> One criticism of opponents of Perl is that it is a &quot;write-only&quot; language meaning that once the code is written, it is extremely difficult to maintain because it is difficult to understand upon re-examination. As with many criticisms, this should be aimed at those undisciplined developers who are writing the code, and not their tool of choice. </p>
+ <p>&nbsp;</p>
+    <p>&nbsp;</p>   </div>
+
+      <div id="footerbar"></div>
+
+    </div>
+
+    <div id="footer">
+      <div class=leftside>
+        Website/Logo design by <a href="mailto:a.gasparetti@gmail.com">Angela Gasparetti</a>
+        &nbsp; &nbsp; | &nbsp; &nbsp;
+        <a href="/dcbpw2014/conduct.html">Standards of Conduct</a>
+      </div>
+      Powered by <a href="http://act.mongueurs.net/">Act</a>
+    </div>
+
+  </div>
+  </div>
+
+</body>
+</html>
+ 

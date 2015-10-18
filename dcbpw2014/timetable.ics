@@ -1,0 +1,421 @@
+BEGIN:VCALENDAR
+CALSCALE:GREGORIAN
+PRODID:-//Act//Data::ICal 0.16//EN
+VERSION:2.0
+X-WR-CALNAME:DC-Baltimore Perl Workshop 2014
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+X-LIC-LOCATION:America/New_York
+BEGIN:DAYLIGHT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+TZNAME:EDT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+TZNAME:EST
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DESCRIPTION:Come and get your badges and have a cup of coffee and a snack!
+DTEND;TZID=America/New_York:20140503T091500
+DTSTART;TZID=America/New_York:20140503T083000
+LOCATION:
+SUMMARY:Registration
+UID:http://dcbpw.org/dcbpw2014/event/1546
+URL:http://dcbpw.org/dcbpw2014/event/1546
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Introduction to the 3rd DC-Baltimore Perl Workshop and all that
+  it has to offer!
+DTEND;TZID=America/New_York:20140503T093000
+DTSTART;TZID=America/New_York:20140503T091500
+LOCATION:
+SUMMARY:Welcome!
+UID:http://dcbpw.org/dcbpw2014/event/1544
+URL:http://dcbpw.org/dcbpw2014/event/1544
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Follow speaker to a restaraunt\, or strike out on your own!
+DTEND;TZID=America/New_York:20140503T135500
+DTSTART;TZID=America/New_York:20140503T123000
+LOCATION:
+SUMMARY:Lunch Out On The Town!
+UID:http://dcbpw.org/dcbpw2014/event/1541
+URL:http://dcbpw.org/dcbpw2014/event/1541
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Talk by rjbs!
+DTEND;TZID=America/New_York:20140503T165000
+DTSTART;TZID=America/New_York:20140503T160000
+LOCATION:Ellsworth East
+SUMMARY:Keynote
+UID:http://dcbpw.org/dcbpw2014/event/1534
+URL:http://dcbpw.org/dcbpw2014/event/1534
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Bring a laptop and ideas for projects! Or come over and we have
+  plenty of ideas to share!
+DTEND;TZID=America/New_York:20140504T180000
+DTSTART;TZID=America/New_York:20140504T100000
+LOCATION:
+SUMMARY:Hackathon - Bring a laptop!
+UID:http://dcbpw.org/dcbpw2014/event/1535
+URL:http://dcbpw.org/dcbpw2014/event/1535
+END:VEVENT
+BEGIN:VEVENT
+ATTENDEE:Lawrence Hixson
+ATTENDEE:Mohammed Chaudhry
+ATTENDEE:Nova Patch
+ATTENDEE:Graham Ollis
+ATTENDEE:Zak Zebrowski
+COMMENT:5 attendees
+DESCRIPTION:Unicode is much more than just characters. The Unicode Consorti
+ um defines open standards for collating\, parsing\, and formatting data in
+  much of the world’s languages. The Common Locale Data Repository (CLDR) i
+ s the largest standard repository of locale data along with specifications
+  for its use and is a powerful resource for software localization. Unicode
+  CLDR is quickly becoming the de facto locale standard with widespread use
+  among companies including Google\, Apple\, and IBM\; projects ranging fro
+ m Linux distributions to Wikipedia\; and increasing support in many progra
+ mming languages.\n\nThis talk will provide an introduction to software loc
+ alization with the CLDR\, highlight several CLDR-based CPAN projects\, dem
+ onstrate how Shutterstock uses and contributes to them\, and discuss the r
+ emaining work for the Perl community to provide first-class CLDR support.
+DTEND;TZID=America/New_York:20140503T095500
+DTSTART;TZID=America/New_York:20140503T093000
+LOCATION:Ellsworth East
+ORGANIZER:Nova Patch
+SUMMARY:Unicode Beyond Just Characters: Localization with the CLDR
+UID:http://dcbpw.org/dcbpw2014/talk/5383
+URL:http://dcbpw.org/dcbpw2014/talk/5383
+END:VEVENT
+BEGIN:VEVENT
+ATTENDEE:Lawrence Hixson
+ATTENDEE:Zak Zebrowski
+COMMENT:2 attendees
+DESCRIPTION:So you want to learn what it takes to run a Perl workshop or a 
+ conference in your home town. \n\nDo you want to have TPF back you?\nDo yo
+ u need a financial kick-start?\nDo you have a budget or a plan?\n\nCome an
+ d learn what it takes to start from an awesome idea and grow it into next 
+ years YAPC::NA!
+DTEND;TZID=America/New_York:20140503T112500
+DTSTART;TZID=America/New_York:20140503T110000
+LOCATION:Ellsworth West
+ORGANIZER:Heath Bair
+SUMMARY:How to run a Perl Workshop or Conference
+UID:http://dcbpw.org/dcbpw2014/talk/5385
+URL:http://dcbpw.org/dcbpw2014/talk/5385
+END:VEVENT
+BEGIN:VEVENT
+ATTENDEE:R Geoffrey Avery
+ATTENDEE:Lawrence Hixson
+ATTENDEE:Nova Patch
+ATTENDEE:Graham Ollis
+ATTENDEE:Mark Gardner
+ATTENDEE:Sean O'Leary
+ATTENDEE:Jennifer Pinkham
+ATTENDEE:Zak Zebrowski
+COMMENT:8 attendees
+DESCRIPTION:Schedule:\n\nAdvances in Multilingual Stemming on CPAN\nReferen
+ ce on References\nWeb Identity Techniques & Perl\nCivic Hacking\, Youth Ed
+ ucation\, and popularizing Perl\nTwitterers Anonymous\n\n\n\nThese Lig­htn
+ ­ing Talks may be seri­ous\, funny\, or both. They may be given by ex­peri
+ en­ced speak­ers al­ready giv­ing full length talks or by first time speak
+ ­ers just start­ing out (this is a great way to get star­ted if you have s
+ ome­th­ing to say). If you are a first time speak­er you will win a tie wi
+ th an ex­peri­ence speak­er when the schedule is made if it comes to it. T
+ oday's first time speak­er could give tomor­row's keynote.\n\nWe will have
+  about 5 Lig­htn­ing Talks of 5 minutes. Sub­mit your talk through the sub
+ ­mit talk link on this web­site. The first de­ad­line is with the full len
+ gth talks. The second de­ad­line is one week be­fore the con­fer­ence star
+ ts and many pro­pos­als will be ac­cepted. At least one speak­ing spot wil
+ l be held open until the morning of the talks to give you a chan­ce to see
+  some­th­ing at the con­fer­ence and put togeth­er a Lig­htn­ing Talk re­s
+ pon­se. Howev­er if you wait for the later de­ad­lines note that there are
+  fewer spots avail­able and you are less li­ke­ly to be ac­cepted so pleas
+ e try to sub­mit more than a week be­fore the con­fer­ence.\n\nIn ad­di­ti
+ on to the five minute Lig­htn­ing Talks where you get to use your com­put­
+ er\, slides\, and any other tool\, we will also have some Lig­htn­ing Ad­v
+ ertise­ments. These are only 30 seconds\, you don't have to sub­mit a pro­
+ pos­al\, you don't get any slides\, and the only AV as­sis­tance of­fered 
+ is a micro­phone. If you have a BOF to an­noun­ce\, an auc­tion item so ad
+ ­vert­ise or any other short mes­sage you can use the trans­i­tion time th
+ at would be ot­herw­ise was­ted bet­ween Lig­htn­ing Talks to share your m
+ es­sage. Just show up be­fore we start and take a seat in the as­sig­ned s
+ eats in the front of the room.\n\nWhy Would You Want to do a Lig­htn­ing T
+ alk? Maybe you've never given a talk be­fore\, and you'd like to start sma
+ ll. For a Lig­htn­ing Talk\, you don't need to make slides\, and if you do
+  de­cide to make slides\, you only need to make three. Maybe you're nerv­o
+ us and you're af­raid you'll mess up. It's a lot eas­i­er to plan and de­l
+ iv­er a five minute talk than it is to de­liv­er a long talk. And if you d
+ o mess up\, at least the pain­ful part will be over quick­ly. Maybe you do
+ n't have much to say. Maybe you just want to ask a ques­tion\, or in­vite 
+ peo­ple to help you with your pro­ject\, or boast about some­th­ing you di
+ d\, or tell a short cautiona­ry story. These th­ings are all in­terest­ing
+  and worth talk­ing about\, but there might not be en­ough to say about th
+ em to fill up thir­ty minutes. Maybe you have a lot of th­ings to say\, an
+ d you're al­ready going to give a long talk on one of them\, and you don't
+  want to hog the spot­light. There's noth­ing wrong with giv­ing sever­al 
+ Lig­htn­ing Talks. Hey\, they're only five minutes. On the other side\, pe
+ o­ple might want to come to a lig­htn­ing talk when they would­n't come to
+  a long talk on the same sub­ject. The risk for the at­tendees is small­er
+ : If the talk turns out to be dull\, or if the per­son giv­ing the talk tu
+ rns out to be a rea­l­ly bad speak­er\, well\, at least it's over in five 
+ minutes. With lig­htn­ing talks\, you're never stuck in some bor­ing lec­t
+ ure for forty-five minutes.\n\nStill hav­ing troub­le pick­ing a topic\, h
+ ere are some sug­ges­tions:\n\n1. Why my favorite module is X.\n2. I want 
+ to do cool pro­ject X. Does an­yone want to help?\n3. Suc­cess­ful Pro­jec
+ t: I did pro­ject X. It was a suc­cess. Here's how you could be­nefit.\n4.
+  Failed Pro­ject: I did pro­ject X. It was a failure\, and here's why.\n5.
+  Heresy: Peo­ple al­ways say X\, but they're wrong. Here's why.\n6. You Al
+ l Suck: Here's what is wrong with the our com­mun­ity. 7. Call to Ac­tion:
+  Let's all do more of X / less of X.\n8. Would­n't it be cool if X?\n9. So
+ me­one needs to do X.\n10. Wish List\n11. Why X was a mis­take.\n12. Why X
+  looks like a mis­take\, but isn't.\n13. What it's like to do X.\n14. Here
+ 's a use­ful tech­nique that wor­ked.\n15. Here's a tech­nique I thought w
+ ould be use­ful but didn't work.\n16. Why al­gorithm X sucks.\n17. Com­par
+ ison of al­gorithms X and Y.\n\nOf co­ur­se\, you could give the talk on a
+ n­yth­ing you wan­ted\, wheth­er or not it is on this list. If we get a fu
+ ll schedule of noth­ing but five minutes of rant­ing and rav­ing on each t
+ opic\, a good time will still be had by most.
+DTEND;TZID=America/New_York:20140503T160000
+DTSTART;TZID=America/New_York:20140503T153000
+LOCATION:Ellsworth East
+ORGANIZER:R Geoffrey Avery
+SUMMARY:Lightning Talks
+UID:http://dcbpw.org/dcbpw2014/talk/5386
+URL:http://dcbpw.org/dcbpw2014/talk/5386
+END:VEVENT
+BEGIN:VEVENT
+ATTENDEE:R Geoffrey Avery
+ATTENDEE:Mark Gardner
+ATTENDEE:Sean O'Leary
+ATTENDEE:Jennifer Pinkham
+COMMENT:4 attendees
+DESCRIPTION:When attempting to learn Dancer I ran into the problem that all
+  the documentation started from "Here is a 'Hello World' script".  But tha
+ t was assuming many things were set up and configured and that just was no
+ t true\, at least not on my server.\n\nThis is a collection of what I lear
+ ned.
+DTEND;TZID=America/New_York:20140503T095500
+DTSTART;TZID=America/New_York:20140503T093000
+LOCATION:Ellsworth West
+ORGANIZER:R Geoffrey Avery
+SUMMARY:Dancer:  Getting to Hello World
+UID:http://dcbpw.org/dcbpw2014/talk/5387
+URL:http://dcbpw.org/dcbpw2014/talk/5387
+END:VEVENT
+BEGIN:VEVENT
+ATTENDEE:Stevan Little
+ATTENDEE:Mohammed Chaudhry
+ATTENDEE:Nova Patch
+ATTENDEE:Graham Ollis
+ATTENDEE:Sean O'Leary
+COMMENT:5 attendees
+DESCRIPTION:Foreign Function Interface (FFI) is a popular method of impleme
+ nting extensions that rely on C libraries in languages such as Ruby\, Pyth
+ on and Java.  FFI has not hit the big time in Perl\, but it has some advan
+ tages over Perl’s historical extension language XS.  Migrating parts of CP
+ AN from XS to FFI may ease the transition to alternative Perl implementati
+ ons or Perl 6.  In this talk I will compare and contrast the two technique
+ s in the context of Perl today\, using as an example the work that I did i
+ mplementing FFI bindings for libarchive with FFI::Raw (Archive::Libarchive
+ ::FFI).  I will focus on work I did creating and using infrastructure that
+  should be applicable to many FFI projects.
+DTEND;TZID=America/New_York:20140503T142500
+DTSTART;TZID=America/New_York:20140503T140000
+LOCATION:Ellsworth East
+ORGANIZER:Graham Ollis
+SUMMARY:Foreign Function Interface (FFI) + Perl
+UID:http://dcbpw.org/dcbpw2014/talk/5394
+URL:http://dcbpw.org/dcbpw2014/talk/5394
+END:VEVENT
+BEGIN:VEVENT
+ATTENDEE:R Geoffrey Avery
+ATTENDEE:Lawrence Hixson
+ATTENDEE:Nova Patch
+ATTENDEE:Graham Ollis
+ATTENDEE:Mark Gardner
+ATTENDEE:Sean O'Leary
+COMMENT:6 attendees
+DESCRIPTION:What's been happening in Perl's module authoring\, building\, t
+ esting\, and installing tools in 2013 and 2014.
+DTEND;TZID=America/New_York:20140503T102500
+DTSTART;TZID=America/New_York:20140503T100000
+LOCATION:Ellsworth East
+ORGANIZER:Graham Knop
+SUMMARY:The year in toolchain
+UID:http://dcbpw.org/dcbpw2014/talk/5395
+URL:http://dcbpw.org/dcbpw2014/talk/5395
+END:VEVENT
+BEGIN:VEVENT
+ATTENDEE:Lawrence Hixson
+ATTENDEE:Mark Gardner
+ATTENDEE:Jennifer Pinkham
+ATTENDEE:Zak Zebrowski
+COMMENT:4 attendees
+DESCRIPTION:One criticism of opponents of Perl is that it is a "write-only"
+  language meaning that once the code is written\, it is extremely difficul
+ t to maintain because it is difficult to understand upon re-examination. A
+ s with many criticisms\, this should be aimed at those undisciplined devel
+ opers who are writing the code\, and not their tool of choice.\n\nHaving s
+ aid that\, I think it is also fair to say that Perl makes it very easy to 
+ write difficult-to-decipher code. This is the double­edged sword which is 
+ the shorthand Perl gives us to be very expressive in a small amount of spa
+ ce. A negative application of this is obfuscated Perl (where the author in
+ tentionally makes his code difficult to read)\, while a more positive appl
+ ication is the craft of creating Perl "one­liners" (trying to include a gr
+ eat deal of functionality in a single line of code). A one­liner can be a 
+ powerful weapon in the arsenal of a system administrator.\n\nIn this talk:
+ \n* We'll look at a line of code in a subroutine that is in desperate need
+  of readability changes\n* We'll make the code more readable by introducin
+ g:\n    * appropriate whitespace\n    * different ways of writing the same
+  thing\, for example: $array[$#array] vs. $array[-1]\n    * useful names f
+ or variables\, versus $index\, $j $k $l\, etc\n    * breaking up one line 
+ of code into multiple lines\n    * exploring further improvements through 
+ Perl::Critic and by extension Perl::Tidy\n\nThis talk will be beginner-fri
+ endly.
+DTEND;TZID=America/New_York:20140503T115500
+DTSTART;TZID=America/New_York:20140503T113000
+LOCATION:Ellsworth West
+ORGANIZER:David Bradford
+SUMMARY:Writing Maintainable Perl
+UID:http://dcbpw.org/dcbpw2014/talk/5406
+URL:http://dcbpw.org/dcbpw2014/talk/5406
+END:VEVENT
+BEGIN:VEVENT
+ATTENDEE:R Geoffrey Avery
+ATTENDEE:Stevan Little
+ATTENDEE:Mohammed Chaudhry
+ATTENDEE:Nova Patch
+ATTENDEE:Graham Ollis
+ATTENDEE:Mark Gardner
+ATTENDEE:Sean O'Leary
+COMMENT:7 attendees
+DESCRIPTION:The act of computer programming often involves the use of creat
+ ivity to do things such as\; solve problems\, design APIs and architect so
+ lutions. Can we then infer that the use of creativity during the act means
+  that the produced result is a piece of art? Of course not\, but does that
+  mean that code itself cannot be viewed in an aesthetic light? Can code be
+  art? For that matter\, what is art? \n\nThis talk will attempt to answer 
+ some of those questions and more. In it we will take a look at some of the
+  ideas and techniques of the 37\,000 year old discipline of art making and
+  attempt to apply them to the 60 year old discipline of computer programmi
+ ng.
+DTEND;TZID=America/New_York:20140503T115500
+DTSTART;TZID=America/New_York:20140503T110000
+LOCATION:Ellsworth East
+ORGANIZER:Stevan Little
+SUMMARY:The Intersection of Code and Art
+UID:http://dcbpw.org/dcbpw2014/talk/5428
+URL:http://dcbpw.org/dcbpw2014/talk/5428
+END:VEVENT
+BEGIN:VEVENT
+ATTENDEE:R Geoffrey Avery
+ATTENDEE:Lawrence Hixson
+ATTENDEE:Stevan Little
+ATTENDEE:Mohammed Chaudhry
+ATTENDEE:Nova Patch
+ATTENDEE:Graham Ollis
+ATTENDEE:Mark Gardner
+ATTENDEE:Sean O'Leary
+ATTENDEE:Jennifer Pinkham
+ATTENDEE:Zak Zebrowski
+COMMENT:10 attendees
+DESCRIPTION:I'll present a quick overview of what single-page web apps are\
+ , and show one way to combine a Plack-based app that both powers the back-
+ end API and delivers the initial page payload of the web app. I'll also di
+ scuss strategies for mixing together idiomatic Perl library organization w
+ ith the way things are typically done in the Javascript community.
+DTEND;TZID=America/New_York:20140503T152500
+DTSTART;TZID=America/New_York:20140503T150000
+LOCATION:Ellsworth East
+ORGANIZER:John Anderson
+SUMMARY:The Reese's peanut butter cup of web-dev: Plack and single-page web
+  apps
+UID:http://dcbpw.org/dcbpw2014/talk/5461
+URL:http://dcbpw.org/dcbpw2014/talk/5461
+END:VEVENT
+BEGIN:VEVENT
+ATTENDEE:R Geoffrey Avery
+ATTENDEE:Lawrence Hixson
+ATTENDEE:Jennifer Pinkham
+ATTENDEE:Zak Zebrowski
+COMMENT:4 attendees
+DESCRIPTION:This tutorial session shall deal with larger concepts\, primari
+ ly Unit testing\, but with honorable mention to TDD (test driven design) a
+ nd BDD (behavior driven design) with implementation in Perl.  Why you shou
+ ld do it\; what you should do\; what you shouldn't do\; when\; where\; and
+  some examples of how.  Bring your own cat pictures (BYOCP).
+DTEND;TZID=America/New_York:20140503T145500
+DTSTART;TZID=America/New_York:20140503T140000
+LOCATION:Ellsworth West
+ORGANIZER:Joshua Turcotte
+SUMMARY:Test your Perl Code!
+UID:http://dcbpw.org/dcbpw2014/talk/5501
+URL:http://dcbpw.org/dcbpw2014/talk/5501
+END:VEVENT
+BEGIN:VEVENT
+ATTENDEE:Stevan Little
+ATTENDEE:Mohammed Chaudhry
+ATTENDEE:Nova Patch
+ATTENDEE:Graham Ollis
+ATTENDEE:Mark Gardner
+ATTENDEE:Sean O'Leary
+COMMENT:6 attendees
+DESCRIPTION:Managing state in our programs is one of the most important and
+  difficult things we do\, especially in concurrent execution situations. I
+ n this talk I will talk about how it is done in Clojure\, comparing that t
+ o perl and discussing where we can steal some ideas.
+DTEND;TZID=America/New_York:20140503T145500
+DTSTART;TZID=America/New_York:20140503T143000
+LOCATION:Ellsworth East
+ORGANIZER:Brock Wilcox
+SUMMARY:State in Clojure
+UID:http://dcbpw.org/dcbpw2014/talk/5503
+URL:http://dcbpw.org/dcbpw2014/talk/5503
+END:VEVENT
+BEGIN:VEVENT
+COMMENT:0 attendees
+DESCRIPTION:This tutorial will cover everything you need to get started wit
+ h regular expressions: repetitions\, captures/backreferences\, search and 
+ replace\, and more.\n\nThis talk is for beginner users\, though intermedia
+ te users may find a kernel or two of previously-unknown wisdom lurking wit
+ hin.
+DTEND;TZID=America/New_York:20140503T105500
+DTSTART;TZID=America/New_York:20140503T100000
+LOCATION:Ellsworth West
+ORGANIZER:Stephen Belcher
+SUMMARY:Intro to Regular Expressions
+UID:http://dcbpw.org/dcbpw2014/talk/5504
+URL:http://dcbpw.org/dcbpw2014/talk/5504
+END:VEVENT
+BEGIN:VEVENT
+ATTENDEE:R Geoffrey Avery
+ATTENDEE:Lawrence Hixson
+ATTENDEE:Nova Patch
+COMMENT:3 attendees
+DESCRIPTION:I have had some fun thinking about pentominoes and tiling (more
+  generally)\, and thought to present some of my (pretty brutal) observatio
+ ns and some (again\, pretty brutal & fairly naïve) algorithms in both crea
+ ting and solving some pentomino puzzles. I'll look briefly look at redelme
+ ier's algorithm for generating and counting polyominoes and Knuth's (via C
+ arl Mäsak's dlx_simple) methods for tiling them\; I'll also look at data m
+ odelling for pentominoes & an n queens problems to be solved as set coveri
+ ngs.
+DTEND;TZID=America/New_York:20140503T105500
+DTSTART;TZID=America/New_York:20140503T103000
+LOCATION:Ellsworth East
+ORGANIZER:philip hood
+SUMMARY:Something introductory about Pentominoes and Tiling
+UID:http://dcbpw.org/dcbpw2014/talk/5507
+URL:http://dcbpw.org/dcbpw2014/talk/5507
+END:VEVENT
+END:VCALENDAR
