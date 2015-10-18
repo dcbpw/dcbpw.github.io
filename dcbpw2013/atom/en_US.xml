@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en_US">
+  <title>DC-Baltimore Perl Workshop 2013</title>
+  <id>http://dcbpw.org/dcbpw2013/atom/en_US.xml</id>
+  <updated>2013-04-22T13:54:00Z</updated>
+  <link type="application/atom+xml" rel="self" href="http://dcbpw.org/dcbpw2013/atom/en_US.xml"/>
+  <link type="text/html" rel="alternate" href="http://dcbpw.org/dcbpw2013/news?language=en_US"/>
+  <entry>
+    <title>Thanks All!</title>
+    <id>http://dcbpw.org/dcbpw2013/en_US/1017</id>
+    <author>
+      <email>awwaiid@thelackthereof.org</email>
+      <name>awwaiid</name>
+    </author>
+    <updated>2013-04-22T13:54:00Z</updated>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml"><p>Thank you all for attending and contributing to the 2013 DC-Baltimore Perl Workshop. Special thanks to our sponsors -- be sure to get in touch with them if you are on the market for Jobs!</p>
+<p>Also thank you again to our organizers. As we said in our wrap up session, we owe a lot of thanks to <a href="https://twitter.com/DSWallis">Dawn Wallis</a>, organizer of the Baltimore Perl Mongers, for doing a whole lot of work but not being able to attend. Thank you Dawn!</p></div>
+    </content>
+    <link type="text/html" rel="alternate" href="http://dcbpw.org/dcbpw2013/news/1017"/>
+  </entry>
+  <entry>
+    <title>Day-Of Info</title>
+    <id>http://dcbpw.org/dcbpw2013/en_US/1016</id>
+    <author>
+      <email>awwaiid@thelackthereof.org</email>
+      <name>awwaiid</name>
+    </author>
+    <updated>2013-04-20T12:26:00Z</updated>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <p>We'll keep day-of information, such as the room numbers, wifi info, etc up on the <a href="http://dcbpw.org/dcbpw2013/wiki?node=VenueDetail">Venue Detail wiki page</a>.</p>
+      </div>
+    </content>
+    <link type="text/html" rel="alternate" href="http://dcbpw.org/dcbpw2013/news/1016"/>
+  </entry>
+  <entry>
+    <title>Wonky Website</title>
+    <id>http://dcbpw.org/dcbpw2013/en_US/1015</id>
+    <author>
+      <email>awwaiid@thelackthereof.org</email>
+      <name>awwaiid</name>
+    </author>
+    <updated>2013-04-20T00:19:00Z</updated>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <p>The ISP of our DNS provider is being DDoSed. Ick. Fixing. If you're seeing this then it might be working. If you aren't seeing this then check out irc.perl.org #dcbpw, or <a href="http://twitter.com/dcbpw">follow @dcbpw on twitter</a>!</p>
+      </div>
+    </content>
+    <link type="text/html" rel="alternate" href="http://dcbpw.org/dcbpw2013/news/1015"/>
+  </entry>
+  <entry>
+    <title>Arrival Dinner</title>
+    <id>http://dcbpw.org/dcbpw2013/en_US/1014</id>
+    <author>
+      <email>awwaiid@thelackthereof.org</email>
+      <name>awwaiid</name>
+    </author>
+    <updated>2013-04-19T14:37:00Z</updated>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml"><p>Some folks are arriving tonight (Friday) -- if you're one of them and would like to get together for dinner, one way to coordinate is through the <a href="/dcbpw2013/wiki?node=Arrival%20Dinner">Arrival Dinner Wiki Page</a>. Otherwise, be sure to throw #dcbpw on your tweets :)</p>
+<p>Oh -- you can also join IRC #dcbpw on irc.perl.org!</p></div>
+    </content>
+    <link type="text/html" rel="alternate" href="http://dcbpw.org/dcbpw2013/news/1014"/>
+  </entry>
+  <entry>
+    <title>Sponsor - Shutterstock Lunch</title>
+    <id>http://dcbpw.org/dcbpw2013/en_US/1013</id>
+    <author>
+      <email>awwaiid@thelackthereof.org</email>
+      <name>awwaiid</name>
+    </author>
+    <updated>2013-04-18T17:04:00Z</updated>
+    <content type="html">&lt;p&gt;&lt;a href="http://shutterstock.com/"&gt;&lt;img src="/dcbpw2013/shutterstock-290.png" align=right style="padding-left: 1em"&gt;&lt;/a&gt; Close to the wire, &lt;a href="http://shutterstock.com/"&gt;Shutterstock&lt;/a&gt; has jumped in as our latest sponsor! Previously we were going to set you loose on Baltimore for lunch ... but no longer. Shutterstock is providing a catered lunch on Saturday to all attendees!&lt;/p&gt;
+&lt;p&gt;Shutterstock is a New York City based company, their mission is to connect creative professionals with the best photos, vectors, illustrations and video from thousands of contributors around the world. And they do a lot of Perl! In fact, THREE of our (most excellent) speakers are employed by Shutterstock.&lt;/p&gt;
+&lt;p&gt;Thank you Shutterstock!&lt;/p&gt;</content>
+    <link type="text/html" rel="alternate" href="http://dcbpw.org/dcbpw2013/news/1013"/>
+  </entry>
+  <entry>
+    <title>Sponsor - ProQuest / RefWorks COS</title>
+    <id>http://dcbpw.org/dcbpw2013/en_US/1011</id>
+    <author>
+      <email>awwaiid@thelackthereof.org</email>
+      <name>awwaiid</name>
+    </author>
+    <updated>2013-04-13T15:23:00Z</updated>
+    <content type="html">&lt;p&gt;&lt;img src="/dcbpw2013/refworks-logo-horiz-290.png" align=right&gt;Thank you to &lt;a href="http://www.refworks-cos.com/"&gt;ProQuest / RefWorks COS&lt;/a&gt; for sponsoring the 2013 DC-Baltimore Perl Workshop! "RefWorks-COS provides tools, data and support for every phase of research, from vetting the first hypothesis to obtaining funding and getting published. All of our products are designed to help researchers, faculty and students work at their best and achieve their research goals." -- and they use and support Perl :)&lt;/p&gt;</content>
+    <link type="text/html" rel="alternate" href="http://dcbpw.org/dcbpw2013/news/1011"/>
+  </entry>
+  <entry>
+    <title>Hotel Rate Extended</title>
+    <id>http://dcbpw.org/dcbpw2013/en_US/1005</id>
+    <author>
+      <email>awwaiid@thelackthereof.org</email>
+      <name>awwaiid</name>
+    </author>
+    <updated>2013-03-25T22:04:00Z</updated>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <p>We've had some reports of difficulty getting the group rate for the suggested <a href="/dcbpw2013/hotel.html">hotel</a>, and have gotten an extension through April 1st (srsly). See the <a href="/dcbpw2013/hotel.html">hotel</a> page for details!</p>
+      </div>
+    </content>
+    <link type="text/html" rel="alternate" href="http://dcbpw.org/dcbpw2013/news/1005"/>
+  </entry>
+  <entry>
+    <title>Sponsor - ThinkGeek</title>
+    <id>http://dcbpw.org/dcbpw2013/en_US/1004</id>
+    <author>
+      <email>awwaiid@thelackthereof.org</email>
+      <name>awwaiid</name>
+    </author>
+    <updated>2013-03-25T16:00:00Z</updated>
+    <content type="html">&lt;p&gt;&lt;a href="http://thinkgeek.com/"&gt;&lt;img src="/dcbpw2013/thinkgeek-logo-horiz-290.png" align=right style="padding-left: 1em"&gt;&lt;/a&gt;We welcome our latest sponsor, &lt;a href="http://thinkgeek.com/"&gt;ThinkGeek&lt;/a&gt;! &lt;/p&gt;
+&lt;p&gt;&lt;i&gt;&lt;a href="http://thinkgeek.com/"&gt;ThinkGeek&lt;/a&gt; has been the premier retailer for the global geek community since 1999. We seek to provide tech, gadget, and toy-obsessed communities with all the things that geeks crave. Founded to serve the distinct needs and interests of technology professionals and enthusiasts, today it has grown to become the first choice for innovative and imaginative products that appeal to the geek in everyone.&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;&lt;i&gt;ThinkGeek also loves Perl! In fact, our website and backend are written in Perl, so working here means you get to use it every day, from coding new features to integrating with third parties. We also contribute a lot of open-source code, and have several CPAN authors in residence. Keep an eye on ThinkGeek for jobs, and also Jennifer and Guillaume will be attending the conference so ask them anything!&lt;/i&gt;&lt;/p&gt;</content>
+    <link type="text/html" rel="alternate" href="http://dcbpw.org/dcbpw2013/news/1004"/>
+  </entry>
+  <entry>
+    <title>Hotel Group Rate</title>
+    <id>http://dcbpw.org/dcbpw2013/en_US/999</id>
+    <author>
+      <email>awwaiid@thelackthereof.org</email>
+      <name>awwaiid</name>
+    </author>
+    <updated>2013-03-17T19:55:00Z</updated>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <p>We just posted a <a href="/dcbpw2013/hotel.html">Hotel Info</a> page, which details a hotel that we've gotten a group rate on in Baltimore. Unfortunately we only have it locked in for a week or so, until March 25 -- so check it out sooner rather than later!</p>
+      </div>
+    </content>
+    <link type="text/html" rel="alternate" href="http://dcbpw.org/dcbpw2013/news/999"/>
+  </entry>
+  <entry>
+    <title>Sponsor - Booking.com</title>
+    <id>http://dcbpw.org/dcbpw2013/en_US/998</id>
+    <author>
+      <email>awwaiid@thelackthereof.org</email>
+      <name>awwaiid</name>
+    </author>
+    <updated>2013-03-15T12:43:00Z</updated>
+    <content type="html">&lt;p&gt;&lt;a href="http://booking.com/jobs"&gt;&lt;img src="/dcbpw2013/booking-logo-horiz-290.png" align=right&gt;&lt;/a&gt;We are pleased to have &lt;a href="http://booking.com/"&gt;Booking.com&lt;/a&gt; sponsor the 2013 DC-Baltimore Perl Workshop! Booking is hiring perl programmers right now, you should check them out. Booking.com is part of &lt;a href="http://priceline.com/"&gt;Priceline.com&lt;/a&gt;, and is the World's #1 Online Hotel Reservations Company, offering over 200,000 hotels worldwide.&lt;/p&gt;
+&lt;p&gt;Last year one of our organizers, Brad from Baltimore.pm, joined Booking.com and moved to Amsterdam. He'll be returning for the conference, so feel free to grill him on what Booking.com has to offer prospective developers and what his experience has been so far.&lt;/p&gt;
+&lt;p&gt;Thank you Booking.com!&lt;/p&gt;</content>
+    <link type="text/html" rel="alternate" href="http://dcbpw.org/dcbpw2013/news/998"/>
+  </entry>
+  <entry>
+    <title>Sunday Training Sessions</title>
+    <id>http://dcbpw.org/dcbpw2013/en_US/991</id>
+    <author>
+      <email>awwaiid@thelackthereof.org</email>
+      <name>awwaiid</name>
+    </author>
+    <updated>2013-03-01T18:00:00Z</updated>
+    <content type="html">&lt;p&gt;&lt;a href="http://iinteractive.com/"&gt;&lt;img src="/dcbpw2013/ii-logo-300x375.png" border=0 align=right&gt;&lt;/a&gt;&lt;i&gt;&lt;b&gt;&lt;a href="http://iinteractive.com/"&gt;Infinity Interactive&lt;/a&gt; is proud to offer two half day training sessions in conjuntion with the DC/Baltimore Perl Workshop.&lt;/b&gt;&lt;/i&gt;&lt;/p&gt;
+&lt;p&gt;This will be held at the same location on the day after the main conference, on Sunday, April 21, 2013. It is $25 for each half-day -- so you can do both training sessions for $50. Once you've signed up for the conference, you can &lt;a href="http://dcbpw.org/dcbpw2013/purchase"&gt;purchase your ticket&lt;/a&gt; and select the training sessions (also follow this link if you've already purchased your conference ticket). You do not have to come to the main conference to attend the training sessions! But we'd miss you :)&lt;/p&gt;
+&lt;p&gt;We'll have on-site payment options if you don't want to decide until the last minute.&lt;/p&gt;
+&lt;p&gt;&lt;h2&gt;Morning - Introduction to Moose&lt;/h2&gt;&lt;/p&gt;
+&lt;p&gt;Learn about Moose, the postmodern approach to Object Oriented Programming in Perl, from Stevan Little (project founder), Jesse Luehrs (current lead maintainer of Moose), and Shawn Moore (prolific contributor to Moose).&lt;/p&gt;
+&lt;p&gt;Moose extends Perl’s “There’s more than one way to do it” philosophy with an important addition: “But sometimes consistency is not a bad thing either.” By establishing a common system for building and extending classes and other components, Moose empowers developers to reuse code like never before. Moose’s built-in features in combination with the extensive ecosystem of plugins and accessory libraries available on the CPAN allow you to improve your code with features that would otherwise be too complex or expensive to implement and maintain on your own.&lt;/p&gt;
+&lt;p&gt;Although its compact, declarative look can seem perplexing at first glance, Moose is just Perl, and can be easily explained, learned, understood, and put to use. This tutorial will cover all of Moose’s basic features, including attributes, delegation, method modifiers, roles, and types, as well as best practices for writing Moose code that plays well with others.&lt;/p&gt;
+&lt;p&gt;&lt;h2&gt;Afternoon - Web Development 101&lt;/h2&gt;&lt;/p&gt;
+&lt;p&gt;Enjoy a comprehensive survey of current web development technologies and techniques, from the basics of HTTP (the protocol that runs the World Wide Web), through browser-based tools that make web development easier than ever, to a review of server-side development and deployment techniques and best practices. This dynamic course is led by Stevan Little, Jesse Luehrs, and Shawn Moore, a group of veteran developers with decades of experience building software on and off the web.&lt;/p&gt;
+&lt;p&gt;Stevan, Jesse, and Shawn will share their opinionated views of past mistakes, current best practices, and future possibilities in the realm of web development. Expect an exciting and informative afternoon of technology instruction that will give experienced web developers a fresh, vibrant perspective and programmers new to the web a practical introduction to modern tools and techniques.&lt;/p&gt;</content>
+    <link type="text/html" rel="alternate" href="http://dcbpw.org/dcbpw2013/news/991"/>
+  </entry>
+  <entry>
+    <title>Early Registration Extension</title>
+    <id>http://dcbpw.org/dcbpw2013/en_US/990</id>
+    <author>
+      <email>awwaiid@thelackthereof.org</email>
+      <name>awwaiid</name>
+    </author>
+    <updated>2013-03-01T14:00:00Z</updated>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml"><p>We hear that some budgets may have just been tightened today... so we are extending the early registration price of $25 for one more week (plus a day for luck)! The extension is through March 8, 2013.</p>
+<p>We still have room to squeeze in a few more talks, and we have several tutorial track slots open for teachers. As we've mentioned elsewhere, contact us if you are interested in doing a tutorial and we can help you with material.</p>
+<p>Be sure to check out the talks we already have lined up on the <a href="http://dcbpw.org/dcbpw2013/schedule">schedule</a>.</p>
+<p>Get it while the gettin's good!</p></div>
+    </content>
+    <link type="text/html" rel="alternate" href="http://dcbpw.org/dcbpw2013/news/990"/>
+  </entry>
+  <entry>
+    <title>Call for Speakers</title>
+    <id>http://dcbpw.org/dcbpw2013/en_US/988</id>
+    <author>
+      <email>awwaiid@thelackthereof.org</email>
+      <name>awwaiid</name>
+    </author>
+    <updated>2013-02-21T01:51:00Z</updated>
+    <content type="xhtml">
+      <div xmlns="http://www.w3.org/1999/xhtml"><p>Attention Speakers! We still have several slots to fill for the 2013 DC-Baltimore Perl Workshop, which will be held on Saturday April 20 in Baltimore.</p>
+<p>We're running two tracks. The first is a general anything-goes-awesomeness track. This track is set to be 20 minute blocks, so that we can get some good variety. Enough to get people a dose of newness, not overwhelm them, and plenty of variety.</p>
+<p>The second track is a tutorial track. While we love people who want to give a tutorial they composed themselves, we actually have an archive of very good tutorials that you could use as a foundation. If you want to get some experience doing teaching this is a great way to start. These talks can be a bit longer do to their nature, especially if they are hands-on.</p>
+<p>This is also a great regional meetup if you want to polish a talk that you'll be presenting at a larger conference, such as YAPC::NA 2013 in Austin!</p>
+<p>If you have any questions, email us!</p></div>
+    </content>
+    <link type="text/html" rel="alternate" href="http://dcbpw.org/dcbpw2013/news/988"/>
+  </entry>
+  <entry>
+    <title>Announcement!</title>
+    <id>http://dcbpw.org/dcbpw2013/en_US/976</id>
+    <author>
+      <email>awwaiid@thelackthereof.org</email>
+      <name>awwaiid</name>
+    </author>
+    <updated>2013-01-02T01:19:00Z</updated>
+    <content type="html">&lt;p&gt;We are putting on the 2013 DC-Baltimore Perl Workshop, as a follow-up to the success we had in 2012! Come one come all!&lt;/p&gt;
+&lt;p&gt;Talk submissions are open, sign up and submit your talk today! We're going to stick with the 20-minute blocks like we had last year, which worked out really well. Tutorials can be longer, especially if they are hands on. More news on that to follow.&lt;/p&gt;
+&lt;p&gt;This year we have a wonderful venue in the heart of Baltimore, a stones throw from Penn Station - we'll get the location detail page up, but in the meantime:&lt;/p&gt;
+&lt;p&gt;Thumel Business Center&lt;br&gt;&#13;
+University of Baltimore&lt;br&gt;&#13;
+11 W Mount Royal Ave Baltimore, MD, 21201&lt;/p&gt;
+&lt;p&gt;&lt;iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=11+W+Mount+Royal+Ave+Baltimore,+MD,+21201&amp;amp;ie=UTF8&amp;amp;hq=&amp;amp;hnear=11+W+Mt+Royal+Ave,+Baltimore,+Maryland+21201&amp;amp;t=m&amp;amp;z=14&amp;amp;ll=39.305358,-76.616728&amp;amp;output=embed"&gt;&lt;/iframe&gt;&lt;br /&gt;&lt;small&gt;&lt;a href="https://maps.google.com/maps?q=11+W+Mount+Royal+Ave+Baltimore,+MD,+21201&amp;amp;ie=UTF8&amp;amp;hq=&amp;amp;hnear=11+W+Mt+Royal+Ave,+Baltimore,+Maryland+21201&amp;amp;t=m&amp;amp;z=14&amp;amp;ll=39.305358,-76.616728&amp;amp;source=embed" style="color:#0000FF;text-align:left"&gt;View Larger Map&lt;/a&gt;&lt;/small&gt;&lt;/p&gt;
+&lt;p&gt;We look forward to seeing you there!&lt;/p&gt;</content>
+    <link type="text/html" rel="alternate" href="http://dcbpw.org/dcbpw2013/news/976"/>
+  </entry>
+</feed>

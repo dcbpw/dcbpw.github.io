@@ -1,0 +1,118 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en_US" xml:lang="en_US">
+
+<head>
+  <!-- Document Metadata -->
+  <meta http-equiv="Content-Language" content="en_US" />
+<title>DC-Baltimore Perl Workshop 2013</title>
+  <!-- OpenId -->  <!-- Atom news feed -->
+  <link rel="alternate" type="application/atom+xml" title="DC-Baltimore Perl Workshop 2013"
+        href="atom/en_US.xml" />
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link rel="stylesheet" type="text/css" href="../css/act-base.css" />
+  <link rel="stylesheet" type="text/css" href="../css/schedule.css" />
+
+  <!-- JavaScript sugar -->
+  <script type="text/javascript" src="../js/jquery.js"></script>
+  <script type="text/javascript" src="../js/act.js"></script>
+
+  <!-- Favorite icon -->
+  <link rel="shortcut icon" type="image/png" href="../favicon.png" />
+</head>
+
+<body>
+  <div id="wrapperwrapper">
+  <div id="wrapper">
+
+    <div id="searchbar">
+      <div>  <a href="http://dcbpw.org/dcbpw2013/main">Log In</a>  &nbsp;&nbsp;
+        |
+        &nbsp;&nbsp;
+        <form method="get" action="http://www.google.com/search">
+          <input type=text name=q id=searchinput>
+          <!-- <input type="submit" value="Google Search" /> -->
+          <input type="hidden"  name="sitesearch" value="dcbpw.org" />
+          <img src="magnifier.png">
+        </form>
+      </div>
+    </div>
+
+    <div id="fakepage">
+
+      <div id=header>
+        <div id="headerbar"></div>
+          
+        <table cellpading=0 cellspacing=0 border=0 id=conference_name_table>
+        <tr>
+          <td valign=middle id="logocol">
+            <a href="../dcbpw2013.1">
+            <img src="logo-229x118.png"
+              alt="DCBPW Logo">
+            </a>
+          </td>
+          <td valign=middle>
+            <a href="../dcbpw2013.1">
+            <img src="workshopname.png"
+              alt="2013 DC-Baltimore Perl Workshop">
+            </a>
+          </td>
+        </tr>
+        </table>
+        <!-- <h1>DC-Baltimore Perl Workshop 2013</h1> -->
+      </div>
+
+
+      <div id="menu"> <h2> <a href="../dcbpw2013.1">DCBPW 2013</a> </h2> <li> <a href="dcbpw.ics"> <img src="calendar-icon.png"> When: Sat-Sun, April 20-21, 2013 </a> </li> <li> <a href="venue.html"> <img src="map-place-icon.png"> Location: U of Baltimore, MD </a> </li> <li> <a href="hotel.html"> <img src="map-place-icon.png"> Stay: Hotel/Travel Info </a> </li> <li> <a href="news"> <img src="http://dcbpw.org/dcbpw2013/rss.jpg"> News </a> (<a href="atom/en_US.xml">feed</a>) </li> <li> <a href="wiki"> <img src="http://dcbpw.org/dcbpw2013/link.jpg"> Wiki </a> (community content) <ul> <li>→ <a href="wiki?node=LocalTransit">LocalTransit</a> (From hotel, DC)</li> <li>→ <a href="wiki?node=VenueDetail">VenueDetail</a> (Room info, Wifi)</li> <li>→ <a href="wiki?node=SaturdayDinner">SaturdayDinner</a> (After party)</li> </ul> </li> <!-- user menu --> <h2> Register </h2> <li> <a href="http://dcbpw.org/dcbpw2013/main">Log in</a> </li> <span id="goto-lang"><li> <a href="index.html?language=en" >&#x2192;&nbsp;English</a> </li> </span> <!-- users menu --> <h2> Users </h2> <li> <a href="search"> Search </a> </li> <li> <a href="stats"> Statistics </a> </li> <!-- talks menu --> <h2> <a href="talks"> Presentations </a> </h2> <li> <a href="favtalks"> Favorite Talks </a> </li> <li> <a href="schedule"> Schedule </a> </li> <li> <a href="timetable.ics"> iCal export </a> </li> <li> <a href="http://dcbpw.org/dcbpw2013/newtalk"> Submit a talk proposal </a> </li> <!-- money menu --> <!-- admin menu --> <h2> <a href="http://act.mongueurs.net/conferences.html">Other conferences</a> </h2> <li><a href="http://workshop.barcelona.pm/barcelona2015/">Barcelona Perl Workshop 2015</a></li> <li><a href="http://patch.pm/p3/">patch -p3</a></li> <li><a href="http://act.yapc.eu/lpw2015/">London Perl Workshop</a></li> <li><a href="http://act.yapc.eu/gpw2016/">German Perl Workshop 2016</a></li>  </div>
+
+      <div id="content"><h1>DC-Baltimore Perl Workshop 2013</h1>  <p>This one-day event will feature two tracks of speakers and will be held April 20th, 2013, at the University of Baltimore. In addition to a track of speakers discussing innovative, exciting, and fun real world usage of Perl, we will also have a day-long track devoted to Perl instruction, targeting both people who need to update their skills or who have never tried Perl before.</p>
+
+<p>Registration is $25 <s>prior to March 1st</s> <b>through March 8th (extended!)</b>, and $50 afterwards. Free admission is available for students and the currently unemployed.</p>
+
+<p>Questions? Comments? Email us! <a href="mailto:dcbpw-organizers@googlegroups.com">dcbpw-organizers@googlegroups.com</a>   <h2>Latest News</h2>  <div class="news-entry">
+ <h3 class="news-header">
+  <span class="news-date">2013-04-22</span>
+  <span class="news-title">Thanks All!</span>
+ </h3>
+ <div class="news-text"> <p>Thank you all for attending and contributing to the 2013 DC-Baltimore Perl Workshop. Special thanks to our sponsors -- be sure to get in touch with them if you are on the market for Jobs!</p>
+<p>Also thank you again to our organizers. As we said in our wrap up session, we owe a lot of thanks to <a href="https://twitter.com/DSWallis">Dawn Wallis</a>, organizer of the Baltimore Perl Mongers, for doing a whole lot of work but not being able to attend. Thank you Dawn!</p> </div>
+</div>  <div class="news-entry">
+ <h3 class="news-header">
+  <span class="news-date">2013-04-20</span>
+  <span class="news-title">Day-Of Info</span>
+ </h3>
+ <div class="news-text"> <p>We'll keep day-of information, such as the room numbers, wifi info, etc up on the <a href="wiki?node=VenueDetail">Venue Detail wiki page</a>.</p> </div>
+</div>    <p>
+ <a href="news" class="news-link">Older announcements</a>
+</p>  <p>&nbsp;</p>
+Sponsored By:<br/>
+
+<a href="http://shutterstock.com/"><img src="shutterstock-290.png"></a>
+<br/>
+<a href="http://iinteractive.com/"><img src="ii-logo-horiz-290.png"></a>
+<br/>
+<a href="http://booking.com/jobs"><img src="booking-logo-horiz-290.png"></a>
+<br/>
+<a href="http://thinkgeek.com/"><img src="thinkgeek-logo-horiz-290.png"></a>
+<br/>
+<a href="http://refworks-cos.com/"><img src="refworks-logo-horiz-290.png"></a>  </div>
+
+      <div id="footerbar"></div>
+
+    </div>
+
+    <div id="footer">
+      <div class=leftside>
+        Website/Logo design by <a href="mailto:a.gasparetti@gmail.com">Angela Gasparetti</a>
+      </div>
+      Powered by <a href="http://act.mongueurs.net/">Act</a>
+    </div>
+
+  </div>
+  </div>
+
+</body>
+</html>
+ 

@@ -1,0 +1,548 @@
+BEGIN:VCALENDAR
+CALSCALE:GREGORIAN
+PRODID:-//Act//Data::ICal 0.16//EN
+VERSION:2.0
+X-WR-CALNAME:DC-Baltimore Perl Workshop 2013
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+X-LIC-LOCATION:America/New_York
+BEGIN:DAYLIGHT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+TZNAME:EDT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+END:DAYLIGHT
+BEGIN:STANDARD
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+TZNAME:EST
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DESCRIPTION:Registration
+DTEND;TZID=America/New_York:20130420T090000
+DTSTART;TZID=America/New_York:20130420T080000
+LOCATION:
+SUMMARY:Registration
+UID:http://dcbpw.org/dcbpw2013/event/1313
+URL:http://dcbpw.org/dcbpw2013/event/1313
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Welcome to the conference!
+DTEND;TZID=America/New_York:20130420T092500
+DTSTART;TZID=America/New_York:20130420T090000
+LOCATION:Auditorium
+SUMMARY:Welcome
+UID:http://dcbpw.org/dcbpw2013/event/1315
+URL:http://dcbpw.org/dcbpw2013/event/1315
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Shutterstock has stepped in to sponsor a catered lunch! Once we
+  get everything set up\, join us. You can't beat the price (free for atten
+ dees).\n\nThank you Shutterstock!
+DTEND;TZID=America/New_York:20130420T133000
+DTSTART;TZID=America/New_York:20130420T120000
+LOCATION:
+SUMMARY:Shutterstock Lunch
+UID:http://dcbpw.org/dcbpw2013/event/1314
+URL:http://dcbpw.org/dcbpw2013/event/1314
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Stretch\, chat\, hack\, etc
+DTEND;TZID=America/New_York:20130420T153000
+DTSTART;TZID=America/New_York:20130420T150000
+LOCATION:
+SUMMARY:Nap Time Snack
+UID:http://dcbpw.org/dcbpw2013/event/1316
+URL:http://dcbpw.org/dcbpw2013/event/1316
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Parting is such sweet sorrow.
+DTEND;TZID=America/New_York:20130420T170000
+DTSTART;TZID=America/New_York:20130420T165500
+LOCATION:Auditorium
+SUMMARY:Wrap-Up
+UID:http://dcbpw.org/dcbpw2013/event/1317
+URL:http://dcbpw.org/dcbpw2013/event/1317
+END:VEVENT
+BEGIN:VEVENT
+DESCRIPTION:Come one come all and work on whatever project has captured you
+ r mind for the moment. Read and edit the <a href="/dcbpw2013/wiki?node=Hac
+ kathon">Hackathon Wiki Page</a> to see what others are working on and to a
+ dd your interests to the list!\n\nThis event is completely free. You don't
+  have to attend the conference in any way to show up!
+DTEND;TZID=America/New_York:20130421T170000
+DTSTART;TZID=America/New_York:20130421T090000
+LOCATION:Classroom
+SUMMARY:Hackathon!
+UID:http://dcbpw.org/dcbpw2013/event/1361
+URL:http://dcbpw.org/dcbpw2013/event/1361
+END:VEVENT
+BEGIN:VEVENT
+ATTENDEE:Brock Wilcox
+ATTENDEE:Robert Blackwell
+ATTENDEE:Stevan Little
+ATTENDEE:Jay Hannah
+ATTENDEE:Nova Patch
+ATTENDEE:bill pemberton
+ATTENDEE:Kennedy Clark
+ATTENDEE:Sean O'Leary
+ATTENDEE:John Arky
+ATTENDEE:Rob Jefferson
+ATTENDEE:Harika Tandra
+COMMENT:11 attendees
+DESCRIPTION:This is a refinement of the theme from my YAPC::NA 2012 talk\, 
+ with different code examples and an actual CPAN suite of testing utilities
+ .\n\nI'll talk about equivalence objects in testing\, which I've recently 
+ discovered and am quite excited about.
+DTEND;TZID=America/New_York:20130420T135500
+DTSTART;TZID=America/New_York:20130420T133000
+LOCATION:Auditorium
+ORGANIZER:Belden Lyman
+SUMMARY:TDD made Easy
+UID:http://dcbpw.org/dcbpw2013/talk/4516
+URL:http://dcbpw.org/dcbpw2013/talk/4516
+END:VEVENT
+BEGIN:VEVENT
+ATTENDEE:James E Keenan
+ATTENDEE:Matthew Wilson
+ATTENDEE:Brock Wilcox
+ATTENDEE:Robert Blackwell
+ATTENDEE:Stevan Little
+ATTENDEE:Jay Hannah
+ATTENDEE:Nova Patch
+ATTENDEE:bill pemberton
+ATTENDEE:Kennedy Clark
+ATTENDEE:Nobody
+ATTENDEE:Harika Tandra
+COMMENT:11 attendees
+DESCRIPTION:These Lig­htn­ing Talks may be seri­ous\, funny\, or both. They
+  may be given by ex­perien­ced speak­ers al­ready giv­ing full length talk
+ s or by first time speak­ers just start­ing out (this is a great way to ge
+ t star­ted if you have some­th­ing to say). If you are a first time speak­
+ er you will win a tie with an ex­peri­ence speak­er when the schedule is m
+ ade if it comes to it. Today's first time speak­er could give tomor­row's 
+ keynote.\n\nWe will have about 5 Lig­htn­ing Talks of 5 minutes. Sub­mit y
+ our talk through the sub­mit talk link on this web­site. The first de­ad­l
+ ine is with the full length talks. The second de­ad­line is one week be­fo
+ re the con­fer­ence starts and many pro­pos­als will be ac­cepted. At leas
+ t one speak­ing spot will be held open until the morning of the talks to g
+ ive you a chan­ce to see some­th­ing at the con­fer­ence and put togeth­er
+  a Lig­htn­ing Talk re­spon­se. Howev­er if you wait for the later de­ad­l
+ ines note that there are fewer spots avail­able and you are less li­ke­ly 
+ to be ac­cepted so please try to sub­mit more than a week be­fore the con­
+ fer­ence.\n\nIn ad­di­tion to the five minute Lig­htn­ing Talks where you 
+ get to use your com­put­er\, slides\, and any other tool\, we will also ha
+ ve some Lig­htn­ing Ad­vertise­ments. These are only 30 seconds\, you don'
+ t have to sub­mit a pro­pos­al\, you don't get any slides\, and the only A
+ V as­sis­tance of­fered is a micro­phone. If you have a BOF to an­noun­ce\
+ , an auc­tion item so ad­vert­ise or any other short mes­sage you can use 
+ the trans­i­tion time that would be ot­herw­ise was­ted bet­ween Lig­htn­i
+ ng Talks to share your mes­sage. Just show up be­fore we start and take a 
+ seat in the as­sig­ned seats in the front of the room.\n\nWhy Would You Wa
+ nt to do a Lig­htn­ing Talk? Maybe you've never given a talk be­fore\, and
+  you'd like to start small. For a Lig­htn­ing Talk\, you don't need to mak
+ e slides\, and if you do de­cide to make slides\, you only need to make th
+ ree. Maybe you're nerv­ous and you're af­raid you'll mess up. It's a lot e
+ as­i­er to plan and de­liv­er a five minute talk than it is to de­liv­er a
+  long talk. And if you do mess up\, at least the pain­ful part will be ove
+ r quick­ly. Maybe you don't have much to say. Maybe you just want to ask a
+  ques­tion\, or in­vite peo­ple to help you with your pro­ject\, or boast 
+ about some­th­ing you did\, or tell a short cautiona­ry story. These th­in
+ gs are all in­terest­ing and worth talk­ing about\, but there might not be
+  en­ough to say about them to fill up thir­ty minutes. Maybe you have a lo
+ t of th­ings to say\, and you're al­ready going to give a long talk on one
+  of them\, and you don't want to hog the spot­light. There's noth­ing wron
+ g with giv­ing sever­al Lig­htn­ing Talks. Hey\, they're only five minutes
+ . On the other side\, peo­ple might want to come to a lig­htn­ing talk whe
+ n they would­n't come to a long talk on the same sub­ject. The risk for th
+ e at­tendees is small­er: If the talk turns out to be dull\, or if the per
+ ­son giv­ing the talk turns out to be a rea­l­ly bad speak­er\, well\, at 
+ least it's over in five minutes. With lig­htn­ing talks\, you're never stu
+ ck in some bor­ing lec­ture for forty-five minutes.\n\nStill hav­ing troub
+ ­le pick­ing a topic\, here are some sug­ges­tions:\n\n1. Why my favorite 
+ module is X.\n2. I want to do cool pro­ject X. Does an­yone want to help?\
+ n3. Suc­cess­ful Pro­ject: I did pro­ject X. It was a suc­cess. Here's how
+  you could be­nefit.\n4. Failed Pro­ject: I did pro­ject X. It was a failu
+ re\, and here's why.\n5. Heresy: Peo­ple al­ways say X\, but they're wrong
+ . Here's why.\n6. You All Suck: Here's what is wrong with the our com­mun­
+ ity. 7. Call to Ac­tion: Let's all do more of X / less of X.\n8. Would­n't
+  it be cool if X?\n9. Some­one needs to do X.\n10. Wish List\n11. Why X wa
+ s a mis­take.\n12. Why X looks like a mis­take\, but isn't.\n13. What it's
+  like to do X.\n14. Here's a use­ful tech­nique that wor­ked.\n15. Here's 
+ a tech­nique I thought would be use­ful but didn't work.\n16. Why al­gorit
+ hm X sucks.\n17. Com­parison of al­gorithms X and Y.\n\nOf co­ur­se\, you 
+ could give the talk on an­yth­ing you wan­ted\, wheth­er or not it is on t
+ his list. If we get a full schedule of noth­ing but five minutes of rant­i
+ ng and rav­ing on each topic\, a good time will still be had by most.
+DTEND;TZID=America/New_York:20130420T160000
+DTSTART;TZID=America/New_York:20130420T153000
+LOCATION:Auditorium
+ORGANIZER:R Geoffrey Avery
+SUMMARY:Lightning Talks
+UID:http://dcbpw.org/dcbpw2013/talk/4531
+URL:http://dcbpw.org/dcbpw2013/talk/4531
+END:VEVENT
+BEGIN:VEVENT
+ATTENDEE:James E Keenan
+ATTENDEE:Stevan Little
+ATTENDEE:bill pemberton
+ATTENDEE:Sean O'Leary
+ATTENDEE:John Arky
+ATTENDEE:Harika Tandra
+COMMENT:6 attendees
+DESCRIPTION:When attempting to learn Dancer I ran into the problem that all
+  the documentation started from "Here is a 'Hello World' script".  But tha
+ t was assuming many things were set up and configured and that just was no
+ t true\, at least not on my server.\n\nThis is a collection of what I lear
+ ned.
+DTEND;TZID=America/New_York:20130420T105500
+DTSTART;TZID=America/New_York:20130420T103000
+LOCATION:Classroom
+ORGANIZER:R Geoffrey Avery
+SUMMARY:Dancer:  Getting to Hello World
+UID:http://dcbpw.org/dcbpw2013/talk/4532
+URL:http://dcbpw.org/dcbpw2013/talk/4532
+END:VEVENT
+BEGIN:VEVENT
+ATTENDEE:Matthew Wilson
+ATTENDEE:Brock Wilcox
+ATTENDEE:Robert Blackwell
+ATTENDEE:Stevan Little
+ATTENDEE:Jay Hannah
+ATTENDEE:Nova Patch
+ATTENDEE:David Waldo
+ATTENDEE:Kennedy Clark
+ATTENDEE:John Arky
+COMMENT:9 attendees
+DESCRIPTION:An introduction to ElasticSearch for Perl programmers.  This ta
+ lk will cover why you might consider using ElasticSearch\, a quick introdu
+ ction into the ElasticSearch design\, and some gotchas associated with set
+ ting up a cluster for various purposes.
+DTEND;TZID=America/New_York:20130420T105500
+DTSTART;TZID=America/New_York:20130420T103000
+LOCATION:Auditorium
+ORGANIZER:Brad Lhotsky
+SUMMARY:Using ElasticSearch with Perl
+UID:http://dcbpw.org/dcbpw2013/talk/4557
+URL:http://dcbpw.org/dcbpw2013/talk/4557
+END:VEVENT
+BEGIN:VEVENT
+ATTENDEE:Brock Wilcox
+ATTENDEE:Robert Blackwell
+ATTENDEE:Stevan Little
+ATTENDEE:Jay Hannah
+ATTENDEE:Nova Patch
+ATTENDEE:bill pemberton
+ATTENDEE:Kennedy Clark
+ATTENDEE:Nobody
+COMMENT:8 attendees
+DESCRIPTION:DC PM Podcasting Software is generic podcasting software soluti
+ on.  The software automates the amount of editing and producing parts that
+  the producer has to do\, as well as providing a convenient way of capturi
+ ng the presentor’s screen.  The talk covers the key aspects of the softwar
+ e\, recommendations\, and the libraries used to make the software work.
+DTEND;TZID=America/New_York:20130420T115500
+DTSTART;TZID=America/New_York:20130420T113000
+LOCATION:Auditorium
+ORGANIZER:Zak Zebrowski
+SUMMARY:DC PM Podcast Software
+UID:http://dcbpw.org/dcbpw2013/talk/4564
+URL:http://dcbpw.org/dcbpw2013/talk/4564
+END:VEVENT
+BEGIN:VEVENT
+ATTENDEE:James E Keenan
+ATTENDEE:Matthew Wilson
+ATTENDEE:Brock Wilcox
+ATTENDEE:Robert Blackwell
+ATTENDEE:Jay Hannah
+ATTENDEE:Kennedy Clark
+ATTENDEE:Sean O'Leary
+ATTENDEE:Harika Tandra
+COMMENT:8 attendees
+DESCRIPTION:http://perl8.org/\n\nWith the announcement of the Moe project (
+ https://github.com/MoeOrganization/moe)\, I've started looking into Scala 
+ quite a bit\, and have been quite surprised at how much I've liked it. Thi
+ s talk will give an overview of Scala from the perspective of a Perl progr
+ ammer\, and also introduce some libraries I (and others) have been working
+  on to make it feel more familiar.
+DTEND;TZID=America/New_York:20130420T142500
+DTSTART;TZID=America/New_York:20130420T140000
+LOCATION:Auditorium
+ORGANIZER:Jesse Luehrs
+SUMMARY:Perl 8: The Future
+UID:http://dcbpw.org/dcbpw2013/talk/4606
+URL:http://dcbpw.org/dcbpw2013/talk/4606
+END:VEVENT
+BEGIN:VEVENT
+ATTENDEE:James E Keenan
+ATTENDEE:Brock Wilcox
+ATTENDEE:Robert Blackwell
+ATTENDEE:Stevan Little
+ATTENDEE:Jay Hannah
+ATTENDEE:Nova Patch
+ATTENDEE:bill pemberton
+ATTENDEE:Kennedy Clark
+ATTENDEE:Sean O'Leary
+ATTENDEE:Harika Tandra
+COMMENT:10 attendees
+DESCRIPTION:There are a bazillion different ways to use git\, which is of c
+ ourse a blessing and a curse. You can use it any way you like\, but that p
+ uts the burden on you to figure out what's best.\n\nWell we've already don
+ e the hard work of figuring out what's best. I'm here to explain how we us
+ e git at Infinity Interactive to ship great software to our clients.
+DTEND;TZID=America/New_York:20130420T112500
+DTSTART;TZID=America/New_York:20130420T110000
+LOCATION:Auditorium
+ORGANIZER:Shawn Moore
+SUMMARY:Introducing git flux
+UID:http://dcbpw.org/dcbpw2013/talk/4607
+URL:http://dcbpw.org/dcbpw2013/talk/4607
+END:VEVENT
+BEGIN:VEVENT
+ATTENDEE:Brock Wilcox
+ATTENDEE:Robert Blackwell
+ATTENDEE:Stevan Little
+ATTENDEE:Jay Hannah
+ATTENDEE:Nova Patch
+ATTENDEE:David Waldo
+ATTENDEE:bill pemberton
+ATTENDEE:Kennedy Clark
+ATTENDEE:John Arky
+COMMENT:9 attendees
+DESCRIPTION:PostgreSQL has been growing as the must-have database for the p
+ ast few years\, and one of its killer features is its procedural language 
+ system\, which gives you (yes you) the ability to write stored database pr
+ ocedures in Perl.\n\nIn this talk I'll give a brief taste of the power you
+  can wield once you stop just writing Perl to access your database\, and s
+ tart putting Perl inside of it. From general installation instructions to 
+ basic procedures to fully customized PostgreSQL datatypes\, this is an int
+ roduction to a deeper magic of information processing.\n\nA general famili
+ arity with relational databases and SQL is recommended.
+DTEND;TZID=America/New_York:20130420T102500
+DTSTART;TZID=America/New_York:20130420T100000
+LOCATION:Auditorium
+ORGANIZER:Stephen Belcher
+SUMMARY:A Brief Introduction to PL/Perl
+UID:http://dcbpw.org/dcbpw2013/talk/4611
+URL:http://dcbpw.org/dcbpw2013/talk/4611
+END:VEVENT
+BEGIN:VEVENT
+ATTENDEE:James E Keenan
+ATTENDEE:Matthew Wilson
+ATTENDEE:Brock Wilcox
+ATTENDEE:Stevan Little
+ATTENDEE:Jay Hannah
+ATTENDEE:Nova Patch
+ATTENDEE:Kennedy Clark
+ATTENDEE:Sean O'Leary
+ATTENDEE:Harika Tandra
+COMMENT:9 attendees
+DESCRIPTION:This is a pared down version of a similar talk I gave at YAPC:N
+ A 2012.\n\nThe goal of this presentation is to arm people with some basic 
+ approaches to teaching Perl to people outside our community and who may ha
+ ve some unfortunately biases.  How can you show that Perl is Modern and mo
+ st importantly FUN FUN FUN?\n\nUnlike traditional approaches to teaching P
+ erl\, we don't take a 'start from bottom' attitude\, but instead focus on 
+ showing beautiful Perl that does a lot with a little\, and provokes a sens
+ e of excitement and the desire to learn more.\n\nLessons are drawn from th
+ e successes and troubles I encountered teaching Perl at a popular startup 
+ incubator site in NYC.
+DTEND;TZID=America/New_York:20130420T165500
+DTSTART;TZID=America/New_York:20130420T160000
+LOCATION:Auditorium
+ORGANIZER:john napiorkowski
+SUMMARY:The Essence of Teaching Perl
+UID:http://dcbpw.org/dcbpw2013/talk/4613
+URL:http://dcbpw.org/dcbpw2013/talk/4613
+END:VEVENT
+BEGIN:VEVENT
+ATTENDEE:James E Keenan
+ATTENDEE:Matthew Wilson
+ATTENDEE:Brock Wilcox
+ATTENDEE:Robert Blackwell
+ATTENDEE:Stevan Little
+ATTENDEE:Jay Hannah
+ATTENDEE:Nova Patch
+ATTENDEE:Kennedy Clark
+ATTENDEE:Nobody
+ATTENDEE:Harika Tandra
+COMMENT:10 attendees
+DESCRIPTION:Perl’s regular expression engine provides rich features for mat
+ ching and parsing Unicode strings.  Recent releases of Perl have added pow
+ erful new modifiers\, character classes\, and other special escape sequenc
+ es that can be added to your toolkit.  The functionality of regex metachar
+ acters has also been evolving to conform with Unicode standards and it’s i
+ mportant to understand the differences.\n\nThis talk will be useful to pro
+ grammers of all levels who want to learn about Unicode character propertie
+ s and new regex features.  A basic knowledge of regular expressions is req
+ uired.
+DTEND;TZID=America/New_York:20130420T145500
+DTSTART;TZID=America/New_York:20130420T143000
+LOCATION:Auditorium
+ORGANIZER:Nova Patch
+SUMMARY:Unicode Regular Expressions
+UID:http://dcbpw.org/dcbpw2013/talk/4619
+URL:http://dcbpw.org/dcbpw2013/talk/4619
+END:VEVENT
+BEGIN:VEVENT
+ATTENDEE:James E Keenan
+ATTENDEE:Brock Wilcox
+ATTENDEE:Robert Blackwell
+ATTENDEE:Stevan Little
+ATTENDEE:Jay Hannah
+ATTENDEE:Nova Patch
+ATTENDEE:David Waldo
+ATTENDEE:bill pemberton
+ATTENDEE:Kennedy Clark
+ATTENDEE:Sean O'Leary
+COMMENT:10 attendees
+DESCRIPTION:Coverage analysis is enables you to measure the thoroughness of
+  the testing of your source code.  Did you test suite exercise all stateme
+ nts in your source code?  All subroutines?  By increasing your testing cov
+ erage\, you eliminate unreachable code\, tease out ambiguities and reduce 
+ the possibility of bugs.\n\nIn Perl the principal tool for coverage analys
+ is is Paul Johnson's CPAN distribution Devel-Cover.  In this talk we'll pr
+ ovide a brief introduction to that library and show how we used it to impr
+ ove the Data-Dumper library distributed with the Perl 5 source code.
+DTEND;TZID=America/New_York:20130420T095500
+DTSTART;TZID=America/New_York:20130420T093000
+LOCATION:Auditorium
+ORGANIZER:James E Keenan
+SUMMARY:Coverage Analysis: The Basics
+UID:http://dcbpw.org/dcbpw2013/talk/4640
+URL:http://dcbpw.org/dcbpw2013/talk/4640
+END:VEVENT
+BEGIN:VEVENT
+ATTENDEE:Stevan Little
+ATTENDEE:bill pemberton
+ATTENDEE:Rob Jefferson
+COMMENT:3 attendees
+DESCRIPTION:This talk provides an introduction and overview of PDL (the Per
+ l Data Language) to perform scientific computation and visualization with 
+ perl.  \n\nHighlights will include:\n- brief history of PDL\n- current sta
+ tus of the module\n- overview of functionality\n- getting started with PDL
+ \n- examples of PDL for real computations\n- the way forward...
+DTEND;TZID=America/New_York:20130420T145500
+DTSTART;TZID=America/New_York:20130420T140000
+LOCATION:Classroom
+ORGANIZER:Chris Marshall
+SUMMARY:Scientific Computation with the Perl Data Language
+UID:http://dcbpw.org/dcbpw2013/talk/4668
+URL:http://dcbpw.org/dcbpw2013/talk/4668
+END:VEVENT
+BEGIN:VEVENT
+ATTENDEE:Stevan Little
+ATTENDEE:Jay Hannah
+ATTENDEE:Harika Tandra
+COMMENT:3 attendees
+DESCRIPTION:Learn about Moose\, the postmodern approach to Object Oriented 
+ Programming in Perl\, from Stevan Little (project founder)\, Jesse Luehrs 
+ (current lead maintainer of Moose)\, and Shawn Moore (prolific contributor
+  to Moose).\n\nMoose extends Perl’s “There’s more than one way to do it” p
+ hilosophy with an important addition: “But sometimes consistency is not a 
+ bad thing either.” By establishing a common system for building and extend
+ ing classes and other components\, Moose empowers developers to reuse code
+  like never before. Moose’s built-in features in combination with the exte
+ nsive ecosystem of plugins and accessory libraries available on the CPAN a
+ llow you to improve your code with features that would otherwise be too co
+ mplex or expensive to implement and maintain on your own.\n\nAlthough its 
+ compact\, declarative look can seem perplexing at first glance\, Moose is 
+ just Perl\, and can be easily explained\, learned\, understood\, and put t
+ o use. This tutorial will cover all of Moose’s basic features\, including 
+ attributes\, delegation\, method modifiers\, roles\, and types\, as well a
+ s best practices for writing Moose code that plays well with others.
+DTEND;TZID=America/New_York:20130421T120000
+DTSTART;TZID=America/New_York:20130421T090000
+LOCATION:Classroom
+ORGANIZER:Stevan Little
+SUMMARY:Introduction to Moose
+UID:http://dcbpw.org/dcbpw2013/talk/4670
+URL:http://dcbpw.org/dcbpw2013/talk/4670
+END:VEVENT
+BEGIN:VEVENT
+ATTENDEE:James E Keenan
+ATTENDEE:Stevan Little
+ATTENDEE:Jay Hannah
+ATTENDEE:Harika Tandra
+COMMENT:4 attendees
+DESCRIPTION:Enjoy a comprehensive survey of current web development technol
+ ogies and techniques\, from the basics of HTTP (the protocol that runs the
+  World Wide Web)\, through browser-based tools that make web development e
+ asier than ever\, to a review of server-side development and deployment te
+ chniques and best practices. This dynamic course is led by Stevan Little\,
+  Jesse Luehrs\, and Shawn Moore\, a group of veteran developers with decad
+ es of experience building software on and off the web.\n\nStevan\, Jesse\,
+  and Shawn will share their opinionated views of past mistakes\, current b
+ est practices\, and future possibilities in the realm of web development. 
+ Expect an exciting and informative afternoon of technology instruction tha
+ t will give experienced web developers a fresh\, vibrant perspective and p
+ rogrammers new to the web a practical introduction to modern tools and tec
+ hniques.
+DTEND;TZID=America/New_York:20130421T160000
+DTSTART;TZID=America/New_York:20130421T130000
+LOCATION:Classroom
+ORGANIZER:Stevan Little
+SUMMARY:Web Development 101
+UID:http://dcbpw.org/dcbpw2013/talk/4671
+URL:http://dcbpw.org/dcbpw2013/talk/4671
+END:VEVENT
+BEGIN:VEVENT
+ATTENDEE:James E Keenan
+ATTENDEE:Matthew Wilson
+ATTENDEE:Stevan Little
+ATTENDEE:bill pemberton
+ATTENDEE:Guillaume Aubert
+COMMENT:5 attendees
+DESCRIPTION:CPAN is possibly the best feature of Perl and a way for beginne
+ rs to easily solve complicated problems.\n\nHere's a non-exhaustive list o
+ f what I'm planning to cover in this talk:\n * What is CPAN?\n * Why shoul
+ d I use CPAN?\n * How can I search CPAN?\n * How do I install CPAN modules
+ ?\n * How do I use a CPAN module in my code?\n * What are the "best" modul
+ es for a set of common tasks?
+DTEND;TZID=America/New_York:20130420T135500
+DTSTART;TZID=America/New_York:20130420T133000
+LOCATION:Classroom
+ORGANIZER:Guillaume Aubert
+SUMMARY:Introduction to using CPAN
+UID:http://dcbpw.org/dcbpw2013/talk/4684
+URL:http://dcbpw.org/dcbpw2013/talk/4684
+END:VEVENT
+BEGIN:VEVENT
+ATTENDEE:Matthew Wilson
+COMMENT:1 attendees
+DESCRIPTION:Pure introductory perl\; We're talking data structures\, contex
+ ts\, flow control\, functions and models... as much as we can get through 
+ in the time allowed\, well timed interruptions for questions included.\n\n
+ Inspiring talks and readings can be found at:\n\nOriginal can be found at:
+ \nhttps://github.com/genehack/perl-beginner-talks/tree/master/intro-to-per
+ l-data-structures\n\nand:\nhttp://onyxneon.com/books/modern_perl/index.htm
+ l\n\nPre-read MY slides at your own risk as they'll be in flux until the l
+ ast second.
+DTEND;TZID=America/New_York:20130420T102500
+DTSTART;TZID=America/New_York:20130420T093000
+LOCATION:Classroom
+ORGANIZER:Joshua Turcotte
+SUMMARY:Introductory Perl\; Concepts\, Structures\, and Flow
+UID:http://dcbpw.org/dcbpw2013/talk/4787
+URL:http://dcbpw.org/dcbpw2013/talk/4787
+END:VEVENT
+BEGIN:VEVENT
+ATTENDEE:Matthew Wilson
+ATTENDEE:Harika Tandra
+COMMENT:2 attendees
+DESCRIPTION:A beginner friendly intro into using regular expressions in per
+ l.
+DTEND;TZID=America/New_York:20130420T115500
+DTSTART;TZID=America/New_York:20130420T110000
+LOCATION:Classroom
+ORGANIZER:Mike Burns
+SUMMARY:Intro To Perl: Regular Expressions
+UID:http://dcbpw.org/dcbpw2013/talk/4788
+URL:http://dcbpw.org/dcbpw2013/talk/4788
+END:VEVENT
+END:VCALENDAR
