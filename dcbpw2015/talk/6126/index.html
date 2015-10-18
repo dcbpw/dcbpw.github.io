@@ -1,0 +1,152 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+  <!-- Document Metadata -->
+  <meta http-equiv="Content-Language" content="en" />
+<title>Net::AMQP::RabbitMQ - White Fluffy Tales of RabbitMQ in Production</title>
+  <!-- OpenId -->  <!-- Atom news feed -->
+  <link rel="alternate" type="application/atom+xml" title="DC-Baltimore Perl Workshop 2015"
+        href="http://dcbpw.org/dcbpw2015/atom/en.xml" />
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" type="text/css" href="/dcbpw2015/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="/css/act-base.css" />
+  <link rel="stylesheet" type="text/css" href="/css/schedule.css" />
+
+  <!-- JavaScript sugar -->
+  <script type="text/javascript" src="/js/jquery.js"></script>
+  <script type="text/javascript" src="/js/act.js"></script>
+
+  <!-- Favorite icon -->
+  <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+</head>
+
+<body>
+  <div id="wrapperwrapper">
+  <div id="wrapper">
+
+    <div id="searchbar">
+      <div>  <a href="/dcbpw2015/main">Log In</a>
+          &nbsp;&nbsp;
+          |
+          &nbsp;&nbsp;
+          <a href="/dcbpw2015/register">Register</a>  &nbsp;&nbsp;
+        |
+        &nbsp;&nbsp;
+        <form method="get" action="http://www.google.com/search">
+          <input type=text name=q id=searchinput>
+          <!-- <input type="submit" value="Google Search" /> -->
+          <input type="hidden"  name="sitesearch" value="dcbpw.org" />
+          <img src="/dcbpw2015/magnifier.png">
+        </form>
+      </div>
+    </div>
+
+    <div id="fakepage">
+
+      <div id=header>
+        <div id="headerbar"></div>
+          
+        <table cellpading=0 cellspacing=0 border=0 id=conference_name_table>
+        <tr>
+          <td valign=middle id="logocol">
+            <a href="/dcbpw2015/">
+            <img src="/dcbpw2015/logo-229x118.png"
+              alt="DCBPW Logo">
+            </a>
+          </td>
+          <td valign=middle>
+            <a href="/dcbpw2015/">
+              <div id="title">
+                <span class="year">2015</span>
+                <span class="dc">DC</span>
+                <span class="dash">-</span>
+                <span class="baltimore">Baltimore</span>
+                <span class="workshop">Perl Workshop</span>
+              </div>
+            </a>
+          </td>
+        </tr>
+        </table>
+        <!-- <h1>Net::AMQP::RabbitMQ - White Fluffy Tales of RabbitMQ in Production</h1> -->
+      </div>
+
+
+      <div id="menu"> <h2> <a href="/dcbpw2015/">DCBPW 2015</a> </h2> <li> <a href="/dcbpw2015/dcbpw.ics"> <span class="icon"><img src="/dcbpw2015/calendar-icon.png"></span> When: Sat-Sun, April 11-12, 2015 </a> </li> <li> <a href="/dcbpw2015/venue.html"> <span class="icon"><img src="/dcbpw2015/map-place-icon.png"></span> Location: Silver Spring, MD </a> </li> <li> <a href="/dcbpw2015/hotel.html"> <span class="icon"><img src="/dcbpw2015/map-place-icon.png"></span> Stay: Hotel/Travel Info </a> </li> <li> <a href="/dcbpw2015/sponsors.html"> <span class="icon">♥</span> Support our Sponsors! </a> </li> <li> <a href="/dcbpw2015/news"> <span class="icon"><img src="/dcbpw2015/rss.jpg"></span> News </a> (<a href="http://dcbpw.org/dcbpw2015/atom/en.xml">feed</a>) </li> <!-- talks menu --> <h2> <a href="/dcbpw2015/talks"> Presentations </a> </h2> <li> <a href="/dcbpw2015/proceedings"> List of Talks </a> </li> <li> <a href="/dcbpw2015/schedule"> Schedule </a> </li> <li> <a href="/dcbpw2015/timetable.ics"> iCal export </a> </li> </div>
+
+      <div id="content">  <h2>Net::AMQP::RabbitMQ - White Fluffy Tales of RabbitMQ in Production</h2>
+
+<br/><br/> <script type="text/javascript">
+if (window.act) {
+    var titles = [  'remove from personal schedule',  'add to personal schedule',  ];
+    toggle_image = function(elem, talk_id, set) {
+        var data = { img_name: set ? 'picked' : 'unpicked',
+                     title:    titles[set ? 0 : 1 ],
+                     talk_id:  talk_id,
+                     set:      set
+        };
+        $(elem).replaceWith( act.template("tpl_mtbutton", data) );  $("#my-"+talk_id+"-text").replaceWith( act.template("tpl_mtlabel", data) );  };
+    toggle_count = function(talk_id, set) {
+        var elemcount = "#starcount-" + talk_id;
+        $(elemcount).replaceWith(
+            act.template("tpl_starcount",
+                         { talk_id: talk_id,
+                           count: (parseInt($(elemcount + " > .starcount").text()) || 0) + (set ? 1 : -1)
+                         }
+                        ));
+    };
+    toggle_talk = function(elem, talk_id, set) {
+        $.post(act.make_uri('dcbpw2015', 'updatemytalks_a'), {talk_id: talk_id} );
+        toggle_image(elem, talk_id, !set);
+        toggle_count(talk_id, !set);
+    };
+    $(function() {
+        $(".mytalks_submit").remove();
+        $(":checkbox").each(function() {
+            toggle_image(this, $(this).val(), $(this).prop("checked"));
+        });
+    });
+}
+</script>
+
+ <script type="text/html" id="tpl_mtbutton">
+<img class="mtbutton" src="/images/<%=img_name%>.gif" title="<%=title%>"
+     onClick ="toggle_talk(this,<%=talk_id%>,<%=set%>);" />
+</script>
+
+<script type="text/html" id="tpl_mtlabel">
+<span id="my-<%=talk_id%>-text"><%=title%></span>
+</script>
+
+<script type="text/html" id="tpl_starcount">
+<span id="starcount-<%=talk_id%>" style="white-space:nowrap"><% if (count) { %><span class="starcount"><%=count%></span><img style="vertical-align:middle" src="/images/picked.gif" /><% } %></span>
+</script>
+ <h1>Net::AMQP::RabbitMQ - White Fluffy Tales of RabbitMQ in Production</h1>
+<p>
+<b>By</b> <a href="/dcbpw2015/user/10444">Michael Stemle (&lrm;manchicken&lrm;)</a>   from  DC.pm   <br />  <b>Date:</b> <a href="/dcbpw2015/schedule?day=2015-04-11" >Saturday, 11 April 2015</a> 14:30<br />
+
+<b>Duration:</b> 25 minutes<br />   <b>Target audience:</b> Beginner<br />   <b>Language:</b> English<br />   <b>Tags:</b> <a href="/dcbpw2015/talks/tag/net%3A%3Aamqp%3A%3Arabbitmq">net::amqp::rabbitmq</a> <a href="/dcbpw2015/talks/tag/perlguts">perlguts</a> <a href="/dcbpw2015/talks/tag/rabbitmq">rabbitmq</a> <a href="/dcbpw2015/talks/tag/xs">xs</a>  </p>   <hr />  <p>Being a Perl Shop is hard sometimes, and as a result you sometimes miss out on some of the super-awesome third party support that other - some would say, weaker (but of course we wouldn’t say that, we’re classy) - languages enjoy. So I had to get my hands dirty. As such, I contributed to the development of the Net::AMQP::RabbitMQ module so that we at ThinkGeek could properly integrate our Perl applications with this MQ server.<br />
+<br />
+I will walk you through a very high level of the integration itself, some of the challenges we faced, and how we overcame them. I’ll also go through some of the improvements I’ve made as part of the team of people maintaining the Net::AMQP::RabbitMQ module. BEWARE, however, this talk is not for the squeamish. There will be guts. perlguts, and they’ll be everywhere.</p>  <hr />  <b>Attended by:</b>  <a href="/dcbpw2015/user/8355">Graham Ollis (&lrm;plicease&lrm;)</a>,      </div>
+
+      <div id="footerbar"></div>
+
+    </div>
+
+    <div id="footer">
+      <div class=leftside>
+        Website/Logo design by <a href="mailto:a.gasparetti@gmail.com">Angela Gasparetti</a>
+        &nbsp; &nbsp; | &nbsp; &nbsp;
+        <a href="/dcbpw2015/conduct.html">Standards of Conduct</a>
+      </div>
+      Powered by <a href="http://act.mongueurs.net/">Act</a>
+    </div>
+
+  </div>
+  </div>
+
+</body>
+</html>
+ 

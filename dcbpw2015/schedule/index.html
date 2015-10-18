@@ -1,0 +1,197 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+  <!-- Document Metadata -->
+  <meta http-equiv="Content-Language" content="en" />
+<title>Schedule</title>
+  <!-- OpenId -->  <!-- Atom news feed -->
+  <link rel="alternate" type="application/atom+xml" title="DC-Baltimore Perl Workshop 2015"
+        href="http://dcbpw.org/dcbpw2015/atom/en.xml" />
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" type="text/css" href="/dcbpw2015/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="/css/act-base.css" />
+  <link rel="stylesheet" type="text/css" href="/css/schedule.css" />
+
+  <!-- JavaScript sugar -->
+  <script type="text/javascript" src="/js/jquery.js"></script>
+  <script type="text/javascript" src="/js/act.js"></script>
+
+  <!-- Favorite icon -->
+  <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+</head>
+
+<body>
+  <div id="wrapperwrapper">
+  <div id="wrapper">
+
+    <div id="searchbar">
+      <div>  <a href="/dcbpw2015/main">Log In</a>
+          &nbsp;&nbsp;
+          |
+          &nbsp;&nbsp;
+          <a href="/dcbpw2015/register">Register</a>  &nbsp;&nbsp;
+        |
+        &nbsp;&nbsp;
+        <form method="get" action="http://www.google.com/search">
+          <input type=text name=q id=searchinput>
+          <!-- <input type="submit" value="Google Search" /> -->
+          <input type="hidden"  name="sitesearch" value="dcbpw.org" />
+          <img src="/dcbpw2015/magnifier.png">
+        </form>
+      </div>
+    </div>
+
+    <div id="fakepage">
+
+      <div id=header>
+        <div id="headerbar"></div>
+          
+        <table cellpading=0 cellspacing=0 border=0 id=conference_name_table>
+        <tr>
+          <td valign=middle id="logocol">
+            <a href="/dcbpw2015/">
+            <img src="/dcbpw2015/logo-229x118.png"
+              alt="DCBPW Logo">
+            </a>
+          </td>
+          <td valign=middle>
+            <a href="/dcbpw2015/">
+              <div id="title">
+                <span class="year">2015</span>
+                <span class="dc">DC</span>
+                <span class="dash">-</span>
+                <span class="baltimore">Baltimore</span>
+                <span class="workshop">Perl Workshop</span>
+              </div>
+            </a>
+          </td>
+        </tr>
+        </table>
+        <!-- <h1>Schedule</h1> -->
+      </div>
+
+
+      <div id="menu"> <h2> <a href="/dcbpw2015/">DCBPW 2015</a> </h2> <li> <a href="/dcbpw2015/dcbpw.ics"> <span class="icon"><img src="/dcbpw2015/calendar-icon.png"></span> When: Sat-Sun, April 11-12, 2015 </a> </li> <li> <a href="/dcbpw2015/venue.html"> <span class="icon"><img src="/dcbpw2015/map-place-icon.png"></span> Location: Silver Spring, MD </a> </li> <li> <a href="/dcbpw2015/hotel.html"> <span class="icon"><img src="/dcbpw2015/map-place-icon.png"></span> Stay: Hotel/Travel Info </a> </li> <li> <a href="/dcbpw2015/sponsors.html"> <span class="icon">♥</span> Support our Sponsors! </a> </li> <li> <a href="/dcbpw2015/news"> <span class="icon"><img src="/dcbpw2015/rss.jpg"></span> News </a> (<a href="http://dcbpw.org/dcbpw2015/atom/en.xml">feed</a>) </li> <!-- talks menu --> <h2> <a href="/dcbpw2015/talks"> Presentations </a> </h2> <li> <a href="/dcbpw2015/proceedings"> List of Talks </a> </li> <li> <a href="/dcbpw2015/schedule"> Schedule </a> </li> <li> <a href="/dcbpw2015/timetable.ics"> iCal export </a> </li> </div>
+
+      <div id="content">  <!-- The schedule table --> <script type="text/javascript">
+if (window.act) {
+    var titles = [  'remove from personal schedule',  'add to personal schedule',  ];
+    toggle_image = function(elem, talk_id, set) {
+        var data = { img_name: set ? 'picked' : 'unpicked',
+                     title:    titles[set ? 0 : 1 ],
+                     talk_id:  talk_id,
+                     set:      set
+        };
+        $(elem).replaceWith( act.template("tpl_mtbutton", data) );  $("#my-"+talk_id+"-text").replaceWith( act.template("tpl_mtlabel", data) );  };
+    toggle_count = function(talk_id, set) {
+        var elemcount = "#starcount-" + talk_id;
+        $(elemcount).replaceWith(
+            act.template("tpl_starcount",
+                         { talk_id: talk_id,
+                           count: (parseInt($(elemcount + " > .starcount").text()) || 0) + (set ? 1 : -1)
+                         }
+                        ));
+    };
+    toggle_talk = function(elem, talk_id, set) {
+        $.post(act.make_uri('dcbpw2015', 'updatemytalks_a'), {talk_id: talk_id} );
+        toggle_image(elem, talk_id, !set);
+        toggle_count(talk_id, !set);
+    };
+    $(function() {
+        $(".mytalks_submit").remove();
+        $(":checkbox").each(function() {
+            toggle_image(this, $(this).val(), $(this).prop("checked"));
+        });
+    });
+}
+</script>
+
+ <script type="text/html" id="tpl_mtbutton">
+<img class="mtbutton" src="/images/<%=img_name%>.gif" title="<%=title%>"
+     onClick ="toggle_talk(this,<%=talk_id%>,<%=set%>);" />
+</script>
+
+<script type="text/html" id="tpl_mtlabel">
+<span id="my-<%=talk_id%>-text"><%=title%></span>
+</script>
+
+<script type="text/html" id="tpl_starcount">
+<span id="starcount-<%=talk_id%>" style="white-space:nowrap"><% if (count) { %><span class="starcount"><%=count%></span><img style="vertical-align:middle" src="/images/picked.gif" /><% } %></span>
+</script>
+    <p> Talks in <b>bold type</b> have been confirmed by their respective speakers. </p>  <strong>Saturday</strong>   |   <a href="/dcbpw2015/schedule?day=2015-04-12">Sunday</a>       <h2>Saturday, 11 April 2015</h2>
+<table border="0">
+<thead>
+ <tr class="header">
+  <th> Time </th>   <th colspan="1">Fenton</th>    <th colspan="1">Colesville</th>   </tr>
+</thead>
+<tbody>  <tr class="header">   <td align="center" valign="top" class="header">09:00</td>    <td valign="top"  class="venue" colspan="2"> <a href="/dcbpw2015/event/1700">&lrm;Registration&lrm;</a> (45&nbsp;min)  <span id="starcount-1700" style="white-space:nowrap"></span>
+     </td>   </tr>  <tr class="header">   <td align="center" valign="top" class="header">09:45</td>    <td valign="top"  class="r1"> <a href="/dcbpw2015/event/1715">&lrm;Introduction&lrm;</a> (15&nbsp;min)  <span id="starcount-1715" style="white-space:nowrap"></span>
+     </td>    <td valign="top"  >   <span id="starcount-" style="white-space:nowrap"></span>
+     </td>   </tr>  <tr class="header">   <td align="center" valign="top" class="header">10:00</td>    <td valign="top"  class="r1"> <a href="/dcbpw2015/user/8484">Stephen Belcher</a> - <a href="/dcbpw2015/talk/6190"><b>&lrm;Perl &amp; Vim&lrm;</b></a> (25&nbsp;min, English)  <span id="starcount-6190" style="white-space:nowrap"><span class="starcount">2</span><img style="vertical-align:middle" src="/images/picked.gif" /></span>
+     </td>    <td valign="top" rowspan="3" class="r2"> <a href="/dcbpw2015/user/1650">Brock Wilcox (&lrm;awwaiid&lrm;)</a> - <a href="/dcbpw2015/talk/6191"><b>&lrm;Rakudo!&lrm;</b></a> (55&nbsp;min, English)  <span id="starcount-6191" style="white-space:nowrap"><span class="starcount">1</span><img style="vertical-align:middle" src="/images/picked.gif" /></span>
+     </td>   </tr>  <tr class="header">   <td align="center" valign="top" class="header">10:25</td>    <td valign="top"  >   <span id="starcount-" style="white-space:nowrap"></span>
+     </td>   </tr>  <tr class="header">   <td align="center" valign="top" class="header">10:30</td>    <td valign="top"  class="r1"> <a href="/dcbpw2015/user/11145">Scott Ford</a> - <a href="/dcbpw2015/talk/6005"><b>&lrm;Old Code, New Tricks&lrm;</b></a> (25&nbsp;min, English)  <span id="starcount-6005" style="white-space:nowrap"><span class="starcount">3</span><img style="vertical-align:middle" src="/images/picked.gif" /></span>
+     </td>   </tr>  <tr class="header">   <td align="center" valign="top" class="header">10:55</td>    <td valign="top"  >   <span id="starcount-" style="white-space:nowrap"></span>
+     </td>    <td valign="top"  >   <span id="starcount-" style="white-space:nowrap"></span>
+     </td>   </tr>  <tr class="header">   <td align="center" valign="top" class="header">11:00</td>    <td valign="top"  class="r1"> <a href="/dcbpw2015/user/11155">Christopher Frenz</a> - <a href="/dcbpw2015/talk/6009"><b>&lrm;Using Perl to Improve Organizational Information Security&lrm;</b></a> (25&nbsp;min, English)  <span id="starcount-6009" style="white-space:nowrap"><span class="starcount">1</span><img style="vertical-align:middle" src="/images/picked.gif" /></span>
+     </td>    <td valign="top" rowspan="3" class="r2"> <a href="/dcbpw2015/user/9326">bulk 88</a> - <a href="/dcbpw2015/talk/6039"><b>&lrm;Acme-Win32-PEPM a unique Perl+XS packager&lrm;</b></a> (55&nbsp;min, English)  <span id="starcount-6039" style="white-space:nowrap"><span class="starcount">1</span><img style="vertical-align:middle" src="/images/picked.gif" /></span>
+     </td>   </tr>  <tr class="header">   <td align="center" valign="top" class="header">11:25</td>    <td valign="top"  >   <span id="starcount-" style="white-space:nowrap"></span>
+     </td>   </tr>  <tr class="header">   <td align="center" valign="top" class="header">11:30</td>    <td valign="top"  class="r1"> <a href="/dcbpw2015/user/8341">Joe Hourcle</a> - <a href="/dcbpw2015/talk/6115"><b>&lrm;I hate cron jobs&lrm;</b></a> (25&nbsp;min, English)  <span id="starcount-6115" style="white-space:nowrap"><span class="starcount">2</span><img style="vertical-align:middle" src="/images/picked.gif" /></span>
+     </td>   </tr>  <tr class="header">   <td align="center" valign="top" class="header">11:55</td>    <td valign="top"  >   <span id="starcount-" style="white-space:nowrap"></span>
+     </td>    <td valign="top"  >   <span id="starcount-" style="white-space:nowrap"></span>
+     </td>   </tr>  <tr class="header">   <td align="center" valign="top" class="header">12:00</td>    <td valign="top"  class="out" colspan="2"> <a href="/dcbpw2015/event/1716">&lrm;Lunch Break&lrm;</a> (85&nbsp;min)  <span id="starcount-1716" style="white-space:nowrap"></span>
+     </td>   </tr>  <tr class="header">   <td align="center" valign="top" class="header">13:25</td>    <td valign="top"  >   <span id="starcount-" style="white-space:nowrap"></span>
+     </td>    <td valign="top"  >   <span id="starcount-" style="white-space:nowrap"></span>
+     </td>   </tr>  <tr class="header">   <td align="center" valign="top" class="header">13:30</td>    <td valign="top"  class="r1"> <a href="/dcbpw2015/user/8355">Graham Ollis (&lrm;plicease&lrm;)</a> - <a href="/dcbpw2015/talk/6008"><b>&lrm;Practical FFI With Platypus&lrm;</b></a> (25&nbsp;min, English)  <span id="starcount-6008" style="white-space:nowrap"><span class="starcount">2</span><img style="vertical-align:middle" src="/images/picked.gif" /></span>
+     </td>    <td valign="top"  >   <span id="starcount-" style="white-space:nowrap"></span>
+     </td>   </tr>  <tr class="header">   <td align="center" valign="top" class="header">13:55</td>    <td valign="top"  >   <span id="starcount-" style="white-space:nowrap"></span>
+     </td>    <td valign="top"  >   <span id="starcount-" style="white-space:nowrap"></span>
+     </td>   </tr>  <tr class="header">   <td align="center" valign="top" class="header">14:00</td>    <td valign="top"  class="r1"> <a href="/dcbpw2015/user/9254">Joshua Turcotte</a> - <a href="/dcbpw2015/talk/6127"><b>&lrm;use Civic::Engagement;&lrm;</b></a> (25&nbsp;min, English)  <span id="starcount-6127" style="white-space:nowrap"><span class="starcount">1</span><img style="vertical-align:middle" src="/images/picked.gif" /></span>
+     </td>    <td valign="top" rowspan="3" class="r2"> <a href="/dcbpw2015/user/6523">Mark Jensen</a> - <a href="/dcbpw2015/talk/6128"><b>&lrm;(Perl)-[:speaks]-&gt;(Neo4j)&lrm;</b></a> (55&nbsp;min, English)  <span id="starcount-6128" style="white-space:nowrap"><span class="starcount">2</span><img style="vertical-align:middle" src="/images/picked.gif" /></span>
+     </td>   </tr>  <tr class="header">   <td align="center" valign="top" class="header">14:25</td>    <td valign="top"  >   <span id="starcount-" style="white-space:nowrap"></span>
+     </td>   </tr>  <tr class="header">   <td align="center" valign="top" class="header">14:30</td>    <td valign="top"  class="r1"> <a href="/dcbpw2015/user/10444">Michael Stemle (&lrm;manchicken&lrm;)</a> - <a href="/dcbpw2015/talk/6126"><b>&lrm;Net::AMQP::RabbitMQ - White Fluffy Tales of RabbitMQ in Production&lrm;</b></a> (25&nbsp;min, English)  <span id="starcount-6126" style="white-space:nowrap"><span class="starcount">1</span><img style="vertical-align:middle" src="/images/picked.gif" /></span>
+     </td>   </tr>  <tr class="header">   <td align="center" valign="top" class="header">14:55</td>    <td valign="top"  >   <span id="starcount-" style="white-space:nowrap"></span>
+     </td>    <td valign="top"  >   <span id="starcount-" style="white-space:nowrap"></span>
+     </td>   </tr>  <tr class="header">   <td align="center" valign="top" class="header">15:00</td>    <td valign="top"  class="venue" colspan="2"> <a href="/dcbpw2015/event/1717">&lrm;Break&lrm;</a> (25&nbsp;min)  <span id="starcount-1717" style="white-space:nowrap"></span>
+     </td>   </tr>  <tr class="header">   <td align="center" valign="top" class="header">15:25</td>    <td valign="top"  >   <span id="starcount-" style="white-space:nowrap"></span>
+     </td>    <td valign="top"  >   <span id="starcount-" style="white-space:nowrap"></span>
+     </td>   </tr>  <tr class="header">   <td align="center" valign="top" class="header">15:30</td>    <td valign="top"  class="r1"> <a href="/dcbpw2015/user/10404">Dmitri Tikhonov (&lrm;dmitri&lrm;)</a> - <a href="/dcbpw2015/talk/6014"><b>&lrm;Using tags with Perl code&lrm;</b></a> (25&nbsp;min, English)  <span id="starcount-6014" style="white-space:nowrap"><span class="starcount">2</span><img style="vertical-align:middle" src="/images/picked.gif" /></span>
+     </td>    <td valign="top" rowspan="3" class="r2"> <a href="/dcbpw2015/user/5257">Mike Burns (&lrm;lungching&lrm;)</a> - <a href="/dcbpw2015/talk/6175"><b>&lrm;Intro To Testing&lrm;</b></a> (55&nbsp;min, English)  <span id="starcount-6175" style="white-space:nowrap"><span class="starcount">2</span><img style="vertical-align:middle" src="/images/picked.gif" /></span>
+     </td>   </tr>  <tr class="header">   <td align="center" valign="top" class="header">15:55</td>    <td valign="top"  >   <span id="starcount-" style="white-space:nowrap"></span>
+     </td>   </tr>  <tr class="header">   <td align="center" valign="top" class="header">16:00</td>    <td valign="top"  class="r1"> <a href="/dcbpw2015/user/1698">Dawn Wallis (&lrm;wallisds&lrm;)</a> - <a href="/dcbpw2015/talk/6176"><b>&lrm;Using tmux for Shared Debugging&lrm;</b></a> (25&nbsp;min, English)  <span id="starcount-6176" style="white-space:nowrap"><span class="starcount">3</span><img style="vertical-align:middle" src="/images/picked.gif" /></span>
+     </td>   </tr>  <tr class="header">   <td align="center" valign="top" class="header">16:25</td>    <td valign="top"  >   <span id="starcount-" style="white-space:nowrap"></span>
+     </td>    <td valign="top"  >   <span id="starcount-" style="white-space:nowrap"></span>
+     </td>   </tr>  <tr class="header">   <td align="center" valign="top" class="header">16:30</td>    <td valign="top"  class="r1"> <a href="/dcbpw2015/user/232">R Geoffrey Avery (&lrm;rGeoffrey&lrm;)</a> - <a href="/dcbpw2015/talk/5970"><b>&lrm;Lightning Talks&lrm;</b></a> (30&nbsp;min, )  <span id="starcount-5970" style="white-space:nowrap"><span class="starcount">3</span><img style="vertical-align:middle" src="/images/picked.gif" /></span>
+     </td>    <td valign="top"  >   <span id="starcount-" style="white-space:nowrap"></span>
+     </td>   </tr>  <tr class="header">   <td align="center" valign="top" class="header">17:00</td>    <td valign="top"  class="r1"> <a href="/dcbpw2015/event/1718">&lrm;Wrap-Up&lrm;</a> (10&nbsp;min)  <span id="starcount-1718" style="white-space:nowrap"></span>
+     </td>    <td valign="top"  >   <span id="starcount-" style="white-space:nowrap"></span>
+     </td>   </tr>  <tr class="header">   <td align="center" valign="top" class="header">17:10</td>    <td valign="top"  >   <span id="starcount-" style="white-space:nowrap"></span>
+     </td>    <td valign="top"  >   <span id="starcount-" style="white-space:nowrap"></span>
+     </td>   </tr>  <tr class="header">   <td align="center" valign="top" class="header">18:00</td>    <td valign="top"  class="out" colspan="2"> <a href="/dcbpw2015/event/1719">&lrm;Dinner at McGinty's&lrm;</a> (120&nbsp;min)  <span id="starcount-1719" style="white-space:nowrap"></span>
+     </td>   </tr>  <tr class="header">   <td align="center" valign="top" class="header">20:00</td>    <td valign="top"  >   <span id="starcount-" style="white-space:nowrap"></span>
+     </td>    <td valign="top"  >   <span id="starcount-" style="white-space:nowrap"></span>
+     </td>   </tr>  </tbody>
+</table>      </div>
+
+      <div id="footerbar"></div>
+
+    </div>
+
+    <div id="footer">
+      <div class=leftside>
+        Website/Logo design by <a href="mailto:a.gasparetti@gmail.com">Angela Gasparetti</a>
+        &nbsp; &nbsp; | &nbsp; &nbsp;
+        <a href="/dcbpw2015/conduct.html">Standards of Conduct</a>
+      </div>
+      Powered by <a href="http://act.mongueurs.net/">Act</a>
+    </div>
+
+  </div>
+  </div>
+
+</body>
+</html>
+ 

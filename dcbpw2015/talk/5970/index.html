@@ -1,0 +1,184 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+  <!-- Document Metadata -->
+  <meta http-equiv="Content-Language" content="en" />
+<title>Lightning Talks</title>
+  <!-- OpenId -->  <!-- Atom news feed -->
+  <link rel="alternate" type="application/atom+xml" title="DC-Baltimore Perl Workshop 2015"
+        href="http://dcbpw.org/dcbpw2015/atom/en.xml" />
+
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" type="text/css" href="/dcbpw2015/css/style.css" />
+  <link rel="stylesheet" type="text/css" href="/css/act-base.css" />
+  <link rel="stylesheet" type="text/css" href="/css/schedule.css" />
+
+  <!-- JavaScript sugar -->
+  <script type="text/javascript" src="/js/jquery.js"></script>
+  <script type="text/javascript" src="/js/act.js"></script>
+
+  <!-- Favorite icon -->
+  <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+</head>
+
+<body>
+  <div id="wrapperwrapper">
+  <div id="wrapper">
+
+    <div id="searchbar">
+      <div>  <a href="/dcbpw2015/main">Log In</a>
+          &nbsp;&nbsp;
+          |
+          &nbsp;&nbsp;
+          <a href="/dcbpw2015/register">Register</a>  &nbsp;&nbsp;
+        |
+        &nbsp;&nbsp;
+        <form method="get" action="http://www.google.com/search">
+          <input type=text name=q id=searchinput>
+          <!-- <input type="submit" value="Google Search" /> -->
+          <input type="hidden"  name="sitesearch" value="dcbpw.org" />
+          <img src="/dcbpw2015/magnifier.png">
+        </form>
+      </div>
+    </div>
+
+    <div id="fakepage">
+
+      <div id=header>
+        <div id="headerbar"></div>
+          
+        <table cellpading=0 cellspacing=0 border=0 id=conference_name_table>
+        <tr>
+          <td valign=middle id="logocol">
+            <a href="/dcbpw2015/">
+            <img src="/dcbpw2015/logo-229x118.png"
+              alt="DCBPW Logo">
+            </a>
+          </td>
+          <td valign=middle>
+            <a href="/dcbpw2015/">
+              <div id="title">
+                <span class="year">2015</span>
+                <span class="dc">DC</span>
+                <span class="dash">-</span>
+                <span class="baltimore">Baltimore</span>
+                <span class="workshop">Perl Workshop</span>
+              </div>
+            </a>
+          </td>
+        </tr>
+        </table>
+        <!-- <h1>Lightning Talks</h1> -->
+      </div>
+
+
+      <div id="menu"> <h2> <a href="/dcbpw2015/">DCBPW 2015</a> </h2> <li> <a href="/dcbpw2015/dcbpw.ics"> <span class="icon"><img src="/dcbpw2015/calendar-icon.png"></span> When: Sat-Sun, April 11-12, 2015 </a> </li> <li> <a href="/dcbpw2015/venue.html"> <span class="icon"><img src="/dcbpw2015/map-place-icon.png"></span> Location: Silver Spring, MD </a> </li> <li> <a href="/dcbpw2015/hotel.html"> <span class="icon"><img src="/dcbpw2015/map-place-icon.png"></span> Stay: Hotel/Travel Info </a> </li> <li> <a href="/dcbpw2015/sponsors.html"> <span class="icon">♥</span> Support our Sponsors! </a> </li> <li> <a href="/dcbpw2015/news"> <span class="icon"><img src="/dcbpw2015/rss.jpg"></span> News </a> (<a href="http://dcbpw.org/dcbpw2015/atom/en.xml">feed</a>) </li> <!-- talks menu --> <h2> <a href="/dcbpw2015/talks"> Presentations </a> </h2> <li> <a href="/dcbpw2015/proceedings"> List of Talks </a> </li> <li> <a href="/dcbpw2015/schedule"> Schedule </a> </li> <li> <a href="/dcbpw2015/timetable.ics"> iCal export </a> </li> </div>
+
+      <div id="content">  <h2>Lightning Talks</h2>
+
+<br/><br/> <script type="text/javascript">
+if (window.act) {
+    var titles = [  'remove from personal schedule',  'add to personal schedule',  ];
+    toggle_image = function(elem, talk_id, set) {
+        var data = { img_name: set ? 'picked' : 'unpicked',
+                     title:    titles[set ? 0 : 1 ],
+                     talk_id:  talk_id,
+                     set:      set
+        };
+        $(elem).replaceWith( act.template("tpl_mtbutton", data) );  $("#my-"+talk_id+"-text").replaceWith( act.template("tpl_mtlabel", data) );  };
+    toggle_count = function(talk_id, set) {
+        var elemcount = "#starcount-" + talk_id;
+        $(elemcount).replaceWith(
+            act.template("tpl_starcount",
+                         { talk_id: talk_id,
+                           count: (parseInt($(elemcount + " > .starcount").text()) || 0) + (set ? 1 : -1)
+                         }
+                        ));
+    };
+    toggle_talk = function(elem, talk_id, set) {
+        $.post(act.make_uri('dcbpw2015', 'updatemytalks_a'), {talk_id: talk_id} );
+        toggle_image(elem, talk_id, !set);
+        toggle_count(talk_id, !set);
+    };
+    $(function() {
+        $(".mytalks_submit").remove();
+        $(":checkbox").each(function() {
+            toggle_image(this, $(this).val(), $(this).prop("checked"));
+        });
+    });
+}
+</script>
+
+ <script type="text/html" id="tpl_mtbutton">
+<img class="mtbutton" src="/images/<%=img_name%>.gif" title="<%=title%>"
+     onClick ="toggle_talk(this,<%=talk_id%>,<%=set%>);" />
+</script>
+
+<script type="text/html" id="tpl_mtlabel">
+<span id="my-<%=talk_id%>-text"><%=title%></span>
+</script>
+
+<script type="text/html" id="tpl_starcount">
+<span id="starcount-<%=talk_id%>" style="white-space:nowrap"><% if (count) { %><span class="starcount"><%=count%></span><img style="vertical-align:middle" src="/images/picked.gif" /><% } %></span>
+</script>
+ <h1>Lightning Talks</h1>
+<p>
+<b>By</b> <a href="/dcbpw2015/user/232">R Geoffrey Avery (&lrm;rGeoffrey&lrm;)</a>   from  <a href="http://phl.pm.org">Philadelphia.pm</a>   <br />  <b>Date:</b> <a href="/dcbpw2015/schedule?day=2015-04-11" >Saturday, 11 April 2015</a> 16:30<br />
+
+<b>Duration:</b> 30 minutes<br />   <b>Target audience:</b> Any<br />   <b>Language:</b> <br />    </p>  <p> You can find more information on the speaker's site:</p>
+ <ul>   <li>Talk: <a href="http://dcbpw.org/dcbpw2015/newtalk">http://dcbpw.org/dcbpw2015/newtalk</a>
+      </li>  </ul>   <hr />  <p>Schedule (not yet in order)<br />
+<br />
+<a href="/dcbpw2015/user/7233">John Karr</a> - <a href="/dcbpw2015/talk/6139"><b>&lrm;Form::Diva&lrm;</b></a><br />
+<br />
+<br />
+These Lig­htn­ing Talks may be seri­ous, funny, or both. They may be given by ex­perien­ced speak­ers al­ready giv­ing full length talks or by first time speak­ers just start­ing out (this is a great way to get star­ted if you have some­th­ing to say). If you are a first time speak­er you will win a tie with an ex­peri­ence speak­er when the schedule is made if it comes to it. Today's first time speak­er could give tomor­row's keynote.<br />
+<br />
+We will have about 5 Lig­htn­ing Talks of 5 minutes. Sub­mit your talk through the sub­mit talk link on this web­site. The first de­ad­line is with the full length talks. The second de­ad­line is one week be­fore the con­fer­ence starts and many pro­pos­als will be ac­cepted. At least one speak­ing spot will be held open until the morning of the talks to give you a chan­ce to see some­th­ing at the con­fer­ence and put togeth­er a Lig­htn­ing Talk re­spon­se. Howev­er if you wait for the later de­ad­lines note that there are fewer spots avail­able and you are less li­ke­ly to be ac­cepted so please try to sub­mit more than a week be­fore the con­fer­ence.<br />
+<br />
+In ad­di­tion to the five minute Lig­htn­ing Talks where you get to use your com­put­er, slides, and any other tool, we will also have some Lig­htn­ing Ad­vertise­ments. These are only 30 seconds, you don't have to sub­mit a pro­pos­al, you don't get any slides, and the only AV as­sis­tance of­fered is a micro­phone. If you have a BOF to an­noun­ce, an auc­tion item so ad­vert­ise or any other short mes­sage you can use the trans­i­tion time that would be ot­herw­ise was­ted bet­ween Lig­htn­ing Talks to share your mes­sage. Just show up be­fore we start and take a seat in the as­sig­ned seats in the front of the room.<br />
+<br />
+Why Would You Want to do a Lig­htn­ing Talk? Maybe you've never given a talk be­fore, and you'd like to start small. For a Lig­htn­ing Talk, you don't need to make slides, and if you do de­cide to make slides, you only need to make three. Maybe you're nerv­ous and you're af­raid you'll mess up. It's a lot eas­i­er to plan and de­liv­er a five minute talk than it is to de­liv­er a long talk. And if you do mess up, at least the pain­ful part will be over quick­ly. Maybe you don't have much to say. Maybe you just want to ask a ques­tion, or in­vite peo­ple to help you with your pro­ject, or boast about some­th­ing you did, or tell a short cautiona­ry story. These th­ings are all in­terest­ing and worth talk­ing about, but there might not be en­ough to say about them to fill up thir­ty minutes. Maybe you have a lot of th­ings to say, and you're al­ready going to give a long talk on one of them, and you don't want to hog the spot­light. There's noth­ing wrong with giv­ing sever­al Lig­htn­ing Talks. Hey, they're only five minutes. On the other side, peo­ple might want to come to a lig­htn­ing talk when they would­n't come to a long talk on the same sub­ject. The risk for the at­tendees is small­er: If the talk turns out to be dull, or if the per­son giv­ing the talk turns out to be a rea­l­ly bad speak­er, well, at least it's over in five minutes. With lig­htn­ing talks, you're never stuck in some bor­ing lec­ture for forty-five minutes.<br />
+<br />
+Still hav­ing troub­le pick­ing a topic, here are some sug­ges­tions:<br />
+<br />
+1. Why my favorite module is X.<br />
+2. I want to do cool pro­ject X. Does an­yone want to help?<br />
+3. Suc­cess­ful Pro­ject: I did pro­ject X. It was a suc­cess. Here's how you could be­nefit.<br />
+4. Failed Pro­ject: I did pro­ject X. It was a failure, and here's why.<br />
+5. Heresy: Peo­ple al­ways say X, but they're wrong. Here's why.<br />
+6. You All Suck: Here's what is wrong with the our com­mun­ity. 7. Call to Ac­tion: Let's all do more of X / less of X.<br />
+8. Would­n't it be cool if X?<br />
+9. Some­one needs to do X.<br />
+10. Wish List<br />
+11. Why X was a mis­take.<br />
+12. Why X looks like a mis­take, but isn't.<br />
+13. What it's like to do X.<br />
+14. Here's a use­ful tech­nique that wor­ked.<br />
+15. Here's a tech­nique I thought would be use­ful but didn't work.<br />
+16. Why al­gorithm X sucks.<br />
+17. Com­parison of al­gorithms X and Y.<br />
+<br />
+Of co­ur­se, you could give the talk on an­yth­ing you wan­ted, wheth­er or not it is on this list. If we get a full schedule of noth­ing but five minutes of rant­ing and rav­ing on each topic, a good time will still be had by most.</p>  <hr />  <b>Attended by:</b>  <a href="/dcbpw2015/user/8355">Graham Ollis (&lrm;plicease&lrm;)</a>,  <a href="/dcbpw2015/user/9346">Rob Jefferson (&lrm;techstep&lrm;)</a>,  <a href="/dcbpw2015/user/10404">Dmitri Tikhonov (&lrm;dmitri&lrm;)</a>,      </div>
+
+      <div id="footerbar"></div>
+
+    </div>
+
+    <div id="footer">
+      <div class=leftside>
+        Website/Logo design by <a href="mailto:a.gasparetti@gmail.com">Angela Gasparetti</a>
+        &nbsp; &nbsp; | &nbsp; &nbsp;
+        <a href="/dcbpw2015/conduct.html">Standards of Conduct</a>
+      </div>
+      Powered by <a href="http://act.mongueurs.net/">Act</a>
+    </div>
+
+  </div>
+  </div>
+
+</body>
+</html>
+ 
