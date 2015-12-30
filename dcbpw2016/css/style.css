@@ -170,3 +170,15 @@ h2 {
     margin: 1em;
     width: 100px;
     height: 3em; }
+
+.call-to-action {
+  margin-bottom: 2em;
+  text-align: center;
+}
+.call-to-action a {
+  border: 1px solid #931b1b;
+  padding: 1em;
+  background-color:#a32b2b;
+  color: #fff !important;
+  font-size: 1.2em; 
+}
