@@ -180,5 +180,16 @@ h2 {
   padding: 1em;
   background-color:#a32b2b;
   color: #fff !important;
-  font-size: 1.2em; 
+  font-size: 1.2em;
+}
+.call-to-action-blue {
+  margin-bottom: 2em;
+  text-align: center;
+}
+.call-to-action-blue a {
+  border: 1px solid #2d556f;
+  padding: 1em;
+  background-color: #3d657f;
+  color: #fff !important;
+  font-size: 1.2em;
 }
