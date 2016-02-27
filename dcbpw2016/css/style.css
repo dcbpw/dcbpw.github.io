@@ -154,6 +154,8 @@ p {
 
 #smartlogic {
   height: 25px; }
+#infinity {
+  height: 60px; }
 
 .news-author:before {
   content: "Posted by "; }
@@ -163,6 +165,12 @@ p {
   margin-bottom: 1em;
   font-style: italic;
   font-size: smaller; }
+
+.news-text blockquote {
+  border-left: 3px solid gray;
+  margin: 5px 10px 5px 30px;
+  padding-left: 10px; }
+
 
 #sponsors {
   overflow: auto; }
