@@ -202,6 +202,7 @@ a.call-to-action-blue {
   background-color: #ccc;
 }
 .talk-schedule td, .talk-schedule th {
+  vertical-align: middle;
   padding: 10px;
 }
 .venue-map {
