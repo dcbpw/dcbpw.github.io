@@ -192,6 +192,12 @@ a.call-to-action-blue {
     text-align: left;
     color: white;
 }
+.talk-schedule .speaker-name {
+    min-width: 130px;
+}
+.talk-schedule .talk-title {
+    min-width: 150px;
+}
 .talk-schedule .even td {
   background-color: #ccc;
 }
