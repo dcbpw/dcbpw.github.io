@@ -149,6 +149,11 @@ p {
 
 .news-title {
   font-size: x-large; }
+  .news-title img {
+    vertical-align: middle; }
+
+#smartlogic {
+  height: 25px; }
 
 .news-author:before {
   content: "Posted by "; }
