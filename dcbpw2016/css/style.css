@@ -4,8 +4,8 @@ body {
   background-color: whitesmoke;
   color: black;
   font-family: 'MuseoSans-500', sans-serif;
-  line-height: 20px;
-  font-size: 14px; }
+  line-height: 26px;
+  font-size: 18px; }
 
 #wrapperwrapper {
   min-width: 600px;
@@ -143,10 +143,6 @@ p {
     height: 50px;
     margin-bottom: -20px; }
 
-h2 {
-  font-size: large;
-  font-weight: bold; }
-
 .news-date {
   font-size: large;
   float: right; }
@@ -171,25 +167,57 @@ h2 {
     width: 100px;
     height: 3em; }
 
-.call-to-action {
-  margin-bottom: 2em;
-  text-align: center;
-}
-.call-to-action a {
+a.call-to-action {
   border: 1px solid #931b1b;
   padding: 1em;
   background-color:#a32b2b;
   color: #fff !important;
-  font-size: 1.2em;
+  /* font-size: 1.2em; */
+  margin: 1em;
 }
-.call-to-action-blue {
-  margin-bottom: 2em;
-  text-align: center;
-}
-.call-to-action-blue a {
+a.call-to-action-blue {
   border: 1px solid #2d556f;
   padding: 1em;
   background-color: #3d657f;
   color: #fff !important;
-  font-size: 1.2em;
+  /* font-size: 1.2em; */
+  margin: 1em;
 }
+.talk-schedule th {
+  font-weight: bold;
+}
+.talk-schedule th {
+  /* background-color: #8cc; */
+  background-color: #3d657f;
+    text-align: left;
+    color: white;
+}
+.talk-schedule .even td {
+  background-color: #ccc;
+}
+.talk-schedule td, .talk-schedule th {
+  padding: 10px;
+}
+.venue-map {
+  float: right;
+}
+
+  h2 {
+    padding-top: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    left: -33px;
+    background-image: url("/dcbpw2015/sidebar-banner.gif");
+    background-repeat: no-repeat;
+    color: #fff;
+    z-index: 5;
+    height: 40px;
+    margin-bottom: 15px;
+    /* text-align: center; */
+    padding-left: 30px;
+    padding-right: 30px;
+    vertical-align: middle; }
+    h2 a, h2 a:hover, h2 a:visited, h2 a:link {
+      text-decoration: none;
+      color: white; }
