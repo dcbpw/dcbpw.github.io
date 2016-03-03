@@ -149,12 +149,20 @@ p {
 
 .news-title {
   font-size: x-large; }
+  .news-title .prominent-sponsor {
+    font-size: xx-large;
+    font-weight: bold;
+    display: inline-block;
+    padding-top: 20px;
+    vertical-align: middle; }
   .news-title img {
     vertical-align: middle; }
 
 #smartlogic {
   height: 25px; }
 #infinity {
+  height: 60px; }
+#omniti {
   height: 60px; }
 
 .news-author:before {
