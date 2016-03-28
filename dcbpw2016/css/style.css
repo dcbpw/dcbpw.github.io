@@ -253,3 +253,10 @@ a.call-to-action-blue {
     h2 a, h2 a:hover, h2 a:visited, h2 a:link {
       text-decoration: none;
       color: white; }
+
+
+#logos img {
+  vertical-align: middle;
+  margin-left: 10px;
+  margin-right: 10px;
+}
