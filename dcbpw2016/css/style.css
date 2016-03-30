@@ -223,13 +223,31 @@ a.call-to-action-blue {
 .talk-schedule .talk-title {
     min-width: 150px;
 }
-.talk-schedule .even td {
+.talk-schedule .one td {
+  background-color: #fff;
+}
+.talk-schedule .two td {
   background-color: #ccc;
 }
-.talk-schedule td, .talk-schedule th {
-  vertical-align: middle;
-  padding: 10px;
+.talk-schedule .three td {
+  background-color: #888;
 }
+.talk-schedule td, .talk-schedule th {
+  vertical-align: top;
+  padding: 10px;
+  border: 1px solid #666;
+}
+.talk-schedule .speaker-name {
+  font-size: small;
+}
+.talk-schedule .talk-title {
+  font-weight: bold;
+}
+.talk-schedule .talk-abstract {
+  font-size: small;
+  line-height: 1.2em;
+}
+
 .venue-map {
   float: right;
 }
