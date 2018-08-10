@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DC-Baltimore Perl Workshop</title>
+    <link href="../dcbpw2019/css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/dcbpw.css">
+    <link rel="stylesheet" href="css/overrides.css">
+    <link rel="stylesheet" href="css/parallax.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+</head>
+<body>
+    
+    <!-- socially inclined, plus register mkay? -->
+    <nav class="navbar is-dark is-right ">
+        <div id="cheese" class="navbar-brand header-uses-anton-font">
+            <a class="navbar-item" href="#overview">
+                <i class="mdi mdi-debug-step-over mdi-24px"></i><span class="is-hidden-mobile">::Overview</span>
+            </a>
+            <a class="navbar-item" href="#register">
+                <i class="mdi mdi-account-plus mdi-24px"></i><span class="is-hidden-mobile">::Register</span>
+            </a>
+            <a class="navbar-item" href="#venue">
+                <i class="mdi mdi-city mdi-24px"></i><span class="is-hidden-mobile">::Venue</span>
+            </a>                            
+            <a class="navbar-item" href="#hotels">
+                <i class="mdi mdi-hotel mdi-24px"></i><span class="is-hidden-mobile">::Hotels</span>
+            </a>                            
+            <a class="navbar-item" href="#talks">
+                <i class="mdi mdi-voice mdi-24px"></i><span class="is-hidden-mobile">::Talks</span>
+            </a>                            
+            <a class="navbar-item" href="#news">
+                <i class="mdi mdi-newspaper mdi-24px"></i><span class="is-hidden-mobile">::News</span>
+            </a> 
+            <a class="navbar-item" href="https://twitter.com/dcbpw">
+                <i class="mdi mdi-twitter mdi-24px"></i><span class="is-hidden-mobile">@dcbpw</span>
+            </a>
+            <a class="navbar-item" href="https://github.com/dcbpw/dcbpw.github.io">
+                <i class="mdi mdi-github-box mdi-24px"></i><span class="is-hidden-mobile">::Repo</span>
+            </a>
+        </div>
+    </nav>
+
+    <div class="instantiates-parallax">
+        <div class="defines-parallax-layer as-back"></div>
+        <div class="defines-parallax-layer as-front">
+
+            <!-- big ass logo -->
+            <section class="hero">
+                <div class="hero-body">
+                    <div class="container has-text-centered">
+                        <img alt="@{$_->{'DC-Baltimore Perl Wordshop'}}[2019]" src="img/big-logo.png"/>
+                    </div>
+                </div>
+            </section>
+        
+            <!-- we are doing a thing; sorry! -->
+            <section class="hero is-dark">
+                <div class="hero-body">
+                    <div class="container">
+                        <a name="overview"></a>
+                        <h2 class="title header-uses-anton-font">
+                            <i class="mdi mdi-debug-step-over mdi-48px"></i>::Overview
+                        </h2>
+                        <p class="is-size-5 has-text-left">The DC and Baltimore Perlmongers invite you to join us for a workshop at the University of Baltimore in Baltimore, MD, on Saturday, April 16, 2016, followed by a hackathon on Sunday, April 17, 2016! The workshop will have two tracks of speakers, discussing innovative, exciting, and fun real-world usage of Perl. The hackathon will be more free-form project time, though we may have some organized hands-on activities for those interested.</p>
+                    </div>
+                </div>
+            </section>
+        
+            <!-- apologies, but you need to register before attending -->
+            <section class="hero is-light">
+                <div class="hero-body">
+                    <div class="container">
+                        <a name="register"></a>
+                        <h2 class="title header-uses-anton-font">
+                            <i class="mdi mdi-account-plus mdi-48px"></i>::Registration
+                        </h2>
+                        <p class="is-size-5 has-text-left">Register via Eventbrite. Registration is $50, which goes 100% into the conference expenses (mainly the venue). Free admission is available for speakers, students, and the currently unemployed. We REALLY WANT you to come to this workshop, so just let us know if you need any special accommodations -- registration fee or otherwise!</p>
+                        <span class="navbar-item">
+                            <a class="button is-primary is-inverted">
+                                <i class="mdi mdi-account-plus mdi-24px"></i><span>Register Now</span>
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </section>
+
+            <!-- our venue is better than your venue; sorry -->
+            <section class="hero is-dark">
+                <div class="hero-body">
+                    <div class="container">
+                        <a name="venue"></a>
+                        <h2 class="title header-uses-anton-font">
+                            <i class="mdi mdi-city mdi-48px"></i>::Venue
+                        </h2>
+                        <p class="is-size-5 has-text-left">This year we are hosting at the Thumel Business Center of the University of Baltimore, which is very close to Penn Station, easily walkable. It is located near food and other attractions in the heart of Baltimore, MD.</p>
+                        <p class="is-size-5 has-text-left">11 W Mount Royal Ave Baltimore, MD, 21201 (Google Maps, Apple Maps)</p>
+
+                        <p class="is-size-5 has-text-left">For more information and options on how to get there, check out our Venue page.></p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- sometimes one like to sleep... i do not know why but i hear it is true -->
+            <section class="hero is-light">
+                <div class="hero-body">
+                    <div class="container">
+                        <a name="hotels"></a>
+                        <h2 class="title header-uses-anton-font">
+                            <i class="mdi mdi-hotel mdi-48px"></i>::Hotels
+                        </h2>
+                        <p class="is-size-5 has-text-left"><p class="is-size-5 has-text-centered-touch has-text-left">Looking for a place to stay? There are many hotels in the area. These two are pretty good options for out-of-towners:</p>
+                        <p class="is-size-5 has-text-left"><a href="http://home2suites3.hilton.com/en/hotels/maryland/home2-suites-by-hilton-baltimore-downtown-md-BWIEPHT/index.html">Home2Suites by Hilton, Baltimore Downtown</a>
+                            This is our recommended hotel, located in downtown Baltimore, MD. You can pick up the Charm City Circulator which runs close to the venue. It has wifi and breakfast options. </BR>
+                            410-576-1200</BR>
+                            8 East Pleasant Street</BR>
+                            Baltimore, MD 21202
+                        </p>
+                        <p class="is-size-5 has-text-left"><a href="http://www.hotelbrexton.com/">Hotel Brexton</a>
+                            Hotel Brexton is a 26 room boutique near the venue. It's not a very far walk from the venue. It has wifi and breakfast options.</BR>
+                            877-380-6708</BR>
+                            868 Park Avenue</BR>
+                            Baltimore, MD
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- one person talks and other people listen; they're sorry -->
+            <section class="hero is-dark">
+                <div class="hero-body">
+                    <div class="container">
+                        <a name="talks"></a>
+                        <div class="columns is-variable is-multiline is-1">
+
+                            <div class="column is-one-fifth">
+                                <h2 class="title header-uses-anton-font">
+                                    <i class="mdi mdi-voice mdi-48px"></i>::Talks
+                                </h2>
+                            </div>
+                            <div class="column is-two-fifths">
+                                <p class="title notification is-primary">TRACK A</p>
+                            </div>
+                            <div class="column is-two-fifths">
+                                <p class="title notification is-success">TRACK B</p>
+                            </div>
+                        
+                            <div class="column is-one-fifth">
+                                <p class="subtitle">Sat, 900am</p>
+                            </div>
+                            <div class="column is-two-fifths">
+                                <div class="subtitle notification is-primary">
+                                    <div class="is-a-talk-title">How to Perl Yourself</div>
+                                    <div class="is-a-speaker">~ b. wilcox</div>
+                                </div>
+                            </div>
+                            <div class="column is-two-fifths">
+                                <div class="subtitle notification is-success">
+                                    <div class="is-a-talk-title">/dev/null/ As A Service (DNAAS)</div>
+                                    <div class="is-a-speaker">~ m. gallagher</div>
+                                </div>
+                            </div>
+                            
+                            <div class="column is-one-fifth">
+                                <p class="subtitle">Sat, 1000am</p>
+                            </div>
+                            <div class="column is-two-fifths">
+                                <div class="subtitle notification is-primary">
+                                    <div class="is-a-talk-title">Monkeys Could Do This</div>
+                                    <div class="is-a-speaker">~ j.e. turcotte</div>
+                                </div>
+                            </div>
+                            <div class="column is-two-fifths">
+                                <div class="subtitle notification is-success">
+                                    <div class="is-a-talk-title">Use Strict; Use Warnings;</div>
+                                    <div class="is-a-speaker">~ a. gore</div>
+                                </div>
+                            </div>
+
+                            <div class="column is-one-fifth">
+                                <p class="subtitle">Sat, 1100am</p>
+                            </div>
+                            <div class="column is-two-fifths">
+                                <div class="subtitle notification is-primary">
+                                    <div class="is-a-talk-title">UFO Emoji Are Here</div>
+                                    <div class="is-a-speaker">~ b. obama</div>
+                                </div>
+                            </div>
+                            <div class="column is-two-fifths">
+                                <div class="subtitle notification is-success">
+                                    <div class="is-a-talk-title">Debugging Perl 7</div>
+                                    <div class="is-a-speaker">~ v. putin</div>
+                                </div>
+                            </div>
+
+                            <div class="column is-one-fifth">
+                                <p class="subtitle">Sat, 1200pm</p>
+                            </div>
+                            <div class="column is-four-fifths">
+                                <div class="subtitle notification is-light">
+                                    <div class="is-a-talk-title">FOOOOOOOOOD!</div>
+                                    <div class="is-a-speaker">~ you, nearby, fending for yourself (sorry)</div>
+                                </div>
+                            </div>
+
+                            <div class="column is-one-fifth">
+                                <p class="subtitle">Sat, 100pm</p>
+                            </div>
+                            <div class="column is-two-fifths">
+                                <div class="subtitle notification is-primary">
+                                    <div class="is-a-talk-title">Regex, or Else</div>
+                                    <div class="is-a-speaker">~ k. morgan</div>
+                                </div>
+                            </div>
+                            <div class="column is-two-fifths">
+                                <div class="subtitle notification is-success">
+                                    <div class="is-a-talk-title">Running Perl in Javascript</div>
+                                    <div class="is-a-speaker">~ s. snape</div>
+                                </div> 
+                            </div>
+
+                            <div class="column is-one-fifth">
+                                <p class="subtitle">Sat, 200pm</p>
+                            </div>
+                            <div class="column is-two-fifths">
+                                <div class="subtitle notification is-primary">
+                                    <div class="is-a-talk-title">Object Oriented Camels</div>
+                                    <div class="is-a-speaker">~ m. gandhi</div>
+                                </div>
+                            </div>
+                            <div class="column is-two-fifths">
+                                <div class="subtitle notification is-success">
+                                    <div class="is-a-talk-title">Procedural Text Generation</div>
+                                    <div class="is-a-speaker">~ j.r.r. tolkien</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- things happen; we are still kinda sorta sorry -->
+            <section class="hero is-light">
+                <div class="hero-body">
+                    <div class="container">
+                        <a name="news"></a>
+                        <h2 class="title header-uses-anton-font">
+                            <i class="mdi mdi-newspaper mdi-48px"></i>::News
+                        </h2>
+                        <article class="media">
+                            <figure class="media-left">
+                                <p class="image is-64x64">
+                                    <img class="is-semi-rounded" src="https://pbs.twimg.com/profile_images/196922763/n500022530_355_6558_400x400.jpg">
+                                </p>
+                            </figure>
+                            <div class="media-content">
+                                <div class="content">
+                                    <p>
+                                        <strong>Stephen Belcher</strong> <small>@sycobuny</small> <small>2018-08-02</small><p>
+                                            <p class="is-size-4 has-text-primary">Donation from OmniTI!</p>
+                                            <p>Thanks to OmniTI for their generous donation to help fund the 2016 DCPBW! What's that, you'd like to know more about our latest sponsor? Check it out:
+                                            </p>
+                                            <p>At OmniTI we design and build systems that run some of the most visited websites in the world. If you're looking to scale out your architecture, improve the performance of your application; or if you're interested in working on code that supports 100,000 requests/second - visit us at http://omniti.com.</p>
+                                            <p>Find out more information by visiting their site!</p>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </section>
+       
+                    <!-- turns out we got some help with all this; sorry -->
+
+                    <footer class="footer">
+                        <div class="content is-size-8 has-text-centered">
+                            
+                            <!-- bulma, for responsible layout control and baseline aesthetics -->
+                            <p><strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+ is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.</p>
+ 
+                        </div>
+                    </footer>
+                </div></div>
+            </body>
+            </html>

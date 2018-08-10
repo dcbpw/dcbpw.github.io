@@ -1,0 +1,26 @@
+{
+  "name": "dcbpw-sass",
+  "version": "1.0.0",
+  "description": "Bulma css customization space, first used 2019",
+  "main": "sass/dcbpw.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sass",
+    "scss",
+    "css",
+    "bulma"
+  ],
+  "author": "J.E. Turcotte",
+  "license": "MIT",
+  "devDependencies": {
+    "bulma": "^0.7.1",
+    "node-sass": "^4.9.2"
+  },
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url ./sass/dcbpw.scss ./css/dcbpw.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  }
+}

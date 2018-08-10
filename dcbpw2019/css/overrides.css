@@ -1,0 +1,14 @@
+.header-uses-anton-font {
+  font-family: "Anton", sans-serif !important;
+  font-weight: 500;
+}
+
+.is-a-speaker {
+  font-size: 0.8rem;
+}
+
+.is-a-talk-title {
+  background-color: rgba(0,0,0,0.1);
+  border-radius: 0.2em;
+  padding: 0rem 1rem;
+}
