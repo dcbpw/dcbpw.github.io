@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Anton:400,700');
+
+// Set your brand colors
+$blue: #3D657F;
+$red: #A32B2B;
+$grey-darker: rgba(100,100,100,0.8);
+$white-ter: rgba(230,230,230,0.1); 
+$black: hsl(0, 0%, 4%);
+$white: hsl(0, 0%, 100%);
+
+// Update Bulma's global variables
+//$family-sans-serif: "Anton", sans-serif;
+$primary: $blue;
+$primary-invert: $white;
+$success: $red;
+$success-invert: $white;
+$link: $blue;
+$link-hover: $red;
+$light-invert: $black;
+$dark-invert: $white;
+
+// Update some of Bulma's component variables
+//$control-border-width: 2px;
+//$input-border-color: transparent;
+//$input-shadow: none;
+
+// Import only what you need from Bulma
+@import "../node_modules/bulma/sass/utilities/_all.sass";
+@import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/elements/button.sass";
+@import "../node_modules/bulma/sass/elements/container.sass";
+@import "../node_modules/bulma/sass/elements/notification.sass";
+@import "../node_modules/bulma/sass/elements/title.sass";
+@import "../node_modules/bulma/sass/layout/hero.sass";
+@import "../node_modules/bulma/sass/layout/section.sass";
+@import "../node_modules/bulma/sass/layout/footer.sass";
+@import "../node_modules/bulma/sass/grid/_all.sass";
+@import "../node_modules/bulma/sass/grid/columns.sass";
+@import "../node_modules/bulma/sass/components/navbar.sass";

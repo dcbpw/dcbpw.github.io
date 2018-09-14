@@ -1,0 +1,33 @@
+.is-semi-rounded {
+  border-radius: 8px !important;
+}
+
+.instantiates-parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective-origin-x: 0%;
+}
+
+.defines-parallax-layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform-origin-x: 100%;
+}
+
+.as-front {
+  transform: translateZ(0);
+}
+
+.as-back {
+  transform: translateZ(-1px) scale(1);
+  background-image: url("../img/parallax-background-deep.png");
+  background-repeat: repeat;
+  width: 200vw;
+  height: 300vh;
+  margin-top: -50vh;
+}
