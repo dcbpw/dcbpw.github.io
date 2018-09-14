@@ -3,97 +3,90 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>@{$_->{'DC-Baltimore Perl Wordshop'}}[2019]</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
-    <link href="css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
+    <title>DC-Baltimore Perl Workshop</title>
+    <link href="../dcbpw2019/css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="css/dcbpw.css">
+    <link rel="stylesheet" href="css/overrides.css">
+    <link rel="stylesheet" href="css/parallax.css">
     <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
 </head>
 <body>
     
     <!-- socially inclined, plus register mkay? -->
-    <nav class="navbar is-light is-right">
-        <div id="socialism" class="navbar-brand">
+    <nav class="navbar is-dark is-right ">
+        <div id="cheese" class="navbar-brand header-uses-anton-font">
             <a class="navbar-item" href="#overview">
-                <i class="mdi mdi-debug-step-over mdi-24px"></i>&nbsp;Overview
+                <i class="mdi mdi-debug-step-over mdi-24px"></i><span class="is-hidden-mobile">::Overview</span>
+            </a>
+            <a class="navbar-item" href="#venue">
+                <i class="mdi mdi-city mdi-24px"></i><span class="is-hidden-mobile">::Venue</span>
             </a>                            
-            <a class="navbar-item" href="#venue">>
-                <i class="mdi mdi-city mdi-24px"></i>&nbsp;Venue
+            <a class="navbar-item" href="#hotels">
+                <i class="mdi mdi-hotel mdi-24px"></i><span class="is-hidden-mobile">::Hotels</span>
             </a>                            
-            <a class="navbar-item" href="#hotels">>
-                <i class="mdi mdi-hotel mdi-24px"></i>&nbsp;Hotels
-            </a>                            
-            <a class="navbar-item" href="#talks">>
-                <i class="mdi mdi-voice mdi-24px"></i>&nbsp;Talks
-            </a>                            
-            <a class="navbar-item" href="#news">>
-                <i class="mdi mdi-newspaper mdi-24px"></i>&nbsp;News
-            </a> 
             <a class="navbar-item" href="https://twitter.com/dcbpw">
-                <i class="mdi mdi-twitter mdi-24px"></i>&nbsp;@dcbpw
+                <i class="mdi mdi-twitter mdi-24px"></i><span class="is-hidden-mobile">@dcbpw</span>
             </a>
             <a class="navbar-item" href="https://github.com/dcbpw/dcbpw.github.io">
-                <i class="mdi mdi-github-box mdi-24px"></i>&nbsp;Git Repo
+                <i class="mdi mdi-github-box mdi-24px"></i><span class="is-hidden-mobile">::Repo</span>
             </a>
-            <span class="navbar-item">
-                <a class="button is-primary is-inverted">
-                    <i class="mdi mdi-account-plus mdi-24px"></i><span>Register Now</span>
-                </a>
-            </span>
         </div>
     </nav>
 
     <div class="instantiates-parallax">
-        <div class="defines-parallax-layer as-back">
-        </div>
+        <div class="defines-parallax-layer as-back"></div>
         <div class="defines-parallax-layer as-front">
-            <section class="hero">
 
-                <!-- big ass logo -->
+            <!-- big ass logo -->
+            <section class="hero">
                 <div class="hero-body">
                     <div class="container has-text-centered">
-                        <img src="images/big-logo.png"/>
+                        <img alt="@{$_->{'DC-Baltimore Perl Workshop'}}[2019]" src="img/big-logo.png"/>
                     </div>
                 </div>
-        
             </section>
         
-            <!-- we are doing a thing -->
+            <!-- we are doing a thing; sorry! -->
             <section class="hero is-dark">
                 <div class="hero-body">
                     <div class="container">
-                        <h2 class="is-size-3 has-text-info has-text-weight-bold is-uppercase mb-10">   
-                            <i class="mdi mdi-debug-step-over mdi-24px"></i>
-                            Overview
+                        <a name="overview"></a>
+                        <h2 class="title header-uses-anton-font">
+                            <i class="mdi mdi-debug-step-over mdi-48px"></i>::Overview
                         </h2>
-                        <p class="is-size-5 has-text-left">The DC and Baltimore Perlmongers invite you to join us for a workshop at the University of Baltimore in Baltimore, MD, on Saturday, April 16, 2016, followed by a hackathon on Sunday, April 17, 2016! The workshop will have two tracks of speakers, discussing innovative, exciting, and fun real-world usage of Perl. The hackathon will be more free-form project time, though we may have some organized hands-on activities for those interested.</p>
+                        <p class="is-size-5 has-text-left">The DC and Baltimore Perlmongers invite you to join us for a workshop at the Silver Spring Civic Building in Silver Spring, Maryland on Saturday, April 6, 2019. The workshop will have two tracks of speakers, discussing innovative, exciting, and fun real-world usage of Perl and related languages.</p>
                     </div>
                 </div>
             </section>
         
-            <!-- best if you register before attending -->
-            <section class="hero">
+            <!-- apologies, but you need to register before attending -->
+            <section class="hero is-light">
                 <div class="hero-body">
                     <div class="container">
-                        <h2 class="is-size-3 has-text-info has-text-weight-bold is-uppercase mb-10">   
-                            <i class="mdi mdi-account-plus mdi-24px"></i>
-                            Registration
+                        <a name="register"></a>
+                        <h2 class="title header-uses-anton-font">
+                            <i class="mdi mdi-account-plus mdi-48px"></i>::Registration
                         </h2>
                         <p class="is-size-5 has-text-left">Register via Eventbrite. Registration is $50, which goes 100% into the conference expenses (mainly the venue). Free admission is available for speakers, students, and the currently unemployed. We REALLY WANT you to come to this workshop, so just let us know if you need any special accommodations -- registration fee or otherwise!</p>
+                        <span class="navbar-item">
+                            <a class="button is-primary is-inverted">
+                                <i class="mdi mdi-account-plus mdi-24px"></i><span>Register Now</span>
+                            </a>
+                        </span>
                     </div>
                 </div>
             </section>
 
-            <!-- our venue is better than your venue -->
+            <!-- our venue is better than your venue; sorry -->
             <section class="hero is-dark">
                 <div class="hero-body">
                     <div class="container">
-                        <h2 class="is-size-3 has-text-info has-text-weight-bold is-uppercase mb-10">   
-                            <i class="mdi mdi-city mdi-24px"></i>
-                            Venue
+                        <a name="venue"></a>
+                        <h2 class="title header-uses-anton-font">
+                            <i class="mdi mdi-city mdi-48px"></i>::Venue
                         </h2>
-                        <p class="is-size-5 has-text-left">This year we are hosting at the Thumel Business Center of the University of Baltimore, which is very close to Penn Station, easily walkable. It is located near food and other attractions in the heart of Baltimore, MD.</p>
-                        <p class="is-size-5 has-text-left">11 W Mount Royal Ave Baltimore, MD, 21201 (Google Maps, Apple Maps)</p>
+                        <p class="is-size-5 has-text-left">This year we are hosting at the Silver Spring Civic Building, which is three blocks from the DC Metro transit system. Garage parking is also available and the venue is located near food and other attractions.</p>
+                        <p class="is-size-5 has-text-left">8525 Fenton Street, Silver Spring, MD 20910 (Google Maps, Apple Maps)</p>
 
                         <p class="is-size-5 has-text-left">For more information and options on how to get there, check out our Venue page.></p>
                     </div>
@@ -101,193 +94,39 @@
             </section>
 
             <!-- sometimes one like to sleep... i do not know why but i hear it is true -->
-            <section class="hero">
+            <section class="hero is-light">
                 <div class="hero-body">
                     <div class="container">
-                        <h2 class="is-size-3 has-text-info has-text-weight-bold is-uppercase mb-10">   
-                            <i class="mdi mdi-hotel mdi-24px"></i>
-                            Hotels
+                        <a name="hotels"></a>
+                        <h2 class="title header-uses-anton-font">
+                            <i class="mdi mdi-hotel mdi-48px"></i>::Hotels
                         </h2>
                         <p class="is-size-5 has-text-left"><p class="is-size-5 has-text-centered-touch has-text-left">Looking for a place to stay? There are many hotels in the area. These two are pretty good options for out-of-towners:</p>
-                        <p class="is-size-5 has-text-left"><a href="http://home2suites3.hilton.com/en/hotels/maryland/home2-suites-by-hilton-baltimore-downtown-md-BWIEPHT/index.html">Home2Suites by Hilton, Baltimore Downtown</a>
-                            This is our recommended hotel, located in downtown Baltimore, MD. You can pick up the Charm City Circulator which runs close to the venue. It has wifi and breakfast options. </BR>
-                            410-576-1200</BR>
-                            8 East Pleasant Street</BR>
-                            Baltimore, MD 21202
-                        </p>
-                        <p class="is-size-5 has-text-left"><a href="http://www.hotelbrexton.com/">Hotel Brexton</a>
-                            Hotel Brexton is a 26 room boutique near the venue. It's not a very far walk from the venue. It has wifi and breakfast options.</BR>
-                            877-380-6708</BR>
-                            868 Park Avenue</BR>
-                            Baltimore, MD
+                        <p class="is-size-5 has-text-left"><a href="https://www.marriott.com/hotels/travel/wassv-courtyard-silver-spring-downtown/">Courtyard by Marriott on Fenton Street</a>
+                            This is our recommended hotel, located in Silver Spring, MD. It has wifi and breakfast options. </BR>
+                            301-589-4899</BR>
+                            8506 Fenton Street</BR>
+                            Silver Spring, MD 20910
+                        </p></br>
+                        <p class="is-size-5 has-text-left"><a href="https://doubletree3.hilton.com/en/hotels/maryland/doubletree-by-hilton-hotel-washington-dc-silver-spring-DCASSDT/index.html">DoubleTree by Hilton Hotel</a>
+                            The DoubleTree is located just a few blocks from the venue and offers free wifi and dining options as well.</BR>
+                            301-589-5200</BR>
+                            8727 Colesville Road</BR>
+                            Silver Spring, MD  20910
                         </p>
                     </div>
                 </div>
             </section>
 
-            <!-- one person talks and other people listen; it is crazy -->
-            <section class="hero is-dark">
-                <div class="hero-body">
-                    <div class="container">
-                        <h2 class="is-size-3 has-text-info has-text-weight-bold is-uppercase mb-10">   
-                            <i class="mdi mdi-voice mdi-24px"></i>
-                            Talks
-                        </h2>
-                        <div class="tile is-ancestor">
-                            <div class="tile is-parent">
-                                <article class="tile is-child">
-                                </article>
-                            </div>
-                            <div class="tile is-parent">
-                                <article class="tile is-child notification is-success">
-                                    <p class="title">TRACK A</p>
-                                </article>
-                            </div>
-                            <div class="tile is-parent">
-                                <article class="tile is-child notification is-primary">
-                                    <p class="title">TRACK B</p>
-                                </article>
-                            </div>
-                        </div>
-                        <div class="tile is-ancestor">
-                            <div class="tile is-parent">
-                                <article class="tile is-child notification is-info">
-                                    <p class="subtitle">Sat, 900am</p>
-                                </article>
-                            </div>
-                            <div class="tile is-parent">
-                                <article class="tile is-child notification is-success">
-                                    <p class="subtitle">How to Perl Yourself</p>
-                                </article>
-                            </div>
-                            <div class="tile is-parent">
-                                <article class="tile is-child notification is-primary">
-                                    <p class="subtitle">/dev/null/ As A Service (DNAAS)</p> 
-                                </article>
-                            </div>
-                        </div>
-                        <div class="tile is-ancestor">
-                            <div class="tile is-parent">
-                                <article class="tile is-child notification is-info">
-                                    <p class="subtitle">Sat, 1000am</p>
-                                </article>
-                            </div>
-                            <div class="tile is-parent">
-                                <article class="tile is-child notification is-success">
-                                    <p class="subtitle">Monkeys Could Do This</p>
-                                </article>
-                            </div>
-                            <div class="tile is-parent">
-                                <article class="tile is-child notification is-primary">
-                                    <p class="subtitle">Use Strict; Use Warnings;</p> 
-                                </article>
-                            </div>
-                        </div>
-                        <div class="tile is-ancestor">
-                            <div class="tile is-parent">
-                                <article class="tile is-child notification is-info">
-                                    <p class="subtitle">Sat, 1100am</p>
-                                </article>
-                            </div>
-                            <div class="tile is-parent">
-                                <article class="tile is-child notification is-success">
-                                    <p class="subtitle">UFO Emoji Are Here</p>
-                                </article>
-                            </div>
-                            <div class="tile is-parent">
-                                <article class="tile is-child notification is-primary">
-                                    <p class="subtitle">Debugging Perl 7</p> 
-                                </article>
-                            </div>
-                        </div>
-                        <div class="tile is-ancestor">
-                            <div class="tile is-parent">
-                                <article class="tile is-child notification is-info">
-                                    <p class="subtitle">Sat, 1200pm</p>
-                                </article>
-                            </div>
-                            <div class="tile is-parent">
-                                <article class="tile is-child notification is-danger">
-                                    <p class="subtitle">FOOOOOOOOOD!</p>
-                                </article>
-                            </div>
-                        </div>
-                        <div class="tile is-ancestor">
-                            <div class="tile is-parent">
-                                <article class="tile is-child notification is-info">
-                                    <p class="subtitle">Sat, 100pm</p>
-                                </article>
-                            </div>
-                            <div class="tile is-parent">
-                                <article class="tile is-child notification is-success">
-                                    <p class="subtitle">Regex, or Else</p>
-                                </article>
-                            </div>
-                            <div class="tile is-parent">
-                                <article class="tile is-child notification is-primary">
-                                    <p class="subtitle">Running Perl in Javascript</p> 
-                                </article>
-                            </div>
-                        </div>
-                        <div class="tile is-ancestor">
-                            <div class="tile is-parent">
-                                <article class="tile is-child notification is-info">
-                                    <p class="subtitle">Sat, 200pm</p>
-                                </article>
-                            </div>
-                            <div class="tile is-parent">
-                                <article class="tile is-child notification is-success">
-                                    <p class="subtitle">Object Oriented Camels</p>
-                                </article>
-                            </div>
-                            <div class="tile is-parent">
-                                <article class="tile is-child notification is-primary">
-                                    <p class="subtitle">Procedural Text Generation</p> 
-                                </article>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <!-- things happen; we are sorry -->
-            <section class="hero">
-                <div class="hero-body">
-                    <div class="container">
-                        <h2 class="is-size-3 has-text-info has-text-weight-bold is-uppercase mb-10">   
-                            <i class="mdi mdi-newspaper mdi-24px"></i>
-                            News
-                        </h2>
-                        <article class="media">
-                            <figure class="media-left">
-                                <p class="image is-64x64">
-                                    <img class="is-semi-rounded" src="https://pbs.twimg.com/profile_images/196922763/n500022530_355_6558_400x400.jpg">
-                                </p>
-                            </figure>
-                            <div class="media-content">
-                                <div class="content">
-                                    <p>
-                                        <strong>Stephen Belcher</strong> <small>@sycobuny</small> <small>2018-08-02</small><p>
-                                            <p class="is-size-4 has-text-primary">Donation from OmniTI!</p>
-                                            <p>Thanks to OmniTI for their generous donation to help fund the 2016 DCPBW! What's that, you'd like to know more about our latest sponsor? Check it out:
-                                            </p>
-                                            <p>At OmniTI we design and build systems that run some of the most visited websites in the world. If you're looking to scale out your architecture, improve the performance of your application; or if you're interested in working on code that supports 100,000 requests/second - visit us at http://omniti.com.</p>
-                                            <p>Find out more information by visiting their site!</p>
-                                        </div>
-                                    </div>
-                                </article>
-                            </div>
-                        </div>
-                    </section>
-       
                     <!-- turns out we got some help with all this; sorry -->
+
                     <footer class="footer">
-                        <div class="content is-size-6 has-text-centered">
-                            <p>
-                                <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
-                                <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
-                                is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
-                            </p>
+                        <div class="content is-size-8 has-text-centered">
+                            
+                            <!-- bulma, for responsible layout control and baseline aesthetics -->
+                            <p><strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
+ is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.</p>
+ 
                         </div>
                     </footer>
                 </div></div>
