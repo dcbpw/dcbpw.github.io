@@ -17,5 +17,6 @@ p {
   padding-bottom: 0.8em;
 }
 
-a {
+.tags {
+  margin-bottom: 1em !important;
 }

@@ -1,39 +1,35 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>DC-Baltimore Perl Workshop</title>
-    <link href="../dcbpw2019/css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" href="css/dcbpw.css">
-    <link rel="stylesheet" href="css/overrides.css">
-    <link rel="stylesheet" href="css/parallax.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>DC-Baltimore Perl Workshop 2019</title>
+        <link href="../dcbpw2019/css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="css/dcbpw.css">
+        <link rel="stylesheet" href="css/overrides.css">
+        <link rel="stylesheet" href="css/parallax.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
 
-    <!-- Favorite icon -->
-    <link rel="shortcut icon" type="image/png" href="/favicon.png" />
-</head>
-<body>
+        <!-- Favorite icon -->
+        <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+    </head>
+    <html>
     
-    <!-- socially inclined, plus register mkay? -->
-    <nav class="navbar is-dark is-right ">
-        <div id="cheese" class="navbar-brand header-uses-anton-font">
-            <a class="navbar-item" href="#overview">
-                <i class="mdi mdi-airballoon mdi-24px"></i><span class="is-hidden-mobile">::Overview</span>
-            </a>
-            <a class="navbar-item" href="#register">
-                <i class="mdi mdi-account mdi-24px"></i><span class="is-hidden-mobile">::Register</span>
-            </a>
-            <a class="navbar-item" href="#venue">
-                <i class="mdi mdi-city mdi-24px"></i><span class="is-hidden-mobile">::Venue</span>
-            </a>                            
-            <a class="navbar-item" href="#hotels">
-                <i class="mdi mdi-hotel mdi-24px"></i><span class="is-hidden-mobile">::Hotels</span>
-            </a>                            
-            <!--// <a class="navbar-item" href="#talks">
-                <i class="mdi mdi-voice mdi-24px"></i><span class="is-hidden-mobile">::Talks</span>
+        <!-- socially inclined, plus register mkay? -->
+        <nav class="navbar is-fixed-top is-dark is-right ">
+            <div id="cheese" class="navbar-brand header-uses-anton-font">
+                <a class="navbar-item" href="#overview">
+                    <i class="mdi mdi-airballoon mdi-24px"></i><span class="is-hidden-mobile">::Overview</span>
                 </a>
-                //-->
+                <a class="navbar-item" href="#register">
+                    <i class="mdi mdi-account-plus mdi-24px"></i><span class="is-hidden-mobile">::Register</span>
+                </a>
+                <a class="navbar-item" href="#venue">
+                    <i class="mdi mdi-city mdi-24px"></i><span class="is-hidden-mobile">::Venue</span>
+                </a>                            
+                <a class="navbar-item" href="#hotels">
+                    <i class="mdi mdi-hotel mdi-24px"></i><span class="is-hidden-mobile">::Hotels</span>
+                </a>                            
                 <a class="navbar-item" href="#news">
                     <i class="mdi mdi-newspaper mdi-24px"></i><span class="is-hidden-mobile">::News</span>
                 </a>
@@ -49,15 +45,16 @@
             </div>
         </nav>
 
+        <!-- did you use strict? -->
         <div class="instantiates-parallax">
             <div class="defines-parallax-layer as-back"></div>
             <div class="defines-parallax-layer as-front">
 
-                <!-- big ass logo -->
+                <!-- a very nice but almost unnecessarily apologetic-about-not-being-svg logo, sorry -->
                 <section class="hero">
                     <div class="hero-body">
                         <div class="container has-text-centered">
-                            <img alt="@{$_->{'DC-Baltimore Perl Workshop'}}[2019]" src="img/big-logo.png"/>
+                            <img style="margin-top: 25px;" alt="@{$_->{'DC-Baltimore Perl Workshop'}}[2019]" src="img/big-logo.png"/>
                         </div>
                     </div>
                 </section>
@@ -81,12 +78,12 @@
                         <div class="container">
                             <a name="register"></a>
                             <h2 class="title header-uses-anton-font">
-                                <i class="mdi mdi-account mdi-48px"></i>::Registration
+                                <i class="mdi mdi-account-plus mdi-48px"></i>::Registration
                             </h2>
-                            <p class="is-size-5 has-text-left"><a href="https://www.eventbrite.com/e/dc-baltimore-perlyglot-workshop-2019-tickets-49721679883">Register via Eventbrite</a>. Registration is $50, which goes 100% into the conference expenses (mainly the venue). Free admission is available for speakers, students, and the currently unemployed. We REALLY WANT you to come to this workshop, so just let us know if you need any special accommodations &mdash; registration fee or otherwise!</p>
+                            <p class="is-size-5 has-text-left">Registration is $50, which goes 100% into the conference expenses (mainly the venue). Free admission is available for speakers, students, and the currently unemployed. We REALLY WANT you to come to this workshop, so just let us know if you need any special accommodations &mdash; registration fee or otherwise!</p>
                             <span class="navbar-item">
-                                <a class="button is-primary is-inverted" href="https://www.eventbrite.com/e/dc-baltimore-perlyglot-workshop-2019-tickets-49721679883">
-                                    <i class="mdi mdi-account-plus mdi-24px"></i><span>Register Now</span>
+                                <a class="button is-success" href="https://www.eventbrite.com/e/dc-baltimore-perlyglot-workshop-2019-tickets-49721679883">
+                                    <i class="mdi mdi-account-plus mdi-24px"></i><span>Register Now via Eventbrite</span>
                                 </a>
                             </span>
                         </div>
@@ -150,50 +147,58 @@
                                     </p>
                                 </figure>
                                 <div class="media-content">
-                                  <div class="content">
-                                    <p>
-                                    <strong>Brock Wilcox</strong> <small><a href="https://twitter.com/awwaiid/">@awwaiid</a></small> <small>2018-09-23</small>
-                                    </p>
-                                    <p class="is-size-4 has-text-primary">Give a talk at DCBPW-2019!</p>
-                                    <p>
-                                    You are cordially invited to submit talks for the 2019
-                                    DC-Baltimore Perl Workshop, which will be held on Saturday,
-                                    April 6, 2019, in <a href="#venue">Silver Spring, MD</a>!
-                                    Submit via the <a
-                                                          href="https://docs.google.com/forms/d/e/1FAIpQLSdTMou9-x-3n-5MfvlS25zTI9MxhbHVdb_3qv7V-_MGBlHugw/viewform">Google
-                                                          Form</a>!
-                                    </p>
-                                    <p>
-                                    As in previous years, we love and suggest 25 minute talks, which
-                                    we've found is a sweet spot for most topics. We get a great
-                                    variety -- enough to get a dose of newness and not overwhelm.
-                                    We also welcome proposals for more tutorial-style talks of
-                                    around 50 minutes. We'll take the talks and build out a
-                                    two-track schedule.
-                                    </p>
-                                    <p>
-                                    Speakers of all levels are welcome! This regional meetup is
-                                    great for getting your first taste of giving a community
-                                    talk, sharing projects or topics that you have experience
-                                    with, or even doing a first run for a talk you'll be
-                                    presenting at a larger conference! All Perl-related topics
-                                    are welcome -- from beginner to advanced, from technical to
-                                    social.
-                                    </p>
-                                    <p>
-                                    And of course if you're not up for giving a talk this year, are invited to <a href="#register">register
-                                      for the conference as an attendee</a>!
-                                    </p>
-                                    <p>
-                                    If you have any questions, <a
-                                                          href="mailto:dcbpw-organizers@googlegroups.com">email us
-                                                          (dcbpw-organizers@googlegroups.com)</a>! We'll even be
-                                                        happy to help you tune your topic.
-                                    </p>
-                                  </div>
+                                    <div class="content">
+                                        <div class="field is-grouped is-grouped-multiline">
+                                          <div class="control">
+                                            <div class="tags has-addons">
+                                              <span class="tag is-large is-dark">2018-09-27</span>
+                                              <span class="tag is-large is-success">Give a talk at DCBPW-2019!</span>
+                                            </div>
+                                          </div>
+                                        </div>
+                                        <p>
+                                            You are cordially invited to submit talks for the 2019
+                                            DC-Baltimore Perl Workshop, which will be held on Saturday,
+                                            April 6, 2019, in <a href="#venue">Silver Spring, MD</a>!
+                                            Submit via the <a
+                                            href="https://docs.google.com/forms/d/e/1FAIpQLSdTMou9-x-3n-5MfvlS25zTI9MxhbHVdb_3qv7V-_MGBlHugw/viewform">Google
+                                            Form</a>!
+                                        </p>
+                                        <p>
+                                            As in previous years, we love and suggest 25 minute talks, which
+                                            we've found is a sweet spot for most topics. We get a great
+                                            variety -- enough to get a dose of newness and not overwhelm.
+                                            We also welcome proposals for more tutorial-style talks of
+                                            around 50 minutes. We'll take the talks and build out a
+                                            two-track schedule.
+                                        </p>
+                                        <p>
+                                            Speakers of all levels are welcome! This regional meetup is
+                                            great for getting your first taste of giving a community
+                                            talk, sharing projects or topics that you have experience
+                                            with, or even doing a first run for a talk you'll be
+                                            presenting at a larger conference! All Perl-related topics
+                                            are welcome -- from beginner to advanced, from technical to
+                                            social.
+                                        </p>
+                                        <p>
+                                            And of course if you're not up for giving a talk this year, are invited to <a href="#register">register
+                                            for the conference as an attendee</a>!
+                                        </p>
+                                        <p>
+                                            If you have any questions, <a
+                                            href="mailto:dcbpw-organizers@googlegroups.com">email us
+                                            (dcbpw-organizers@googlegroups.com)</a>! We'll even be
+                                            happy to help you tune your topic.
+                                        </p>
+                                        <p>
+                                            <strong>~ Brock Wilcox</strong>
+                                            &nbsp;
+                                            <a class="button is-primary is-small" href="https://twitter.com/awwaiid/">@awwaiid</a>
+                                        </p>
+                                    </div>
                                 </div>
-                              </article>
-
+                            </article>
 
                             <article class="media">
                                 <figure class="media-left">
@@ -203,15 +208,24 @@
                                 </figure>
                                 <div class="media-content">
                                     <div class="content">
-                                        <p>
-                                            <strong>Dawn Wallis</strong> <small>@DSWallis</small> <small>2018-09-18</small>
-                                        </p>
-                                        <p class="is-size-4 has-text-primary">We're back!</p>
+                                        <div class="field is-grouped is-grouped-multiline">
+                                          <div class="control">
+                                            <div class="tags has-addons">
+                                              <span class="tag is-large is-dark">2018-09-18</span>
+                                              <span class="tag is-large is-success">We're back!</span>
+                                            </div>
+                                          </div>
+                                        </div>
                                         <p>
                                             You're already here so you know it's official. After taking a year off DCBPW returns to Silver Spring, MD! We hope you'll register to attend or at least tell a friend!
                                         </p>
                                         <p>
                                             We are also seeking sponsors - so if you work for a company or know of one that could benefit from a little conference advertising and uses Perl and related technologies, let's connect! Email <a href="mailto:dcbpw-organizers@googlegroups.com">dcbpw-organizers@googlegroups.com</a> for more information about sponsorship opportunities.
+                                        </p>
+                                        <p>
+                                            <strong>~ Dawn Wallis</strong>
+                                            &nbsp;
+                                            <a class="button is-primary is-small" href="https://twitter.com/DSWallis/">@DSWallis</a>
                                         </p>
                                     </div>
                                 </div>
@@ -229,25 +243,26 @@
                             <h2 class="title header-uses-anton-font">
                                 <i class="mdi mdi-email mdi-48px"></i>::Contact
                             </h2>
-                            <p class="is-size-5 has-text-left"><p class="is-size-5 has-text-centered-touch has-text-left">We'd love to hear from you! Email us at <a href="mailto:dcbpw-organizers@googlegroups.com">dcbpw-organizers@googlegroups.com</a>.</p>
+                            <p class="is-size-5 has-text-left"><p class="is-size-5 has-text-centered-touch has-text-left">We'd love to hear from you! Email us at</BR><a class="is-size-5 button is-success" href="mailto:dcbpw-organizers@googlegroups.com">dcbpw-organizers@googlegroups.com</a></p>
                         </div>
                     </div>
                 </section>
 
-
                 <!-- turns out we got some help with all this; sorry -->
-
                 <footer class="footer">
                     <div class="content is-size-8 has-text-centered">
                             
-                            <!-- bulma, for responsible layout control and baseline aesthetics -->
-                            <a href="https://bulma.io">
-                              <img src="img/made-with-bulma.png" alt="Made with Bulma" width="128" height="24">
-                            </a>
+                        <!-- bulma, for responsible layout control and baseline aesthetics -->
+                        <a href="https://bulma.io">
+                            <img src="img/made-with-bulma.png" alt="Made with Bulma" width="128" height="24">
+                        </a>
  
-                        </div>
-                    </footer>
-                </div></div>
-
-</body>
+                    </div>
+                </footer>
+                
+            </div>
+        </div>
+        <!-- did you use warnings? -->
+        
+    </body>
 </html>
