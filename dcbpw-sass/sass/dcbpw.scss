@@ -7,7 +7,7 @@
 $blue: #3D657F;
 $red: #A32B2B;
 $grey-darker: rgba(100,100,100,0.9);
-$white-ter: rgba(230,230,230,0.1); 
+$white-ter: rgba(230,230,230,0.1);
 $black: hsl(0, 0%, 4%);
 $white: hsl(0, 0%, 100%);
 
@@ -18,8 +18,16 @@ $success: $red;
 $success-invert: $white;
 $link: $blue;
 $link-hover: $red;
+$link-invert: $blue;
 $light-invert: $black;
 $dark-invert: $white;
+
+.hero.is-dark a:not(.button):not(.dropdown-item):not(.tag),
+.hero.is-dark strong {
+  color: #5DBEFF !important;
+}
+
+
 
 // Import only what you need from Bulma
 @import "../node_modules/bulma/sass/utilities/_all.sass";
