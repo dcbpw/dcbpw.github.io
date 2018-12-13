@@ -20,3 +20,11 @@ p {
 .tags {
   margin-bottom: 1em !important;
 }
+
+.dcbpw-link:link .dcbpw-link:visited {
+  color: #5DBEFF !important;
+}
+
+.dcbpw-link:hover .dcbpw-link:active {
+  color: #D14545 !important; 
+}

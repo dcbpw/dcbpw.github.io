@@ -1,7 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Anton:400,700");
-.hero.is-dark a:not(.button):not(.dropdown-item):not(.tag),
-.hero.is-dark strong {
-  color: #5DBEFF !important; }
 
 @keyframes spinAround {
   from {
@@ -187,13 +184,13 @@ body {
   line-height: 1.5; }
 
 a {
-  color: #3D657F;
+  color: #5DBEFF;
   cursor: pointer;
   text-decoration: none; }
   a strong {
     color: currentColor; }
   a:hover {
-    color: #A32B2B; }
+    color: #D14545; }
 
 code {
   background-color: rgba(230, 230, 230, 0.1);
@@ -2152,7 +2149,7 @@ a.tag:hover {
   .hero.is-light {
     background-color: rgba(230, 230, 230, 0.1);
     color: #0a0a0a; }
-    .hero.is-light a:not(.button):not(.dropdown-item):not(.tag),
+    .hero.is-light a:not(.button):not(.dropdown-item):not(.tag):not(.dcbpw-link),
     .hero.is-light strong {
       color: inherit; }
     .hero.is-light .title {
@@ -2196,7 +2193,7 @@ a.tag:hover {
   .hero.is-dark {
     background-color: rgba(100, 100, 100, 0.9);
     color: white; }
-    .hero.is-dark a:not(.button):not(.dropdown-item):not(.tag),
+    .hero.is-dark a:not(.button):not(.dropdown-item):not(.tag):not(.dcbpw-link),
     .hero.is-dark strong {
       color: inherit; }
     .hero.is-dark .title {
