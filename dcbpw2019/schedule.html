@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>DC-Baltimore Perl Workshop 2019</title>
+        <link href="../dcbpw2019/css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="css/dcbpw.css">
+        <link rel="stylesheet" href="css/overrides.css">
+        <link rel="stylesheet" href="css/parallax.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+
+        <!-- Favorite icon -->
+        <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+    </head>
+    <html>
+    
+        <!-- socially inclined, plus register mkay? -->
+        <nav class="navbar is-fixed-top is-dark is-right ">
+            <div id="cheese" class="navbar-brand header-uses-anton-font">
+                <a class="navbar-item" href="#overview">
+                    <i class="mdi mdi-airballoon mdi-24px"></i><span class="is-hidden-mobile">::Overview</span>
+                </a>
+                <a class="navbar-item" href="#register">
+                    <i class="mdi mdi-account-plus mdi-24px"></i><span class="is-hidden-mobile">::Register</span>
+                </a>
+                <a class="navbar-item" href="#venue">
+                    <i class="mdi mdi-city mdi-24px"></i><span class="is-hidden-mobile">::Venue</span>
+                </a>                            
+                <a class="navbar-item" href="#hotels">
+                    <i class="mdi mdi-hotel mdi-24px"></i><span class="is-hidden-mobile">::Hotels</span>
+                </a>                            
+              <a class="navbar-item" href="#sponsors">
+                    <i class="mdi mdi-account-heart mdi-24px"></i><span class="is-hidden-mobile">::Sponsors</span>
+                </a>
+                <a class="navbar-item" href="#news">
+                    <i class="mdi mdi-newspaper mdi-24px"></i><span class="is-hidden-mobile">::News</span>
+                </a>
+                <a class="navbar-item" href="#contact">
+                    <i class="mdi mdi-email mdi-24px"></i><span class="is-hidden-mobile">::Contact</span>
+                </a>
+                <a class="navbar-item" href="https://twitter.com/dcbpw">
+                    <i class="mdi mdi-twitter mdi-24px"></i><span class="is-hidden-mobile">@dcbpw</span>
+                </a>
+            </div>
+        </nav>
+
+        <!-- did you use strict? -->
+        <div class="instantiates-parallax">
+            <div class="defines-parallax-layer as-back"></div>
+            <div class="defines-parallax-layer as-front">
+
+                <!-- a very nice but almost unnecessarily apologetic-about-not-being-svg logo, sorry -->
+                <section class="hero">
+                    <div class="hero-body">
+                        <div class="container has-text-centered">
+                            <img style="margin-top: 25px;" alt="@{$_->{'DC-Baltimore Perl Workshop'}}[2019]" src="img/big-logo.png"/>
+                        </div>
+                    </div>
+                </section>
+
+            <!-- one person talks and other people listen; they're sorry -->
+            <section class="hero is-dark">
+                <div class="hero-body">
+                    <div class="container">
+                        <a name="talks"></a>
+                        <div class="columns is-variable is-multiline is-1">
+
+                            <div class="column is-one-fifth">
+                                <h2 class="title header-uses-anton-font">
+                                    <i class="mdi mdi-voice mdi-48px"></i>::Talks
+                                </h2>
+                            </div>
+                            <div class="column is-two-fifths">
+                                <p class="title notification is-primary">PURE PERL</p>
+                            </div>
+                            <div class="column is-two-fifths">
+                                <p class="title notification is-success">PERLYGLOT</p>
+                            </div>
+                        
+                            <div class="column is-one-fifth">
+                                <p class="subtitle">Sat, 900am</p>
+                            </div>
+                            <div class="column is-two-fifths">
+                                <div class="subtitle notification is-primary">
+                                    <div class="is-a-talk-title">How to Perl Yourself</div>
+                                    <div class="is-a-speaker">~ b. wilcox</div>
+                                </div>
+                            </div>
+                            <div class="column is-two-fifths">
+                                <div class="subtitle notification is-success">
+                                    <div class="is-a-talk-title">/dev/null/ As A Service (DNAAS)</div>
+                                    <div class="is-a-speaker">~ m. gallagher</div>
+                                </div>
+                            </div>
+                            
+                            <div class="column is-one-fifth">
+                                <p class="subtitle">Sat, 1000am</p>
+                            </div>
+                            <div class="column is-two-fifths">
+                                <div class="subtitle notification is-primary">
+                                    <div class="is-a-talk-title">Monkeys Could Do This</div>
+                                    <div class="is-a-speaker">~ j.e. turcotte</div>
+                                </div>
+                            </div>
+                            <div class="column is-two-fifths">
+                                <div class="subtitle notification is-success">
+                                    <div class="is-a-talk-title">Use Strict; Use Warnings;</div>
+                                    <div class="is-a-speaker">~ a. gore</div>
+                                </div>
+                            </div>
+
+                            <div class="column is-one-fifth">
+                                <p class="subtitle">Sat, 1100am</p>
+                            </div>
+                            <div class="column is-two-fifths">
+                                <div class="subtitle notification is-primary">
+                                    <div class="is-a-talk-title">UFO Emoji Are Here</div>
+                                    <div class="is-a-speaker">~ b. obama</div>
+                                </div>
+                            </div>
+                            <div class="column is-two-fifths">
+                                <div class="subtitle notification is-success">
+                                    <div class="is-a-talk-title">Debugging Perl 7</div>
+                                    <div class="is-a-speaker">~ v. putin</div>
+                                </div>
+                            </div>
+
+                            <div class="column is-one-fifth">
+                                <p class="subtitle">Sat, 1200pm</p>
+                            </div>
+                            <div class="column is-four-fifths">
+                                <div class="subtitle notification is-light">
+                                    <div class="is-a-talk-title">FOOOOOOOOOD!</div>
+                                    <div class="is-a-speaker">~ you, nearby, fending for yourself (sorry)</div>
+                                </div>
+                            </div>
+
+                            <div class="column is-one-fifth">
+                                <p class="subtitle">Sat, 100pm</p>
+                            </div>
+                            <div class="column is-two-fifths">
+                                <div class="subtitle notification is-primary">
+                                    <div class="is-a-talk-title">Regex, or Else</div>
+                                    <div class="is-a-speaker">~ k. morgan</div>
+                                </div>
+                            </div>
+                            <div class="column is-two-fifths">
+                                <div class="subtitle notification is-success">
+                                    <div class="is-a-talk-title">Running Perl in Javascript</div>
+                                    <div class="is-a-speaker">~ s. snape</div>
+                                </div> 
+                            </div>
+
+                            <div class="column is-one-fifth">
+                                <p class="subtitle">Sat, 200pm</p>
+                            </div>
+                            <div class="column is-two-fifths">
+                                <div class="subtitle notification is-primary">
+                                    <div class="is-a-talk-title">Object Oriented Camels</div>
+                                    <div class="is-a-speaker">~ m. gandhi</div>
+                                </div>
+                            </div>
+                            <div class="column is-two-fifths">
+                                <div class="subtitle notification is-success">
+                                    <div class="is-a-talk-title">Procedural Text Generation</div>
+                                    <div class="is-a-speaker">~ j.r.r. tolkien</div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+			<!-- Some people want to talk to each other? -->
+			<a name="contact"></a>
+			<section class="hero is-light">
+			    <div class="hero-body">
+				<div class="container">
+				    <h2 class="title header-uses-anton-font">
+					<i class="mdi mdi-email mdi-48px"></i>::Contact
+				    </h2>
+				    <p class="is-size-5 has-text-left">We'd love to hear from you! Email us at</BR><a class="is-size-5 button is-primary" href="mailto:dcbpw-organizers@googlegroups.com">dcbpw-organizers@googlegroups.com</a></p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- turns out we got some help with all this; sorry -->
+                <footer class="footer">
+                    <div class="content is-size-8 has-text-centered">
+                            
+                        <!-- bulma, for responsible layout control and baseline aesthetics -->
+                        <a href="https://bulma.io">
+                            <img src="img/made-with-bulma.png" alt="Made with Bulma" width="128" height="24">
+                        </a>
+ 
+                    </div>
+                </footer>
+                
+            </div>
+        </div>
+        <!-- did you use warnings? -->
+        
+    </body>
+</html>
