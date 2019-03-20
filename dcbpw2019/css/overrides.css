@@ -5,12 +5,26 @@
 
 .is-a-speaker {
   font-size: 0.8rem;
+  margin-left: 10%;
 }
 
 .is-a-talk-title {
   background-color: rgba(0,0,0,0.1);
   border-radius: 0.2em;
   padding: 0rem 1rem;
+}
+
+.is-a-time-slot {
+  text-align: right;
+  margin: auto;
+}
+
+.will-fill-half-height {
+  height: 50% !important;
+}
+
+.will-fill-full-height {
+  height: 100% !important;
 }
 
 p {
