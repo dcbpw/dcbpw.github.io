@@ -21,13 +21,8 @@ $link-hover: $red;
 $link-invert: $blue;
 $light-invert: $black;
 $dark-invert: $white;
-
-.hero.is-dark a:not(.button):not(.dropdown-item):not(.tag),
-.hero.is-dark strong {
-  color: #5DBEFF !important;
-}
-
-
+$notification-padding: 1rem 2.25rem 1rem 1.25rem;
+$notification-radius: 8px;
 
 // Import only what you need from Bulma
 @import "../node_modules/bulma/sass/utilities/_all.sass";
@@ -45,3 +40,4 @@ $dark-invert: $white;
 @import "../node_modules/bulma/sass/grid/columns.sass";
 @import "../node_modules/bulma/sass/components/navbar.sass";
 @import "../node_modules/bulma/sass/components/media.sass";
+@import "../node_modules/bulma/sass/components/modal.sass";
