@@ -28,7 +28,7 @@
                         <em>(From 10:00 to 10:25 in COLESVILLE room)</em>
                     </p> 
                     <p>
-                        Perl is has an excellent testing culture, testing tools and testing libraries.  Perl also has an effective Foreign Function Interface (FFI) called FFI::Platypus that allows developers to call into dynamic libraries directly without having to write XS.  In this talk I will show you how to use these highly effective ingredients to test across the language barrier in projects that mix-and-match Perl and compiled code.  I will use as an example how we used this technique at Fastly to call Varnish Configuration Language (VCL) in unit tests.
+                        Perl has an excellent testing culture, testing tools and testing libraries.  Perl also has an effective Foreign Function Interface (FFI) called FFI::Platypus that allows developers to call into dynamic libraries directly without having to write XS.  In this talk I will show you how to use these highly effective ingredients to test across the language barrier in projects that mix-and-match Perl and compiled code.  I will use as an example how we used this technique at Fastly to call Varnish Configuration Language (VCL) in unit tests.
                     </p>
                     <p class="subtitle">
                         ~ Graham Ollis
@@ -36,6 +36,52 @@
                     <p>
                         Senior Software Engineer at Fastly
                     </p>
+                 </article>
+             </div>
+             <button class="modal-close is-large" aria-label="close"></button>
+        </div>
+
+        <div id="decompilation-rocky-bernstein" class="modal">
+            <div class="modal-background"></div>
+            <div class="modal-content">
+                <article class="tile is-child notification is-primary">
+                    <p class="title">
+                        Where am I now, Really? A novel use of decompilation‎
+                    </p>
+                    <p>
+                        <em>(From 11:30 to 11:55 in COLESVILLE room)</em>
+                    </p> 
+                    <p>
+                        Perl was created by a language enthusiast, so it is only fitting to finish the circle and show how computer-to-human translation is like human-to-human translation. More so that I think most people have hitherto appreciated.
+                    </p>
+                    <p>
+                        Decompiling is often used in conjunction with recovering lost source code, or reverse-engineering code when we do not have access to the source code. It can be optionally used in Data::Printer for code references you have stashed in your data structures.
+                    </p>
+                    <p>
+                        I will describe a novel use: in tracebacks, debuggers, and similar places where accurate position reporting is desired, even in the presence of string evaluation where the source code was created at runtime. 
+                    </p>
+                    <p>
+                        I'll show how line numbers are vague and ambiguous. 
+                    </p>
+                    <p>
+                        The module B::Deparse has been around a long time for Perl. I have extended that in B::DeparseTree so that it can be used at runtime to show you where you are. I will also demo its use in a real debugger, and promised to include a reference to at least one of the great virtues of programmer espoused by Larry Wall.
+                    </p>
+                    <p class="subtitle">
+                        ~ Rocky Bernstein
+                    </p>
+                    <p>
+                        I am a long-time CPAN contributor, and open-source developer more generally.
+                    </p>
+                    <p>
+                        Among the many different kinds of programs I have written are debuggers for 8 or so programming languages, including Perl, bash and GNU make.
+                    </p>
+                    <p>
+                        I have worked at IBM Research, as a government contractor for NASA/Goddard (in climate studies), the Associated Press, a large financial institution, a university, and way too many startups.
+                    </p>
+                    <p>
+                        I currently work in the Ethereum cryptocurrency space at ConsenSys.
+                    </p>
+                    
                  </article>
              </div>
              <button class="modal-close is-large" aria-label="close"></button>
@@ -175,11 +221,8 @@
                             </article>
                         </div>
                         
-                        <div class="tile is-parent is-5 is-vertical">
-                            
-                            
+                        <div class="tile is-parent is-5 is-vertical">                  
                             <a class="tile is-child notification is-primary modal-button" data-target="platypus-graham-ollis" aria-haspopup="true">
-                            
                                 <p class="is-hidden-tablet">
                                     (1000 to 1025)
                                 </p>
@@ -189,9 +232,7 @@
                                 <p class="subtitle">
                                     ~ graham ollis
                                 </p>
-
-                            </a>                         
-                                        
+                            </a>                                 
                             <article class="tile is-child notification is-primary">
                                 <p class="is-hidden-tablet">
                                     (1030 to 1055)
@@ -243,7 +284,7 @@
                                     ~ tba
                                 </p>
                             </article>
-                            <article class="tile is-child notification is-primary">
+                            <a class="tile is-child notification is-primary modal-button" data-target="decompilation-rocky-bernstein" aria-haspopup="true">
                                 <p class="is-hidden-tablet">
                                     (1130 to 1155)
                                 </p>
@@ -253,7 +294,7 @@
                                 <p class="subtitle">
                                     ~ rocky bernstein
                                 </p>
-                            </article>
+                            </a>
                         </div>
                         
                         <div class="tile is-parent is-5">
