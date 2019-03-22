@@ -9,11 +9,37 @@
         <link rel="stylesheet" href="css/overrides.css">
         <link rel="stylesheet" href="css/parallax.css">
         <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+        <script defer src="js/BulmaModal.js"></script>
 
         <!-- Favorite icon -->
         <link rel="shortcut icon" type="image/png" href="/favicon.png" />
     </head>
     <html>
+    
+        <!-- talk descriptions, top to bottom, left to right -->
+        <div id="platypus-graham-ollis" class="modal">
+            <div class="modal-background"></div>
+            <div class="modal-content">
+                <article class="tile is-child notification is-primary">
+                    <p class="title">
+                        Testing Across the Language Barrier with FFI::Platypus
+                    </p>
+                    <p>
+                        <em>(From 10:00 to 10:25 in COLESVILLE room)</em>
+                    </p> 
+                    <p>
+                        Perl is has an excellent testing culture, testing tools and testing libraries.  Perl also has an effective Foreign Function Interface (FFI) called FFI::Platypus that allows developers to call into dynamic libraries directly without having to write XS.  In this talk I will show you how to use these highly effective ingredients to test across the language barrier in projects that mix-and-match Perl and compiled code.  I will use as an example how we used this technique at Fastly to call Varnish Configuration Language (VCL) in unit tests.
+                    </p>
+                    <p class="subtitle">
+                        ~ Graham Ollis
+                    </p>
+                    <p>
+                        Senior Software Engineer at Fastly
+                    </p>
+                 </article>
+             </div>
+             <button class="modal-close is-large" aria-label="close"></button>
+        </div>
     
         <!-- socially inclined, plus register mkay? -->
         <nav class="navbar is-fixed-top is-dark is-right ">
@@ -46,7 +72,7 @@
                     <i class="mdi mdi-twitter mdi-24px"></i><span class="is-hidden-mobile">@dcbpw</span>
                 </a>
             </div>
-        </nav>
+        </nav>        
 
         <!-- did you use strict? -->
         <div class="instantiates-parallax">
@@ -150,7 +176,10 @@
                         </div>
                         
                         <div class="tile is-parent is-5 is-vertical">
-                            <article class="tile is-child notification is-primary">
+                            
+                            
+                            <a class="tile is-child notification is-primary modal-button" data-target="platypus-graham-ollis" aria-haspopup="true">
+                            
                                 <p class="is-hidden-tablet">
                                     (1000 to 1025)
                                 </p>
@@ -160,7 +189,9 @@
                                 <p class="subtitle">
                                     ~ graham ollis
                                 </p>
-                            </article>
+
+                            </a>                         
+                                        
                             <article class="tile is-child notification is-primary">
                                 <p class="is-hidden-tablet">
                                     (1030 to 1055)
@@ -582,6 +613,6 @@
             </div>
         </div>
         <!-- did you use warnings? -->
-        
+                
     </body>
 </html>
