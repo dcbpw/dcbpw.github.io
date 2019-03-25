@@ -42,3 +42,17 @@ p {
 .dcbpw-link:hover .dcbpw-link:active {
   color: #D14545 !important; 
 }
+
+.is-child > em {
+  display: none;
+}
+
+.is-child:hover > em {
+  display: inline;
+}
+
+@media only screen and (max-width: 768px) {
+  [class*="always-shown-on-phone"] {
+    display: inline !important;
+  }
+}
