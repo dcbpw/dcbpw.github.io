@@ -51,7 +51,7 @@ p {
   display: inline;
 }
 
-.is-child:hover > .title {
+.is-child:hover > .wants-more {
   margin-bottom: 0px !important;
 }
 
