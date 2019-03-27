@@ -15,8 +15,53 @@
         <link rel="shortcut icon" type="image/png" href="/favicon.png" />
     </head>
     <html>
-    
-        <!-- talk descriptions, top to bottom, left to right -->
+
+        <!-- lightning talk popup -->
+        <div id="lightning-talks" class="modal">
+            <div class="modal-background"></div>
+            <div class="modal-content">
+                
+                <div class="tile is-ancestor">
+                    <div class="tile is-parent is-4">
+                        <article class="tile is-child notification is-info">
+                            <p>
+                                <strong>Lightning Talks</strong> - Hosted by R. Geoffrey Avery
+                            </p>
+                            <p class="is-size-7 has-text-left">
+                                While it's always possible to submit your lightning talk during the early course of the day of the workshop itself, we're providing you a form to submit your idea now if you happen to already know what it is.
+                            </p>
+                            <a class="button is-success" href="https://docs.google.com/forms/d/e/1FAIpQLScJnFeBa6oFiqvElTN9ygshxJPH4syxPUB3J8xwgIJIrQy39A/viewform" target="_blank">
+                                Your <i class="mdi mdi-flash mdi-24px"></i> Talk
+                            </a>
+                        </article>
+                    </div>
+                    <div class="tile is-parent is-vertical is-8">
+                        <article class="notification is-primary">
+                            "Your Name Here", by favorite YAPC attendee
+                        </article>
+                        <article class="notification is-primary">
+                            "Your Name Here", by favorite YAPC attendee
+                        </article>
+                        <article class="notification is-primary">
+                            "Your Name Here", by favorite YAPC attendee
+                        </article>
+                        <article class="notification is-primary">
+                            "Your Name Here", by favorite YAPC attendee
+                        </article>
+                        <article class="notification is-primary">
+                            "Your Name Here", by favorite YAPC attendee
+                        </article>
+                        <article class="notification is-primary">
+                            "Your Name Here", by favorite YAPC attendee
+                        </article>
+                    </div>
+                </div>
+                
+             </div>
+             <button class="modal-close is-large" aria-label="close"></button>
+        </div>
+
+        <!-- talk popups -->
         <div id="platypus-graham-ollis" class="modal">
             <div class="modal-background"></div>
             <div class="modal-content">
@@ -350,6 +395,7 @@
              </div>
              <button class="modal-close is-large" aria-label="close"></button>
         </div>
+        <!-- end of popup descriptions -->
     
         <!-- socially inclined, plus register mkay? -->
         <nav class="navbar is-fixed-top is-dark is-right ">
@@ -406,6 +452,7 @@
                     </div>
                 </section>
 
+            <!-- SCHEDULE HERE -->
             <!-- one person talks and other people listen; they're sorry -->
             <section class="hero is-dark">
                 <div class="hero-body">
@@ -852,7 +899,7 @@
                         </div>
                         
                         <div class="tile is-parent is-10">
-                            <article class="tile is-child notification is-info">
+                            <article class="tile is-child notification is-info modal-button" data-target="lightning-talks" aria-haspopup="true">
                                 <p class="is-hidden-tablet">
                                     (1700 to 1725)
                                 </p>
