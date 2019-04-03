@@ -1,414 +1,421 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>DC-Baltimore Perl Workshop 2019</title>
-        <link href="../dcbpw2019/css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
-        <link rel="stylesheet" href="css/dcbpw.css">
-        <link rel="stylesheet" href="css/overrides.css">
-        <link rel="stylesheet" href="css/parallax.css">
-        <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>DC-Baltimore Perl Workshop 2019</title>
+    <link href="../dcbpw2019/css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="css/dcbpw.css">
+    <link rel="stylesheet" href="css/overrides.css">
+    <link rel="stylesheet" href="css/parallax.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
 
-        <!-- Favorite icon -->
-        <link rel="shortcut icon" type="image/png" href="/favicon.png" />
-    </head>
-    <html>
+    <!-- Favorite icon -->
+    <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+</head>
+<html>
     
-        <!-- socially inclined, plus register mkay? -->
-        <nav class="navbar is-fixed-top is-dark is-right ">
-            <div id="cheese" class="navbar-brand header-uses-anton-font">
-                <a class="navbar-item" href="#overview">
-                    <i class="mdi mdi-airballoon mdi-24px"></i><span class="is-hidden-mobile">::Overview</span>
-                </a>
-                <a class="navbar-item" href="#register">
-                    <i class="mdi mdi-account-plus mdi-24px"></i><span class="is-hidden-mobile">::Register</span>
-                </a>
-                <a class="navbar-item" href="schedule.html">
-                    <i class="mdi mdi-calendar-clock mdi-24px"></i><span class="is-hidden-mobile">::Schedule</span>
-                </a>                            
-                <a class="navbar-item" href="#venue">
-                    <i class="mdi mdi-city mdi-24px"></i><span class="is-hidden-mobile">::Venue</span>
-                </a>                            
-                <a class="navbar-item" href="#hotels">
-                    <i class="mdi mdi-hotel mdi-24px"></i><span class="is-hidden-mobile">::Hotels</span>
-                </a>                            
-                <a class="navbar-item" href="#sponsors">
-                    <i class="mdi mdi-account-heart mdi-24px"></i><span class="is-hidden-mobile">::Sponsors</span>
-                </a>
-                <a class="navbar-item" href="#news">
-                    <i class="mdi mdi-newspaper mdi-24px"></i><span class="is-hidden-mobile">::News</span>
-                </a>
-                <a class="navbar-item" href="#contact">
-                    <i class="mdi mdi-email mdi-24px"></i><span class="is-hidden-mobile">::Contact</span>
-                </a>
-                <a class="navbar-item" href="https://twitter.com/dcbpw">
-                    <i class="mdi mdi-twitter mdi-24px"></i><span class="is-hidden-mobile">@dcbpw</span>
-                </a>
+<!-- socially inclined, plus register mkay? -->
+<nav class="navbar is-fixed-top is-dark is-right ">
+    <div id="cheese" class="navbar-brand header-uses-anton-font">
+        <a class="navbar-item" href="#overview">
+            <i class="mdi mdi-airballoon mdi-24px"></i><span class="is-hidden-mobile">::Overview</span>
+        </a>
+        <a class="navbar-item" href="#register">
+            <i class="mdi mdi-account-plus mdi-24px"></i><span class="is-hidden-mobile">::Register</span>
+        </a>
+        <a class="navbar-item" href="schedule.html">
+            <i class="mdi mdi-calendar-clock mdi-24px"></i><span class="is-hidden-mobile">::Schedule</span>
+        </a>                            
+        <a class="navbar-item" href="#venue">
+            <i class="mdi mdi-city mdi-24px"></i><span class="is-hidden-mobile">::Venue</span>
+        </a>                            
+        <a class="navbar-item" href="#hotels">
+            <i class="mdi mdi-hotel mdi-24px"></i><span class="is-hidden-mobile">::Hotels</span>
+        </a>                            
+        <a class="navbar-item" href="#sponsors">
+            <i class="mdi mdi-account-heart mdi-24px"></i><span class="is-hidden-mobile">::Sponsors</span>
+        </a>
+        <a class="navbar-item" href="#news">
+            <i class="mdi mdi-newspaper mdi-24px"></i><span class="is-hidden-mobile">::News</span>
+        </a>
+        <a class="navbar-item" href="#contact">
+            <i class="mdi mdi-email mdi-24px"></i><span class="is-hidden-mobile">::Contact</span>
+        </a>
+        <a class="navbar-item" href="https://twitter.com/dcbpw">
+            <i class="mdi mdi-twitter mdi-24px"></i><span class="is-hidden-mobile">@dcbpw</span>
+        </a>
+    </div>
+</nav>
+
+<!-- did you use strict? -->
+<div class="instantiates-parallax">
+    <div class="defines-parallax-layer as-back"></div>
+    <div class="defines-parallax-layer as-front">
+
+        <!-- a very nice but almost unnecessarily apologetic-about-not-being-svg logo, sorry -->
+        <section class="hero">
+            <div class="hero-body">
+                <div class="container has-text-centered">
+                    <img style="margin-top: 25px;" alt="@{$_->{'DC-Baltimore Perl Workshop'}}[2019]" src="img/big-logo.png"/>
+                </div>
             </div>
-        </nav>
-
-        <!-- did you use strict? -->
-        <div class="instantiates-parallax">
-            <div class="defines-parallax-layer as-back"></div>
-            <div class="defines-parallax-layer as-front">
-
-                <!-- a very nice but almost unnecessarily apologetic-about-not-being-svg logo, sorry -->
-                <section class="hero">
-                    <div class="hero-body">
-                        <div class="container has-text-centered">
-                            <img style="margin-top: 25px;" alt="@{$_->{'DC-Baltimore Perl Workshop'}}[2019]" src="img/big-logo.png"/>
-                        </div>
-                    </div>
-                </section>
+        </section>
                 
-                <!-- we are doing a thing; sorry! -->
-                <a name="overview"></a>
-                <section class="hero is-dark">
-                    <div class="hero-body">
-                        <div class="container">
-                            <h2 class="title header-uses-anton-font">
-                                <i class="mdi mdi-airballoon mdi-48px"></i>::Overview
-                            </h2>
-                            <p class="is-size-5 has-text-left">The DC and Baltimore Perlmongers invite you to join us for a workshop at the Silver Spring Civic Building in Silver Spring, Maryland on Saturday, April 6, 2019. The workshop will have two tracks of speakers, discussing innovative, exciting, and fun real-world usage of Perl and related technologies.</p>
-              <span class="navbar-item" style="display: inline-block">
-                              <a class="button is-success" href="schedule.html">Workshop Schedule</a>
-                            </span> 
-	                </div>
-                    </div>
-                </section>
+        <!-- we are doing a thing; sorry! -->
+        <a name="overview"></a>
+        <section class="hero is-dark">
+            <div class="hero-body">
+                <div class="container">
+                    <h2 class="title header-uses-anton-font">
+                        <i class="mdi mdi-airballoon mdi-48px"></i>::Overview
+                    </h2>
+                    <p class="is-size-5 has-text-left">The DC and Baltimore Perlmongers invite you to join us for a workshop at the Silver Spring Civic Building in Silver Spring, Maryland on Saturday, April 6, 2019. The workshop will have two tracks of speakers, discussing innovative, exciting, and fun real-world usage of Perl and related technologies.</p>
+                    <span class="navbar-item" style="display: inline-block">
+                        <a class="button is-success" href="schedule.html">Workshop Schedule</a>
+                    </span> 
+                </div>
+            </div>
+        </section>
         
-                <!-- apologies, but you need to register before attending -->
-                <a name="register"></a>                
-                <section class="hero is-light">
-                    <div class="hero-body">
-                        <div class="container">
-                            <h2 class="title header-uses-anton-font">
-                                <i class="mdi mdi-account-plus mdi-48px"></i>::Registration
-                            </h2>
-                            <p class="is-size-5 has-text-left">Registration is $50, which goes 100% into the conference expenses (mainly the venue). Free admission is available for speakers, students, and the currently unemployed. We REALLY WANT you to come to this workshop, so just let us know if you need any special accommodations &mdash; registration fee or otherwise!</p>
+        <!-- apologies, but you need to register before attending -->
+        <a name="register"></a>                
+        <section class="hero is-light">
+            <div class="hero-body">
+                <div class="container">
+                    <h2 class="title header-uses-anton-font">
+                        <i class="mdi mdi-account-plus mdi-48px"></i>::Registration
+                    </h2>
+                    <p class="is-size-5 has-text-left">Registration is $50, which goes 100% into the conference expenses (mainly the venue). Free admission is available for speakers, students, and the currently unemployed. We REALLY WANT you to come to this workshop, so just let us know if you need any special accommodations &mdash; registration fee or otherwise!</p>
 
-                            <p class="is-size-5 has-text-left">The DC and Baltimore Perl Mongers are committed to creating a welcoming and harassment-free environment, and all attendees and speakers must agree and adhere to our standards of conduct. Please click on the button below to read our policy.</p>
+                    <p class="is-size-5 has-text-left">The DC and Baltimore Perl Mongers are committed to creating a welcoming and harassment-free environment, and all attendees and speakers must agree and adhere to our standards of conduct. Please click on the button below to read our policy.</p>
 
-                            <span class="navbar-item" style="display: inline-block">
-                                <a class="button is-success" href="https://www.eventbrite.com/e/dc-baltimore-perlyglot-workshop-2019-tickets-49721679883">
-					    <i class="mdi mdi-account-plus mdi-24px"></i><span>Register Now via Eventbrite</span>
-					</a>
-				    </span>
-				    <span class="navbar-item" style="display: inline-block">
-					<a class="button is-primary" href="soc.html">
-					    <span>DCBPW 2019 Standards of Conduct</span>
-					</a>
-				    </span>
-				</div>
-			    </div>
-			</section>
-
-			<!-- our venue is better than your venue; sorry -->
-			<a name="venue"></a>
-			<section class="hero is-dark">
-			    <div class="hero-body">
-				<div class="container">
-				    <h2 class="title header-uses-anton-font">
-					<i class="mdi mdi-city mdi-48px"></i>::Venue
-				    </h2>
-				    <p class="is-size-5 has-text-left">This year DCBPW returns to the Silver Spring Civic Building (SSCB), which is three blocks from the DC Metro transit system. Garage parking is also available and the venue is located near food and other attractions. SSCB is in a redeveloped old downtown area, still known as Downtown Silver Spring (with hip internet hashtag #DTSS). The central street adjacent to SSCB becomes pedestrian-only on weekends.</p>
-				    <p class="is-size-5 has-text-left">One Veteran's Place, Silver Spring, MD 20910 (<a href="https://goo.gl/maps/y8TC9R5F7v62" target='_blank'>Google Maps</a>)
-				</div>
-			    </div>
-			</section>
-
-			<!-- sometimes one like to sleep... i do not know why but i hear it is true -->
-			<a name="hotels"></a>
-			<section class="hero is-light">
-			    <div class="hero-body">
-				<div class="container">
-				    <h2 class="title header-uses-anton-font">
-					<i class="mdi mdi-hotel mdi-48px"></i>::Hotels
-				    </h2>
-
-				    <p class="is-size-5">
-					Looking for a place to stay? There are many hotels in the area. These two are pretty good options for out-of-towners:
-				    <p>
-
-				    <article class="media">
-					<figure class="media-left">
-					    <p class="image is-128x128">
-						<img class="is-semi-rounded" src="https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_650,q_auto,w_1000/itemimages/79/75/797526_v1.jpeg">
-					    </p>
-					</figure>
-					<div class="media-content">
-					    <div class="content">
-						<a class="button is-primary" href="https://www.marriott.com/hotels/travel/wassv-courtyard-silver-spring-downtown/"><strong>Courtyard by Marriott on Fenton Street</strong></a>
-						<p>
-						    This is our recommended hotel, located in Silver Spring, MD. It has wifi and breakfast options. </BR>
-						    <strong>301-589-4899</strong></BR>
-						    8506 Fenton Street</BR>
-						    Silver Spring, MD 20910
-						</p>
-					    </div>
-					</div>
-				    </article>
-
-				    <article class="media">
-					<figure class="media-left">
-					    <p class="image is-128x128">
-						<img class="is-semi-rounded" src="https://doubletree3.hilton.com/resources/media/dt/DCASSDT/en_US/img/shared/full_page_image_gallery/main/DT_exteriornight001_677x380_FitToBoxSmallDimension_LowerCenter.jpg">
-					    </p>
-					</figure>
-					<div class="media-content">
-					    <div class="content">
-						<a class="button is-primary" href="https://doubletree3.hilton.com/en/hotels/maryland/doubletree-by-hilton-hotel-washington-dc-silver-spring-DCASSDT/index.html"><strong>DoubleTree by Hilton Hotel</strong></a>
-						<p>
-						    The DoubleTree is located just a few blocks from the venue and offers free wifi and dining options as well.</BR>
-						    <strong>301-589-5200</strong></BR>
-						    8727 Colesville Road</BR>
-						    Silver Spring, MD  20910
-						</p>
-					    </div>
-					</div>
-				    </article>
-
-				</div>
-			    </div>
-			</section>
-
-			 <!-- We bow most humbly to those who help ensure this workshop can happen at all -->
-			 <a name="sponsors"></a>
-			 <section class="hero is-dark">
-			    <div class="hero-body">
-				<div class="container">
-                    
-				    <h2 class="title header-uses-anton-font">
-					    <i class="mdi mdi-account-heart mdi-48px"></i>::Sponsors
-				    </h2>
-                    
-                    <div class="columns is-variable is-multiline is-1">
-
-                        <div class="column is-one-half">
-                            <div class="subtitle notification is-light">
-        				        <a href='https://smartlogic.io'>
-                                    <img src="img/logo.smartlogic.teal.png" alt="SmartLogic">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="column is-one-half">
-                            <div class="subtitle notification is-light">
-                                <a href="https://iinteractive.com">
-                                    <img src="img/logo.iinteractive.png" alt="Infinity Interactive">
-                                </a>
-                            </div>
-                        </div>
-
-                    </div>
-                    
-				    <h3 class="header-uses-anton-font">If you would like to help sponsor this workshop:</h3>
-				    <p class="is-size-5 has-text-left">The DC-Baltimore Perl Workshop is made possible by support from local business contributions and The Perl Foundation (TPF). Please take this opportunity to become a sponsor of the DCBPW-2019 event! If you aren't comfortable asking your company to make a donation but think we could be a good team, we'll do the asking! Send your sponsorship interest and potential sponsor contact information to <a class="dcbpw-link" href="mailto:dcbpw-organizers@googlegroups.com">dcbpw-organizers@googlegroups.com</a>. Sponsorship is made in the form of a tax-deductible donation to The Perl Foundation, a 501(c)(3) non-profit organization.</BR></p>
-				    <a class="is-size-5 button is-primary" href="DC-Baltimore Perl Workshop 2019 - Sponsor Prospectus.pdf" target="_blank">Our Prospectus</a>
-				</div>
-			    </div>
-			</section>
-
-			<!-- things happen; we are still kinda sorta sorry -->
-			<a name="news"></a>
-			<section class="hero is-light">
-			    <div class="hero-body">
-				<div class="container">
-				    <h2 class="title header-uses-anton-font">
-					<i class="mdi mdi-newspaper mdi-48px"></i>::News
-				    </h2>
-
-                             <article class="media">
-                                        <figure class="media-left">
-                                            <p class="image is-64x64">
-                                                <img class="is-semi-rounded" src="https://avatars3.githubusercontent.com/u/1395676?s=400&v=4">
-                                            </p>
-                                        </figure>
-                                        <div class="media-content">
-                                            <div class="content">
-                                                <div class="field is-grouped is-grouped-multiline">
-                                                  <div class="control">
-                                                    <div class="tags has-addons">
-                                                      <span class="tag is-large is-dark">2019-03-28</span>
-                                                      <span class="tag is-large is-success">Thanks for answering the CFP - the schedule is live!</span>
-                                                    </div>
-                                                  </div>
-                                                </div>
-                                                <p>
-                                                Thanks to all the people who submitted talks for DCBPW this year! We have published our 'working' schedule. Some talks may slide to another position as we work to put all the pieces together. Check out the line up and don't forget to register to attend the 2019 DC-Baltimore Perl Workshop!
-						</p>
-
-                                                <p>
-                                                    <strong>~ Dawn Wallis</strong>
-                                                    &nbsp;
-                                                    <a class="button is-primary is-small" href="https://twitter.com/DSWallis/">@DSWallis</a>
-                                                </p>
-
-                                            </div>
-                                        </div>
-                                    </article>
-                             
-				<article class="media">
-                                        <figure class="media-left">
-                                            <p class="image is-64x64">
-                                                <img class="is-semi-rounded" src="https://avatars3.githubusercontent.com/u/1395676?s=400&v=4">
-                                            </p>
-                                        </figure>
-                                        <div class="media-content">
-                                            <div class="content">
-                                                <div class="field is-grouped is-grouped-multiline">
-                                                  <div class="control">
-                                                    <div class="tags has-addons">
-                                                      <span class="tag is-large is-dark">2019-03-07</span>
-                                                      <span class="tag is-large is-success">Thank You, Sponsors!</span>
-                                                    </div>
-                                                  </div>
-                                                </div>
-                                                <p>
-                                                  A very big thank you to the sponsors of the 2019 DC-Baltimore Perl Workshop! It's generous sponsors like these that make low-cost technical workshops like DCBPW possible! 
-						</p>
-						<p>
-                                                <strong><a href="https://www.iinteractive.com/"><img src="img/logo.iinteractive.png" alt="Infinity Interactive" width="25%"></a></strong>
-						<p>Infinity Interactive solves business problems with technology. What can their team of industry veterans solve for you? Find out more: <a class="dcbpw-link" href="https://www.iinteractive.com/">www.iinteractive.com</a>.
-						</p>
-
-                                                <p>
-                                                <strong><a href="https://smartlogic.io/"><img src="img/smartlogic-logo-teal-200.png" alt="SmartLogic"></a></strong>
-                                                </p>
-                                                <p>Located in Baltimore, Maryland, SmartLogic builds, tests, deploys, and maintains custom software applications. Find out what they can do for you: <a class="dcbpw-link" href="https://smartlogic.io/">www.smartlogic.io</a>.
-                                                </p>
-
-                                                <p>
-                                                    <strong>~ Dawn Wallis</strong>
-                                                    &nbsp;
-                                                    <a class="button is-primary is-small" href="https://twitter.com/DSWallis/">@DSWallis</a>
-                                                </p>
-
-                                            </div>
-                                        </div>
-                                    </article>
-
-				    <article class="media">
-					<figure class="media-left">
-					    <p class="image is-64x64">
-						<img class="is-semi-rounded" src="https://avatars1.githubusercontent.com/u/8642?s=460&v=4">
-					    </p>
-					</figure>
-					<div class="media-content">
-					    <div class="content">
-						<div class="field is-grouped is-grouped-multiline">
-						  <div class="control">
-						    <div class="tags has-addons">
-						      <span class="tag is-large is-dark">2018-09-27</span>
-						      <span class="tag is-large is-success">Give a talk at DCBPW-2019!</span>
-						    </div>
-						  </div>
-						</div>
-						<p>
-						    You are cordially invited to submit talks for the 2019
-						    DC-Baltimore Perl Workshop, which will be held on Saturday,
-						    April 6, 2019, in <a class="dcbpw-link" href="#venue">Silver Spring, MD</a>!
-						    Submit via the <a class="dcbpw-link" href="https://docs.google.com/forms/d/e/1FAIpQLSdTMou9-x-3n-5MfvlS25zTI9MxhbHVdb_3qv7V-_MGBlHugw/viewform">Google
-						    Form</a>!
-						</p>
-						<p>
-						    As in previous years, we love and suggest 25 minute talks, which
-						    we've found is a sweet spot for most topics. We get a great
-						    variety -- enough to get a dose of newness and not overwhelm.
-						    We also welcome proposals for more tutorial-style talks of
-						    around 50 minutes. We'll take the talks and build out a
-						    two-track schedule.
-						</p>
-						<p>
-						    Speakers of all levels are welcome! This regional meetup is
-						    great for getting your first taste of giving a community
-						    talk, sharing projects or topics that you have experience
-						    with, or even doing a first run for a talk you'll be
-						    presenting at a larger conference! All Perl-related topics
-						    are welcome -- from beginner to advanced, from technical to
-						    social.
-						</p>
-						<p>
-						    And of course if you're not up for giving a talk this year, are invited to <a class="dcbpw-link" href="#register">register
-						    for the conference as an attendee</a>!
-						</p>
-						<p>
-						    If you have any questions, <a class="dcbpw-link" href="mailto:dcbpw-organizers@googlegroups.com">email us
-						    (dcbpw-organizers@googlegroups.com)</a>! We'll even be
-						    happy to help you tune your topic.
-						</p>
-						<p>
-						    <strong>~ Brock Wilcox</strong>
-						    &nbsp;
-						    <a class="button is-primary is-small" href="https://twitter.com/awwaiid/">@awwaiid</a>
-						</p>
-					    </div>
-					</div>
-				    </article>
-
-				    <article class="media">
-					<figure class="media-left">
-					    <p class="image is-64x64">
-						<img class="is-semi-rounded" src="https://avatars3.githubusercontent.com/u/1395676?s=400&v=4">
-					    </p>
-					</figure>
-					<div class="media-content">
-					    <div class="content">
-						<div class="field is-grouped is-grouped-multiline">
-						  <div class="control">
-						    <div class="tags has-addons">
-						      <span class="tag is-large is-dark">2018-09-18</span>
-						      <span class="tag is-large is-success">We're back!</span>
-						    </div>
-						  </div>
-						</div>
-						<p>
-						    You're already here so you know it's official. After taking a year off DCBPW returns to Silver Spring, MD! We hope you'll register to attend or at least tell a friend!
-						</p>
-						<p>
-						    We are also seeking sponsors - so if you work for a company or know of one that could benefit from a little conference advertising and uses Perl and related technologies, let's connect! Email <a class='dcbpw-link'  href="mailto:dcbpw-organizers@googlegroups.com">dcbpw-organizers@googlegroups.com</a> for more information about sponsorship opportunities.
-						</p>
-						<p>
-						    <strong>~ Dawn Wallis</strong>
-						    &nbsp;
-						    <a class="button is-primary is-small" href="https://twitter.com/DSWallis/">@DSWallis</a>
-						</p>
-					    </div>
-					</div>
-				    </article>
-
-				</div>
-			    </div>
-			</section>
-
-			<!-- Some people want to talk to each other? -->
-			<a name="contact"></a>
-			<section class="hero is-light">
-			    <div class="hero-body">
-				<div class="container">
-				    <h2 class="title header-uses-anton-font">
-					<i class="mdi mdi-email mdi-48px"></i>::Contact
-				    </h2>
-				    <p class="is-size-5 has-text-left">We'd love to hear from you! Email us at</BR><a class="is-size-5 button is-primary" href="mailto:dcbpw-organizers@googlegroups.com">dcbpw-organizers@googlegroups.com</a></p>
-                        </div>
-                    </div>
-                </section>
-
-                <!-- turns out we got some help with all this; sorry -->
-                <footer class="footer">
-                    <div class="content is-size-8 has-text-centered">
-                            
-                        <!-- bulma, for responsible layout control and baseline aesthetics -->
-                        <a href="https://bulma.io">
-                            <img src="img/made-with-bulma.png" alt="Made with Bulma" width="128" height="24">
+                    <span class="navbar-item" style="display: inline-block">
+                        <a class="button is-success" href="https://www.eventbrite.com/e/dc-baltimore-perlyglot-workshop-2019-tickets-49721679883">
+                            <i class="mdi mdi-account-plus mdi-24px"></i><span>Register Now via Eventbrite</span>
                         </a>
- 
-                    </div>
-                </footer>
-                
+                    </span>
+                    <span class="navbar-item" style="display: inline-block">
+                        <a class="button is-primary" href="soc.html">
+                            <span>DCBPW 2019 Standards of Conduct</span>
+                        </a>
+                    </span>
+                </div>
             </div>
+        </section>
+
+        <!-- our venue is better than your venue; sorry -->
+        <a name="venue"></a>
+        <section class="hero is-dark">
+            <div class="hero-body">
+                <div class="container">
+                    <h2 class="title header-uses-anton-font">
+                        <i class="mdi mdi-city mdi-48px"></i>::Venue
+                    </h2>
+                    <p class="is-size-5 has-text-left">This year DCBPW returns to the Silver Spring Civic Building (SSCB), which is three blocks from the DC Metro transit system. Garage parking is also available and the venue is located near food and other attractions. SSCB is in a redeveloped old downtown area, still known as Downtown Silver Spring (with hip internet hashtag #DTSS). The central street adjacent to SSCB becomes pedestrian-only on weekends.</p>
+                    <p class="is-size-5 has-text-left">One Veteran's Place, Silver Spring, MD 20910 (<a href="https://goo.gl/maps/y8TC9R5F7v62" target='_blank'>Google Maps</a>)
+                    </div>
+                </div>
+            </section>
+
+            <!-- sometimes one like to sleep... i do not know why but i hear it is true -->
+            <a name="hotels"></a>
+            <section class="hero is-light">
+                <div class="hero-body">
+                    <div class="container">
+                        <h2 class="title header-uses-anton-font">
+                            <i class="mdi mdi-hotel mdi-48px"></i>::Hotels
+                        </h2>
+
+                        <p class="is-size-5">
+                            Looking for a place to stay? There are many hotels in the area. These two are pretty good options for out-of-towners:
+                        </p>
+
+                        <article class="media">
+                            <figure class="media-left">
+                                <p class="image is-128x128">
+                                    <img class="is-semi-rounded" src="https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_650,q_auto,w_1000/itemimages/79/75/797526_v1.jpeg">
+                                </p>
+                            </figure>
+                            <div class="media-content">
+                                <div class="content">
+                                    <a class="button is-primary" href="https://www.marriott.com/hotels/travel/wassv-courtyard-silver-spring-downtown/"><strong>Courtyard by Marriott on Fenton Street</strong></a>
+                                    <p>
+                                        This is our recommended hotel, located in Silver Spring, MD. It has wifi and breakfast options. </BR>
+                                        <strong>301-589-4899</strong></BR>
+                                        8506 Fenton Street</BR>
+                                        Silver Spring, MD 20910
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="media">
+                            <figure class="media-left">
+                                <p class="image is-128x128">
+                                    <img class="is-semi-rounded" src="https://doubletree3.hilton.com/resources/media/dt/DCASSDT/en_US/img/shared/full_page_image_gallery/main/DT_exteriornight001_677x380_FitToBoxSmallDimension_LowerCenter.jpg">
+                                </p>
+                            </figure>
+                            <div class="media-content">
+                                <div class="content">
+                                    <a class="button is-primary" href="https://doubletree3.hilton.com/en/hotels/maryland/doubletree-by-hilton-hotel-washington-dc-silver-spring-DCASSDT/index.html"><strong>DoubleTree by Hilton Hotel</strong></a>
+                                    <p>
+                                        The DoubleTree is located just a few blocks from the venue and offers free wifi and dining options as well.</BR>
+                                        <strong>301-589-5200</strong></BR>
+                                        8727 Colesville Road</BR>
+                                        Silver Spring, MD  20910
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- We bow most humbly to those who help ensure this workshop can happen at all -->
+            <a name="sponsors"></a>
+            <section class="hero is-dark">
+                <div class="hero-body">
+                    <div class="container">
+                                    
+                        <div class="columns is-variable is-multiline is-1">
+                            
+                            <!-- left column -->
+                            <div class="column is-one-half">
+                                <h2 class="title header-uses-anton-font">
+                                    <i class="mdi mdi-account-heart mdi-48px"></i>::Sponsors
+                                </h2>
+                                <h3 class="header-uses-anton-font">If you would like to help sponsor this workshop:</h3>
+                                <p class="is-size-5 has-text-left">The DC-Baltimore Perl Workshop is made possible by support from local business contributions and The Perl Foundation (TPF). Please take this opportunity to become a sponsor of the DCBPW-2019 event! If you aren't comfortable asking your company to make a donation but think we could be a good team, we'll do the asking! Send your sponsorship interest and potential sponsor contact information to <a class="dcbpw-link" href="mailto:dcbpw-organizers@googlegroups.com">dcbpw-organizers@googlegroups.com</a>. Sponsorship is made in the form of a tax-deductible donation to The Perl Foundation, a 501(c)(3) non-profit organization.</BR></p>
+                                <a class="is-size-5 button is-primary" href="DC-Baltimore Perl Workshop 2019 - Sponsor Prospectus.pdf" target="_blank">Our Prospectus</a> 
+                            </div>
+                        
+                            <!-- right column -->
+                            <div class="column is-one-half">
+                                <div class="subtitle notification is-light">
+                                    <a href='https://smartlogic.io'>
+                                        <img src="img/logo.smartlogic.teal.png" alt="SmartLogic">
+                                    </a>
+                                </div>
+                                <div class="subtitle notification is-light">
+                                    <a href="https://iinteractive.com">
+                                        <img src="img/logo.iinteractive.png" alt="Infinity Interactive">
+                                    </a>
+                                </div>
+                                <div class="subtitle notification is-light">
+                                    <a href='#'>
+                                        <img src="img/logo.mpower.png" alt="mPower, Inc.">
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- things happen; we are still kinda sorta sorry -->
+            <a name="news"></a>
+            <section class="hero is-light">
+                <div class="hero-body">
+                    <div class="container">
+                        <h2 class="title header-uses-anton-font">
+                            <i class="mdi mdi-newspaper mdi-48px"></i>::News
+                        </h2>
+
+                        <article class="media">
+                            <figure class="media-left">
+                                <p class="image is-64x64">
+                                    <img class="is-semi-rounded" src="https://avatars3.githubusercontent.com/u/1395676?s=400&v=4">
+                                </p>
+                            </figure>
+                            <div class="media-content">
+                                <div class="content">
+                                    <div class="field is-grouped is-grouped-multiline">
+                                        <div class="control">
+                                            <div class="tags has-addons">
+                                                <span class="tag is-large is-dark">2019-03-28</span>
+                                                <span class="tag is-large is-success">Thanks for answering the CFP - the schedule is live!</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        Thanks to all the people who submitted talks for DCBPW this year! We have published our 'working' schedule. Some talks may slide to another position as we work to put all the pieces together. Check out the line up and don't forget to register to attend the 2019 DC-Baltimore Perl Workshop!
+                                    </p>
+
+                                    <p>
+                                        <strong>~ Dawn Wallis</strong>
+                                        &nbsp;
+                                        <a class="button is-primary is-small" href="https://twitter.com/DSWallis/">@DSWallis</a>
+                                    </p>
+
+                                </div>
+                            </div>
+                        </article>
+                             
+                        <article class="media">
+                            <figure class="media-left">
+                                <p class="image is-64x64">
+                                    <img class="is-semi-rounded" src="https://avatars3.githubusercontent.com/u/1395676?s=400&v=4">
+                                </p>
+                            </figure>
+                            <div class="media-content">
+                                <div class="content">
+                                    <div class="field is-grouped is-grouped-multiline">
+                                        <div class="control">
+                                            <div class="tags has-addons">
+                                                <span class="tag is-large is-dark">2019-03-07</span>
+                                                <span class="tag is-large is-success">Thank You, Sponsors!</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        A very big thank you to the sponsors of the 2019 DC-Baltimore Perl Workshop! It's generous sponsors like these that make low-cost technical workshops like DCBPW possible! 
+                                    </p>
+                                    <p>
+                                        <strong>
+                                            <a href="https://www.iinteractive.com/"><img src="img/logo.iinteractive.png" alt="Infinity Interactive" width="25%">
+                                            </a>
+                                        </strong>
+                                    </p>
+                                    <p>
+                                        Infinity Interactive solves business problems with technology. What can their team of industry veterans solve for you? Find out more: <a class="dcbpw-link" href="https://www.iinteractive.com/">www.iinteractive.com</a>.
+                                    </p>
+                                    <p>
+                                        <strong>
+                                            <a href="https://smartlogic.io/"><img src="img/smartlogic-logo-teal-200.png" alt="SmartLogic">
+                                            </a>
+                                        </strong>
+                                    </p>
+                                    <p>
+                                        Located in Baltimore, Maryland, SmartLogic builds, tests, deploys, and maintains custom software applications. Find out what they can do for you: <a class="dcbpw-link" href="https://smartlogic.io/">www.smartlogic.io</a>.
+                                    </p>
+                                    <p>
+                                        <strong>
+                                            ~ Dawn Wallis
+                                        </strong>
+                                        &nbsp;
+                                        <a class="button is-primary is-small" href="https://twitter.com/DSWallis/">
+                                            @DSWallis
+                                        </a>
+                                    </p>
+
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="media">
+                            <figure class="media-left">
+                                <p class="image is-64x64">
+                                    <img class="is-semi-rounded" src="https://avatars1.githubusercontent.com/u/8642?s=460&v=4">
+                                </p>
+                            </figure>
+                            <div class="media-content">
+                                <div class="content">
+                                    <div class="field is-grouped is-grouped-multiline">
+                                        <div class="control">
+                                            <div class="tags has-addons">
+                                                <span class="tag is-large is-dark">
+                                                    2018-09-27
+                                                </span>
+                                                <span class="tag is-large is-success">
+                                                    Give a talk at DCBPW-2019!
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        You are cordially invited to submit talks for the 2019 DC-Baltimore Perl Workshop, which will be held on Saturday, pril 6, 2019, in <a class="dcbpw-link" href="#venue">Silver Spring, MD</a>! Submit via the <a class="dcbpw-link" href="https://docs.google.com/forms/d/e/1FAIpQLSdTMou9-x-3n-5MfvlS25zTI9MxhbHVdb_3qv7V-_MGBlHugw/viewform">Google Form</a>!
+                                    </p>
+                                    <p>
+                                        As in previous years, we love and suggest 25 minute talks, which we've found is a sweet spot for most topics. We get a great variety &mdash; enough to get a dose of newness and not overwhelm. We also welcome proposals for more tutorial-style talks of around 50 minutes. We'll take the talks and build out a two-track schedule.
+                                    </p>
+                                    <p>
+                                        Speakers of all levels are welcome! This regional meetup is great for getting your first taste of giving a community talk, sharing projects or topics that you have experience with, or even doing a first run for a talk you'll be presenting at a larger conference! All Perl-related topics are welcome &mdash; from beginner to advanced, from technical to social.
+                                    </p>
+                                    <p>
+                                        And of course if you're not up for giving a talk this year, are invited to <a class="dcbpw-link" href="#register">register for the conference as an attendee</a>!
+                                    </p>
+                                    <p>
+                                        If you have any questions, <a class="dcbpw-link" href="mailto:dcbpw-organizers@googlegroups.com">email us (dcbpw-organizers@googlegroups.com)</a>! We'll even be happy to help you tune your topic.
+                                    </p>
+                                    <p>
+                                        <strong>~ Brock Wilcox</strong>
+                                        &nbsp;
+                                        <a class="button is-primary is-small" href="https://twitter.com/awwaiid/">
+                                            @awwaiid
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="media">
+                            <figure class="media-left">
+                                <p class="image is-64x64">
+                                    <img class="is-semi-rounded" src="https://avatars3.githubusercontent.com/u/1395676?s=400&v=4">
+                                </p>
+                            </figure>
+                            <div class="media-content">
+                                <div class="content">
+                                    <div class="field is-grouped is-grouped-multiline">
+                                        <div class="control">
+                                            <div class="tags has-addons">
+                                                <span class="tag is-large is-dark">2018-09-18</span>
+                                                <span class="tag is-large is-success">We're back!</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p>
+                                        You're already here so you know it's official. After taking a year off DCBPW returns to Silver Spring, MD! We hope you'll register to attend or at least tell a friend!
+                                    </p>
+                                    <p>
+                                        We are also seeking sponsors - so if you work for a company or know of one that could benefit from a little conference advertising and uses Perl and related technologies, let's connect! Email <a class='dcbpw-link'  href="mailto:dcbpw-organizers@googlegroups.com">dcbpw-organizers@googlegroups.com</a> for more information about sponsorship opportunities.
+                                    </p>
+                                    <p>
+                                        <strong>~ Dawn Wallis</strong>
+                                        &nbsp;
+                                        <a class="button is-primary is-small" href="https://twitter.com/DSWallis/">
+                                            @DSWallis
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+                        </article>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- Some people want to talk to each other? -->
+            <a name="contact"></a>
+            <section class="hero is-light">
+                <div class="hero-body">
+                    <div class="container">
+                        <h2 class="title header-uses-anton-font">
+                            <i class="mdi mdi-email mdi-48px"></i>::Contact
+                        </h2>
+                        <p class="is-size-5 has-text-left">We'd love to hear from you! Email us at</BR><a class="is-size-5 button is-primary" href="mailto:dcbpw-organizers@googlegroups.com">dcbpw-organizers@googlegroups.com</a></p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- turns out we got some help with all this; sorry -->
+            <footer class="footer">
+                <div class="content is-size-8 has-text-centered">
+                            
+                    <!-- bulma, for responsible layout control and baseline aesthetics -->
+                    <a href="https://bulma.io">
+                        <img src="img/made-with-bulma.png" alt="Made with Bulma" width="128" height="24">
+                    </a>
+ 
+                </div>
+            </footer>
+                
         </div>
-        <!-- did you use warnings? -->
+    </div>
+    <!-- did you use warnings? -->
         
-    </body>
+</body>
 </html>
