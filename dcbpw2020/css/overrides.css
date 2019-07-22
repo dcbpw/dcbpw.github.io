@@ -1,0 +1,62 @@
+.header-uses-anton-font {
+  font-family: "Anton", sans-serif !important;
+  font-weight: 500;
+}
+
+.is-a-speaker {
+  font-size: 0.8rem;
+  margin-left: 10%;
+}
+
+.is-a-talk-title {
+  background-color: rgba(0,0,0,0.1);
+  border-radius: 0.2em;
+  padding: 0rem 1rem;
+}
+
+.is-a-time-slot {
+  text-align: right;
+  margin-top: 1em;
+}
+
+.will-fill-half-height {
+  height: 50% !important;
+}
+
+.will-fill-full-height {
+  height: 100% !important;
+}
+
+p {
+  padding-bottom: 0.8em;
+}
+
+.tags {
+  margin-bottom: 1em !important;
+}
+
+.dcbpw-link:link .dcbpw-link:visited {
+  color: #5DBEFF !important;
+}
+
+.dcbpw-link:hover .dcbpw-link:active {
+  color: #D14545 !important; 
+}
+
+.is-child > em {
+  display: none;
+}
+
+.is-child:hover > em {
+  display: inline;
+}
+
+.is-child:hover > .wants-more {
+  margin-bottom: 0px !important;
+}
+
+@media only screen and (max-width: 768px) {
+  [class*="always-shown-on-phone"] {
+    display: inline !important;
+  }
+}
