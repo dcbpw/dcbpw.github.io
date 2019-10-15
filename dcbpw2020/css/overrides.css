@@ -55,12 +55,25 @@ p {
   margin-bottom: 0px !important;
 }
 
-.is-semi-transparent {
-  opacity: 50% !important;
-}
-
 @media only screen and (max-width: 768px) {
   [class*="always-shown-on-phone"] {
     display: inline !important;
   }
+}
+
+.is-semi-rounded {
+  border-radius: 1em !important;
+}
+
+.is-somewhat-rounded {
+  border-radius: 2em !important;
+}
+
+.goes-with-rounded-photo {
+  padding-left: 2em;
+}
+
+.left-and-right-buffer {
+  padding-left: 0.25em !important;
+  padding-right: 0.25em !important;
 }

@@ -1,7 +1,3 @@
-.is-semi-rounded {
-  border-radius: 8px !important;
-}
-
 .instantiates-parallax {
   perspective: 1px;
   height: 100vh;

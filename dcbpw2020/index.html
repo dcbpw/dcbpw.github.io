@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/dcbpw.css">
     <link rel="stylesheet" href="css/overrides.css">
     <link rel="stylesheet" href="css/parallax.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/css/bulma-carousel.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
 
     <!-- Favorite icon -->
@@ -125,14 +126,107 @@ The DC-Baltimore Perl Workshop 2020 is a two-day technical conference in Baltimo
 
         <!-- our venue is better than your venue; sorry -->
         <a name="venue"></a>
+        
         <section class="hero is-light">
             <div class="hero-body">
                 <div class="container">
                     <h2 class="title header-uses-anton-font">
-                        <i class="mdi mdi-city mdi-48px"></i>::Venue
+                        <i class="mdi mdi-city mdi-48px"></i>::Venue @ Johns Hopkins University*
                     </h2>
+                    <div id="venue-pics" class="carousel">
+                        <div class="item-1">
+                            <div class="card">
+                                <div class="card-image">
+                                    <figure class="image is-1by1 is-covered">
+                                        <img class="is-somewhat-rounded left-and-right-buffer" src="img/photo.venue.front.jpg" alt="Front of the Building">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <div class="item__title goes-with-rounded-photo">
+                                        Front of the building
+                                        <BR><BR>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-2">
+                            <div class="card">
+                                <div class="card-image">
+                                    <figure class="image is-1by1 is-covered">
+                                        <img class="is-somewhat-rounded left-and-right-buffer" src="img/photo.venue.parking.jpg" alt="Park here!!">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <div class="item__title goes-with-rounded-photo">
+                                        Park here!!
+                                        <BR><BR>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-3">
+                            <div class="card">
+                                <div class="card-image">
+                                    <figure class="image is-1by1 is-covered">
+                                        <img class="is-somewhat-rounded left-and-right-buffer" src="img/photo.venue.bar.jpg" alt="Commons area is quite nice!">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <div class="item__title goes-with-rounded-photo">
+                                        Commons area is quite nice!
+                                        <BR><BR>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-4">
+                            <div class="card">
+                                <div class="card-image">
+                                    <figure class="image is-1by1 is-covered">
+                                        <img class="is-somewhat-rounded left-and-right-buffer" src="img/photo.venue.balcony.jpg" alt="And there is a spot with a view!">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <div class="item__title goes-with-rounded-photo">
+                                        And there's a spot with a view!
+                                        <BR><BR>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-5">
+                            <div class="card">
+                                <div class="card-image">
+                                    <figure class="image is-1by1 is-covered">
+                                        <img class="is-somewhat-rounded left-and-right-buffer" src="img/photo.venue.room.jpg" alt="The rooms are spacious!">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <div class="item__title goes-with-rounded-photo">
+                                        The rooms are spacious!
+                                        <BR><BR>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item-6">
+                            <div class="card">
+                                <div class="card-image">
+                                    <figure class="image is-1by1 is-covered">
+                                        <img class="is-somewhat-rounded left-and-right-buffer" src="img/photo.venue.room2.jpg" alt="... and well equipped!">
+                                    </figure>
+                                </div>
+                                <div class="card-content">
+                                    <div class="item__title goes-with-rounded-photo">
+                                        ... and well equipped!
+                                        <BR><BR>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <p class="is-size-5 has-text-left">
-                    Johns Hopkins University*</BR>
 		    Charles Commons</BR>
 		    10 E. 33rd St</BR>
 		    Baltimore, MD  21218
@@ -171,8 +265,8 @@ The DC-Baltimore Perl Workshop 2020 is a two-day technical conference in Baltimo
                                 </a>
                             </div>
                             <div class="tile is-parent">                                    
-                                <a class="tile is-child notification is-light" href="DC-Baltimore Perl Workshop 2019 - Sponsor Prospectus.pdf">
-                                    Your Logo Here
+                                <a class="tile is-child notification is-light" href='https://smartlogic.io'>
+                                    <img src="img/logo.smartlogic.teal.png" alt="SmartLogic">
                                 </a>
                             </div>
                             <div class="tile is-parent">
@@ -323,6 +417,17 @@ The DC-Baltimore Perl Workshop 2020 is a two-day technical conference in Baltimo
     </div>
 </div>
 <!-- did you use warnings? -->
-        
+
+<script src="https://cdn.jsdelivr.net/npm/bulma-carousel@4.0.4/dist/js/bulma-carousel.min.js"></script>
+<script>
+    bulmaCarousel.attach('#venue-pics', {
+        slidesToScroll: 1,
+        slidesToShow: 4,
+        infinite: true,
+        navigationKeys: false,
+        navigation: true
+    });
+</script>
+
 </body>
 </html>
