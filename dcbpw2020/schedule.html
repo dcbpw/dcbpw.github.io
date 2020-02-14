@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>DC-Baltimore Perlyglot Workshop 2020</title>
+        <link href="../dcbpw2019/css/materialdesignicons.min.css" media="all" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="css/dcbpw.css">
+        <link rel="stylesheet" href="css/overrides.css">
+        <link rel="stylesheet" href="css/parallax.css">
+        <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+        <script defer src="js/BulmaModal.js"></script>
+
+        <!-- Favorite icon -->
+        <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+    </head>
+    <body>
+
+        <!-- talk popups -->
+        <div id="platypus-graham-ollis" class="modal">
+            <div class="modal-background"></div>
+            <div class="modal-content">
+                <article class="tile is-child notification is-primary">
+                    <p class="title">
+                        Fast! Perl Bindings With Platypus (25min)
+                    </p>
+                    <p>
+                        Let’s go on a journey where we discover new techniques for the next decade 
+                        for creating Perl library bindings!  You may already be aware that FFI is a 
+                        technique for calling other languages without having to delve into the guts 
+                        of Perl with XS.  You have probably heard that Platypus (FFI::Platypus) is 
+                        the most practical, advanced and best supported FFI library on CPAN.  
+                        What you may not be aware of is that the Platypus team has been working tools 
+                        to generate libraries based from C header files and other forms of foreign 
+                        programming language introspection.  The author of Platypus will show how these 
+                        tools will make it faster and safer to write library bindings.                    
+                    </p>
+                    <p class="subtitle">
+                        ~ Graham Ollis
+                    </p>
+                    <p>
+                        Graham Ollis is a Senior Software Engineer at Fastly.  In his free time Graham 
+                        leads the Perl open source projects Platypus (FFI::Platypus) and Alien (Alien::Build).
+                    </p>
+                 </article>
+             </div>
+             <button class="modal-close is-large" aria-label="close"></button>
+        </div>
+
+        <div id="product-vs-engineering-casey-watts" class="modal">
+            <div class="modal-background"></div>
+            <div class="modal-content">
+                <article class="tile is-child notification is-primary">
+                    <p class="title">
+                        Product vs Engineering: A Healthy Tension (25min)
+                    </p>
+                    <p>
+                        Thinking in terms of incentives can help your team decide who "should" hold a 
+                        each responsibility. Personal examples will help clarify each big point:
+                    </p>
+                    <ol>
+                        <li>
+                            How can we talk about and visualize responsibilities?
+                        </li>
+                        <li>
+                            Who "should" be responsible for each responsibility, based on natural 
+                            incentives? (ideal) Who can do it? (actual)
+                        </li>
+                        <li>
+                            Engineering-generated backlog + product-generated backlog = team backlog
+                        </li>
+                        <li>
+                            Product's user stories vs engineering's tasks - two perspectives on 
+                            tracking work. Conflict around tracking work often comes from their 
+                            conflation.
+                        </li>
+                        <li>
+                            Benefits of crossover - like devs on user interviews, and product in the code
+                        </li>
+                    </ol>
+                    <p>
+                        If your team isn't doing these but you think it should, how can you 
+                        influence this? (incentives!)
+                    </p>
+                    <p class="subtitle">
+                        ~ Casey Watts
+                    </p>
+                    <p>
+                        "Casey Watts!" owns an instrument in every color of the rainbow, and can play 
+                        Bad Romance on all of them. His super-power is empathy and helping others 
+                        become more empathetic. He has a background in psychology, teaching, software 
+                        development, and product management.
+                    </p>
+                 </article>
+             </div>
+             <button class="modal-close is-large" aria-label="close"></button>
+        </div>
+
+        <div id="docker-curt-tilmes" class="modal">
+            <div class="modal-background"></div>
+            <div class="modal-content">
+                <article class="tile is-child notification is-primary">
+                    <p class="title">
+                        Docker::API -- Driving Docker from Raku (25min)
+                    </p>
+                    <p>
+                        Docker is a platform for building, managing, deploying and running
+                        containers.  Docker::API provides a friendly interface for automating
+                        docker container management from within Raku.  Build new containers,
+                        run them, monitor them, interact with them, etc. all from your Raku
+                        programs.
+                    </p>
+                    <p>
+                        Prior Docker knowledge or experience is helpful, but not required.
+                    </p>
+                    <p class="subtitle">
+                        ~ Curt Tilmes
+                    </p>
+                    <p>
+                        Dr. Tilmes is a NASA researcher and long time user of Perl 5 and more
+                        recently Raku working on development of satellite data processing systems.
+                    </p>
+                 </article>
+             </div>
+             <button class="modal-close is-large" aria-label="close"></button>
+        </div>
+       
+        <div id="many-core-engine-nick-tonkin" class="modal">
+            <div class="modal-background"></div>
+            <div class="modal-content">
+                <article class="tile is-child notification is-primary">
+                    <p class="title">
+                        Performance Concurrency with the Perl Many-Core Engine (25min)
+                    </p>
+                    <p>
+                        Introduction to using MCE and MCE::Shared to parallelize your Perl 
+                        code, take advantage of all your CPU cores, and run your program in a 
+                        fraction of the time. MCE excels with bioinformatics, finance, or 
+                        other big data, or with queued jobs; runs on all OSes and Perl versions 
+                        back to 5.8.
+                    </p>
+                    <p class="subtitle">
+                        ~ Nick Tonkin
+                    </p>
+                    <p>
+                        I've been a professional Perl programmer since 1996 when we started 
+                        building the interwebs with CGI.pm. For the last few years I've been 
+                        on a small team developing core service-bridging APIs for a large 
+                        internet hosting provider.
+                    </p>
+                 </article>
+             </div>
+             <button class="modal-close is-large" aria-label="close"></button>
+        </div>
+
+        <div id="raku-brian-duggan" class="modal">
+            <div class="modal-background"></div>
+            <div class="modal-content">
+                <article class="tile is-child notification is-primary">
+                    <p class="title">
+                        Running with Raku (25min)
+                    </p>
+                    <p>
+                        Raku has several built-in ways to spawn and communicate with external programs 
+                        -- synchronously or asynchronously, with a shell or without -- we will survey 
+                        available techniques walk through many examples and tips for avoiding traps for 
+                        the unwary.
+                    </p>
+                    <p class="subtitle">
+                        ~ Brian Duggan
+                    </p>
+                    <p>
+                        Brian Duggan likes math and open source software.  
+                        He is based in Philadelphia.
+                    </p>
+                 </article>
+             </div>
+             <button class="modal-close is-large" aria-label="close"></button>
+        </div>
+
+        <div id="powershell-rob-hielke" class="modal">
+            <div class="modal-background"></div>
+            <div class="modal-content">
+                <article class="tile is-child notification is-primary">
+                    <p class="title">
+                        Perl PowerShell Progressions (25min)
+                    </p>
+                    <p>
+                        I will cover a very brief history and timeline slides then compare library 
+                        and support options(CPAN, PSGallery).  I will show Microsoft WSL/WSL2 and 
+                        Strawberry Perl then PowerShell Linux(Mint/Cinnamon) install.  Then demo 
+                        PowerShell 6.2 from command line and VS Code using WebRequest to scrape HTML 
+                        objects from Raspberry Pi 4 locally hosted (otherwise non-integrated) IoT 
+                        pages to create a summary/report web page created with PowerShell and Perl.
+                    </p>
+                    <p class="subtitle">
+                        ~ Rob Hielke
+                    </p>
+                    <p>
+                        UW Madison graduate with a passion for programming from Pascal, Perl and 
+                        PowerShell to .Net PL/SQL, full stack dev to DevSecOps. 
+                    </p>
+                 </article>
+             </div>
+             <button class="modal-close is-large" aria-label="close"></button>
+        </div>
+
+        <div id="bad-food-je-turcotte" class="modal">
+            <div class="modal-background"></div>
+            <div class="modal-content">
+                <article class="tile is-child notification is-primary">
+                    <p class="title">
+                        Raku vs. Bad Eating Habits (25min)
+                    </p>
+                    <p>
+                        A civic-hacking effort, done mostly by highschool students, via Raku, 
+                        seeks to get people to cook more through gamification.  This talk will 
+                        walk listeners through the idea, how far along it is, and allow time for Q+A.                    </p>
+                    <p class="subtitle">
+                        ~ J.E. Turcotte and Students
+                    </p>
+                    <p>
+                        Long time member of DC.PM and CodeForNoVA both, a perl user for 20 years, 
+                        self-taught and rusty due to management duties, Joshua seeks to reinvigorate 
+                        both the perl and activism communities. Writes sci-fi and fantasy occasionally 
+                        and has recorded far too many #letsplay videos for youtube 
+                        (because why be productive?)  Planning to take over the world, fix it, then 
+                        disappear in a puff of nanotech smoke.
+                    </p>
+                 </article>
+             </div>
+             <button class="modal-close is-large" aria-label="close"></button>
+        </div>
+
+        <div id="papers-we-love-hugo-estrada" class="modal">
+            <div class="modal-background"></div>
+            <div class="modal-content">
+                <article class="tile is-child notification is-primary">
+                    <p class="title">
+                        Papers we love: Ideal Hash Tries, Phil Bagwell (25min)
+                    </p>
+                    <p>
+                        Come and explore what a Hash Array Mapped Trie is and how it works, as it 
+                        was described by Phil Bagwell in his paper "Ideal Hash Tries."  We will 
+                        learn what a trie is, and how Bagwell optimized them. Hash Array Mapped 
+                        Tries are famously used in Clojure, and other functional languages have 
+                        implemented features using this data structure.
+                    </p>
+                    <p>
+                        Papers We Love is a community of people who read and discuss academic papers. 
+                        Once one acquires the skill of reading academic papers, it is deeply rewarding.
+                    </p>
+                    <p>
+                        Beginners and people who haven't read the paper are encouraged to come. 
+                    </p> 
+                    <p class="subtitle">
+                        ~ Hugo Estrada
+                    </p>
+                    <p>
+                        Software developer in Ruby and .Net. Enjoys learning new languages to learn new 
+                        ways of doing thing. Likes orienteering, old Italian songs, and playing ukulele.
+                    </p>
+                 </article>
+             </div>
+             <button class="modal-close is-large" aria-label="close"></button>
+        </div>
+
+        <div id="style-john-s-j-anderson" class="modal">
+            <div class="modal-background"></div>
+            <div class="modal-content">
+                <article class="tile is-child notification is-success">
+                    <p class="title">
+                        Once more with style: considering whether your project needs a style guide (25m)
+                    </p>
+                    <p>
+                        Would your Open Source software project benefit from a style guide? Would your 
+                        project at work? It's tempting to reply to these questions with a reflexive 
+                        "Yes, of course!" — the benefits of having an established coding style for a 
+                        project, having rules around how things are formatted, what language features 
+                        are to be used and which are to be avoided, seem obvious. It makes it easier 
+                        to onboard new contributors, establishes a baseline expectation for drive-by 
+                        pull requests, and makes the code review process more transparent.
+                    </p>
+                    <p>
+                        But style guides aren't free. Setting one up can involve a significant amount 
+                        of effort, and, depending on the number of contributors involved in the 
+                        discussion, can be a significant source of stress and strife. Many projects 
+                        have been highly successful with nary a hint of any sort of overall style 
+                        guidance.
+                    </p>
+                    <p>
+                        So what's a maintainer to do? Style guide, or no? Come to this talk to learn 
+                        more about the tradeoffs between having a style guide and not having a style 
+                        guide, as well as some tooling options that you may not be aware of that will 
+                        make it easier to move towards having some style guidelines, without having to 
+                        invest a bunch of upfront effort into something you may end up hating.
+                    </p>
+                    <p class="subtitle">
+                        ~ John S.J. Anderson
+                    </p>
+                    <p>
+                        John is the VP of Technology for Infinity Interactive, a bespoke software 
+                        development shop and technology consultancy. When he's not madly trying to 
+                        keep up with the pace of change in Javascript development, maintaining Perl 
+                        modules, reading the latest Git changelog, or tweaking his Emacs config, he 
+                        likes to play around with new languages like Swift and Rust and write about 
+                        himself in the third person.
+                    </p>
+                 </article>
+             </div>
+             <button class="modal-close is-large" aria-label="close"></button>
+        </div>
+
+        <div id="vault-matthew-gallagher" class="modal">
+            <div class="modal-background"></div>
+            <div class="modal-content">
+                <article class="tile is-child notification is-success">
+                    <p class="title">
+                        Keeping Secrets Secret: An Introduction to Hashicorp Vault (55min)
+                    </p>
+                    <p>
+                        An introduction to Kubernetes, using  a small Mojolicious app (/dev/null as a Service) to demonstrate basic Kubernetes features.
+                    </p>
+                    <p class="subtitle">
+                        ~ Matthew Gallagher
+                    </p>
+                    <p>
+                        This talk is about using Vault to solve some common problems involving secrets
+                        (such as database credentials or API keys). As this is a short talk, I'll only
+                        be covering the basics (if you end up needing a longer talk, I can go to to 55
+                        minutes and cover more).
+                    </p>
+                    <p>
+                        Topics covered will be:
+                    </p>
+                    <ul>
+                        <li>The problems Vault solves</li>
+                        <li>Basic credential/secret storage and retrieval</li>
+                        <li>Generating dynamic database users and database secret rotation</li>
+                        <li>Integrating Vault into a cloud based application with the ability to edit source code.</li>
+                        <li>Integrating  Vault into an legacy application with only access to a config file.</li>
+                        <li>A very quick overview through of some of Vault's other features</li>
+                    </ul>
+                 </article>
+             </div>
+             <button class="modal-close is-large" aria-label="close"></button>
+        </div>
+
+        <div id="dunderland-walk-mankowski" class="modal">
+            <div class="modal-background"></div>
+            <div class="modal-content">
+                <article class="tile is-child notification is-primary">
+                    <p class="title">
+                        Adventures in Dunderland: The Python Data Model for Perl Mongers
+                    </p>
+                    <p>
+                        <em>(From 13:00 to 13:55 in COLESVILLE room)</em>
+                    </p> 
+                    <p>
+                        Python is designed to be easy to learn for beginners, and easy to pick up for experienced programmers. But Python's simplicity means you might not be using all the features the language has to offer. This is especially true if the features don't exist in your favorite programming language. In this talk I'll review the Python data model, which is the key to writing idiomatic Python code. You'll learn how to emulate the behavior of Python's internal types such as sequences and dictionaries using Python's special double-underscore ("dunder") methods.
+                    </p>
+                    <p class="subtitle">
+                        ~ Walt Mankowski
+                    </p>
+                    <p>
+                        Walt Mankowski is a senior software engineer at Syapse, where he helps healthcare providers bring precision medicine to cancer patients. Walt's a recovering ivory tower computer scientist who enjoys pointing out things that Perl does better than Python to his coworkers. He enjoys Perl, regular expressions, high-performance computing, and Futurama.
+                    </p>
+                 </article>
+             </div>
+             <button class="modal-close is-large" aria-label="close"></button>
+        </div>
+
+        <div id="inline-steven-lembark" class="modal">
+            <div class="modal-background"></div>
+            <div class="modal-content">
+                <article class="tile is-child notification is-primary">
+                    <p class="title">
+                        Mainlining Inline: The ultimate polyglot (25min)
+                    </p>
+                    <p>
+                        Thanks to Ingy's brand of infernal genius, you can program just about any 
+                        language in Perl, nearly for free. Just write a fairly sane interface in the 
+                        language, inline it, and call it from Perl. 
+                    </p>
+                    <p>
+                        This is a short introduction to installing and applying the ultimate glue.
+                    </p>
+                    <p class="subtitle">
+                        ~ Daniel Heffner
+                    </p>
+                    <p>
+                        Rising out of the swamps of testing, automation, and ETL, Mr. Lembark has used 
+                        perl for all sorts of things it can't do. 
+                    </p>
+                 </article>
+             </div>
+             <button class="modal-close is-large" aria-label="close"></button>
+        </div>
+
+        <div id="raku-tdd-jeff-elkner" class="modal">
+            <div class="modal-background"></div>
+            <div class="modal-content">
+                <article class="tile is-child notification is-primary">
+                    <p class="title">
+                        Raku Test Driven Development for Newbies (25min)
+                    </p>
+                    <p>
+                        Software best practices require thorough testing of software, and test driven 
+                        development is an agile practice designed to ensure thorough testing.  In this 
+                        talk a Raku newbie will share his experience learning both Raku and practicing 
+                        TDD by running through the bowling game kata in Raku.
+                    </p>
+                    <p>
+                        This is a short introduction to installing and applying the ultimate glue.
+                    </p>
+                    <p class="subtitle">
+                        ~ Jeff Elkner
+                    </p>
+                    <p>
+                        Jeff Elkner is a high school / community college teacher at the Arlington 
+                        Career Center who has been a free software activist since his first encounter 
+                        with gcc in 1993.  While a Pythonista since 1999, civic hacking with Code for 
+                        NOVA has recently drawn him into the Perl/Raku community.
+                    </p>
+                 </article>
+             </div>
+             <button class="modal-close is-large" aria-label="close"></button>
+        </div>
+
+        <div id="docker-brock-wilcox" class="modal">
+            <div class="modal-background"></div>
+            <div class="modal-content">
+                <article class="tile is-child notification is-success">
+                    <p class="title">
+                        Randori (50min)
+                    </p>
+                    <p>
+                        We will explore the fundamentals of docker and how it works, including breaking some things. Then we'll learn the power of docker-compose and how it can be used for local development. Several real-world examples will be provided!
+                    </p>
+                    <p class="subtitle">
+                        ~ Brock Wilcox
+                    </p>
+                    <p>
+                        By day, Brock is the head of Software Engineering at Framebridge, where he mostly programs humans via their Slack API. At night he enjoys Mad Science, playing music, petting cats/pugs, reading, and having deep conversations with his lovely wife.
+                    </p>
+                 </article>
+             </div>
+             <button class="modal-close is-large" aria-label="close"></button>
+        </div>
+
+        <div id="remedial-math-walt-mankowski" class="modal">
+            <div class="modal-background"></div>
+            <div class="modal-content">
+                <article class="tile is-child notification is-primary">
+                    <p class="title">
+                        Remedial Math For Programmers (55min)
+                    </p>
+                    <p>
+                        My inspiration for this talk was twofold. First, it's a review of math
+                        I needed to relearn when I began working on my PhD in computer science. 
+                        Second, I wanted the topics I covered to be useful and practical for a 
+                        broad set of programming problems.
+                    </p>
+                    <p>
+                        That said, there's a lot of math in the talk. I gave a version of this
+                        talk at FOSSCON 2019. In 50 minutes I covered everything from
+                        logarithms to eigenvalues. It really is possible to cover the basics
+                        of eigenvalues in just a few minutes!
+                    </p>
+                    <p>
+                        My original coding examples were in Python. I'll convert as many as
+                        possible to Perl, but I may need to keep one in Python (a graphical
+                        bouncing ball that uses the sine function) if I can't find a suitable
+                        Perl equivalent.                   
+                    </p>
+                    <p class="subtitle">
+                        ~ Walt Mankowski
+                    </p>
+                    <p>
+                        Walt is a senior data analyst at the Center for Biomedical Image
+                        Computing and Analytics at the University of Pennsylvania. He’s a
+                        long-time Perl programmer and short-time Python programmer who enjoys
+                        pointing out things that Perl does better than Python to his friends
+                        and coworkers. He enjoys Perl, Python, regular expressions,
+                        high-performance computing, and Futurama.
+                    </p>         
+                 </article>
+             </div>
+             <button class="modal-close is-large" aria-label="close"></button>
+        </div>
+        <!-- end of popup descriptions -->
+    
+        <!-- did you use strict? -->
+        <div class="instantiates-parallax">
+            <div class="defines-parallax-layer as-back"></div>
+            <div class="defines-parallax-layer as-front">
+
+                <!-- a very nice but almost unnecessarily apologetic-about-not-being-svg logo, sorry -->
+                <section class="hero">
+                    <div class="hero-body">
+                        <div class="container has-text-centered">
+                            <img style="margin-top: 25px;" alt="@{$_->{'DC-Baltimore Perlyglot Workshop'}}[2020]" src="img/big-logo.png"/>
+                        </div>
+                    </div>
+                </section>
+                
+            <!-- NOT SCHEDULE HERE -->
+            <!-- one person talks and other people listen; they're sorry; you're sorry; we're all sorry -->
+            <section class="hero is-dark">
+                <div class="hero-body">
+                    
+                    <!-- introductions -->
+                    <div class="tile is-ancestor">
+                        <div class="tile is-parent is-2 is-hidden-mobile">
+                            <article class="tile is-child">
+                                <p class="title is-a-time-slot"></p>
+                            </article>
+                        </div>
+                        
+                        <div class="tile is-parent is-10">
+                            <article class="tile is-child notification is-info modal-button" data-target="introduction-dcbpw" aria-haspopup="true">
+                                <p class="title">
+                                    Here are some talks we've both approved and had confirmed.  
+                                    There will be more.  We haven't quite assembled a schedule as yet.
+                                    So keep checking back.
+                                </p>
+                                <p class="subtitle">
+                                    ~ DCBPW organizers
+                                </p>
+                            </article>
+                        </div>
+                    </div>
+
+                    <!-- graham ollis -->
+                    <div class="tile is-ancestor">
+                        <div class="tile is-parent is-2 is-hidden-mobile">
+                            <article class="tile is-child">
+                                <p class="title is-a-time-slot"></p>
+                            </article>
+                        </div>
+                        
+                        <div class="tile is-parent is-10">
+                            <a class="tile is-child notification is-primary modal-button" data-target="platypus-graham-ollis" aria-haspopup="true">
+                                <p class="title wants-more">
+                                    Fast! Perl Bindings With Platypus (25min)
+                                </p>
+                                <em class='always-shown-on-phone'> ( click for more )</em>
+                                <p class="subtitle">
+                                    ~ graham ollis
+                                </p>
+                            </a>    
+                        </div>
+                    </div>
+ 
+                    <!-- curt tilmes -->
+                    <div class="tile is-ancestor">
+                        <div class="tile is-parent is-2 is-hidden-mobile">
+                            <article class="tile is-child">
+                                <p class="title is-a-time-slot"></p>
+                            </article>
+                        </div>
+                        
+                        <div class="tile is-parent is-10">
+                            <a class="tile is-child notification is-primary modal-button" data-target="docker-curt-tilmes" aria-haspopup="true">
+                                <p class="title wants-more">
+                                    Docker::API -- Driving Docker from Raku (25min)
+                                </p>
+                                <em class='always-shown-on-phone'> ( click for more )</em>
+                                <p class="subtitle">
+                                    ~ curt tilmes
+                                </p>
+                            </a>    
+                        </div>
+                    </div>
+
+                    <!-- nick tonkin -->
+                    <div class="tile is-ancestor">
+                        <div class="tile is-parent is-2 is-hidden-mobile">
+                            <article class="tile is-child">
+                                <p class="title is-a-time-slot"></p>
+                            </article>
+                        </div>
+                        
+                        <div class="tile is-parent is-10">
+                            <a class="tile is-child notification is-primary modal-button" data-target="many-core-engine-nick-tonkin" aria-haspopup="true">
+                                <p class="title wants-more">
+                                    Performance Concurrency with the Perl Many-Core Engine (25min)
+                                </p>
+                                <em class='always-shown-on-phone'> ( click for more )</em>
+                                <p class="subtitle">
+                                    ~ nick tonkin
+                                </p>
+                            </a>    
+                        </div>
+                    </div>
+                    
+                    <!-- casey watts -->
+                    <div class="tile is-ancestor">
+                        <div class="tile is-parent is-2 is-hidden-mobile">
+                            <article class="tile is-child">
+                                <p class="title is-a-time-slot"></p>
+                            </article>
+                        </div>
+                        
+                        <div class="tile is-parent is-10">
+                            <a class="tile is-child notification is-primary modal-button" data-target="product-vs-engineering-casey-watts" aria-haspopup="true">
+                                <p class="title wants-more">
+                                    Product vs Engineering: A Healthy Tension (25min)
+                                </p>
+                                <em class='always-shown-on-phone'> ( click for more )</em>
+                                <p class="subtitle">
+                                    ~ casey watts!
+                                </p>
+                            </a>    
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+			<!-- Some people want to talk to each other? -->
+			<a name="contact"></a>
+			<section class="hero is-light">
+			    <div class="hero-body">
+				<div class="container">
+				    <h2 class="title header-uses-anton-font">
+					<i class="mdi mdi-email mdi-48px"></i>::Contact
+				    </h2>
+				    <p class="is-size-5 has-text-left">We'd love to hear from you! Email us at</BR><a class="is-size-5 button is-primary" href="mailto:dcbpw-organizers@googlegroups.com">dcbpw-organizers@googlegroups.com</a></p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- turns out we got some help with all this; sorry -->
+                <footer class="footer">
+                    <div class="content is-size-8 has-text-centered">
+                            
+                        <!-- bulma, for responsible layout control and baseline aesthetics -->
+                        <a href="https://bulma.io">
+                            <img src="img/made-with-bulma.png" alt="Made with Bulma" width="128" height="24">
+                        </a>
+ 
+                    </div>
+                </footer>
+                
+            </div>
+        </div>
+        <!-- did you use warnings? -->
+                
+    </body>
+</html>
